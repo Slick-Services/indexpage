@@ -945,11 +945,11 @@
 	.mainmobileverification.container {
 		display: block;
 		height: auto;
-		max-width:82%;
+		max-width:85%;
 	}
 	.mainmobileverification .card.otp {
 		width: 100%;
-		height: 680px;
+		height: 690px;
 		/*max-width: 100%;
 		flex-basis: 100%;*/
 		display: flex;
@@ -982,8 +982,8 @@
 	
 	.mainmobileverification .card.otp .acode  {
 		line-height: 1.7;
-		font-size: 30px;
-		margin: 1.1rem 0;
+		font-size: 33px;
+		margin: 1.2rem 0;
 	}
 	.mainmobileverification .card.otp .acode a.changepassword {
 		line-height: 1.3;
@@ -991,7 +991,7 @@
 		margin-bottom: 1.0rem;
 	}	
 	.mainmobileverification .card.otp h6  {
-		font-size: 32px;
+		font-size: 38px;
 		line-height: 1.3;
 	}
 	.form-control {
