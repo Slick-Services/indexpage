@@ -460,7 +460,7 @@
 		/* width: 540px; */
 		height: 40px;
 		padding: 00 !important;
-		width: 300px;
+		width: 250px;
 	}
 	.validate {
 		border-radius: 2.5rem;
@@ -1497,6 +1497,56 @@
 	/*#herologin .slderleftman {
 	    justify-content: center;
 	}*/
+	.mainmobileverification.container {
+		width: 50%;
+	}
+	.mainmobileverification .card.otp {
+		width: 100%;
+		height: 500px;
+		/* max-width: 100%; */
+		/* flex-basis: 100%; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* max-width: 100%; */
+		/* flex-basis: 100%; */
+		border-radius: 1rem;
+		padding: 2rem;
+	}
+	.mainmobileverification .card.otp h6 {
+		font-size: 27px;
+		line-height: 1.3;
+	}
+	.mainmobileverification .card.otp .acode {
+		line-height: 1.1;
+		font-size: 25px;
+		margin: 0.7rem 0;
+	}
+	.inputs input {
+		/* width: 540px; */
+		height: 66px;
+		padding: 00 !important;
+		width: 400px;
+	}
+	.mainmobileverification .card.otp .acode {
+		line-height: 1.1;
+		font-size: 25px;
+		margin: 0.7rem 0;
+	}
+	.mainmobileverification .card.otp .acode a.changepassword {
+		line-height: 1.5;
+		font-size: 25px;
+		margin-bottom: 1.5rem;
+	}
+	.validate {
+		border-radius: 2.5rem;
+		height: 60px;
+		background-color: #FF7657;
+		border: 1px solid #FF7657;
+		width: 205px;
+		font-size: 1.4rem;
+		font-weight: 400;
+	}
 	
 	
 }
