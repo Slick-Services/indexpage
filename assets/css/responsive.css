@@ -460,6 +460,7 @@
 		/* width: 540px; */
 		height: 40px;
 		padding: 00 !important;
+		width: 300px;
 	}
 	.validate {
 		border-radius: 2.5rem;
@@ -654,6 +655,12 @@
 	}
 	.ragistrationfom  {
 		padding: 1.1rem 0rem;
+	}
+	.inputs input {
+		/* width: 540px; */
+		height: 60px;
+		padding: 00 !important;
+		width: 430px;
 	}
 }
 
@@ -1022,6 +1029,12 @@
 		font-size: 1.7rem;
 		font-weight: bold;
 	  }
+	  .inputs input {
+		/* width: 540px; */
+		height: 80px;
+		padding: 00 !important;
+		width: 540px;
+	}
 	
 }
 
