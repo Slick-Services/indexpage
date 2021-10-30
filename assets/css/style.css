@@ -1787,7 +1787,7 @@ input[type=number]::-webkit-outer-spin-button {
   height: 80px;
   background-color: #FF7657;
   border: 1px solid #FF7657;
-  width: 280px;
+  width: 300px;
   font-size: 1.7rem;
   font-weight: bold;
 }
