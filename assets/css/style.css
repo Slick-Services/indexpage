@@ -1714,7 +1714,7 @@ label.form-label.col-sm-4 {
 .height-100 {
     height: 100vh
 }
-.card.otp {
+.mainmobileverification .card.otp {
     width: 400px;
     border: none;
     height: 335px;

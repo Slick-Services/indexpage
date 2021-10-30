@@ -406,10 +406,10 @@
 	}
 	.mainmobileverification .card.otp {
 		width: 100%;
-		height: 690px;
-		/*max-width: 100%;
-		flex-basis: 100%;*/
-		display: flex;
+		height: auto;
+		/* max-width: 100%; */
+		/* flex-basis: 100%; */
+		display: block;
 		justify-content: center;
 		align-items: center;
 		/* max-width: 100%; */
@@ -424,7 +424,7 @@
 		position: relative;
 	}
 	.maincardposition {
-		position: relative!important;
+		position: relative !important;
 		height: 100vh;
 		display: flex;
 		justify-content: center;
@@ -437,23 +437,38 @@
 		width: auto;
 	}
 	
-	.mainmobileverification .card.otp .acode  {
+	.mainmobileverification .card.otp .acode {
 		line-height: 1.7;
-		font-size: 35px;
-		margin: 1.1rem 0;
+		font-size: 17px;
+		margin: 0.5rem 0;
 	}
 	.mainmobileverification .card.otp .acode a.changepassword {
-		line-height: 1.5;
-		font-size: 33px;
-		margin-bottom: 1.2rem;
+		line-height: 0;
+		font-size: 17px;
+		margin-bottom: 0rem;
 	}	
-	.mainmobileverification .card.otp h6  {
-		font-size: 42px;
+	.mainmobileverification .card.otp h6 {
+		font-size: 16px;
 		line-height: 1.2;
+		margin-bottom: .5rem;
 	}
 	.form-control {
 		padding: 1.6rem .75rem !important;
 		height: calc(1.0em + .51rem + 1px);
+	}
+	.inputs input {
+		/* width: 540px; */
+		height: 40px;
+		padding: 00 !important;
+	}
+	.validate {
+		border-radius: 2.5rem;
+		height: 40px;
+		background-color: #FF7657;
+		border: 1px solid #FF7657;
+		width: 130px;
+		font-size: 1.0rem;
+		font-weight: 500;
 	}
 	
 }
@@ -998,6 +1013,15 @@
 		padding: 1.1rem .75rem !important;
 		height: calc(1.0em + .51rem + 1px);
 	}
+	.validate {
+		border-radius: 2.5rem;
+		height: 80px;
+		background-color: #FF7657;
+		border: 1px solid #FF7657;
+		width: 300px;
+		font-size: 1.7rem;
+		font-weight: bold;
+	  }
 	
 }
 
