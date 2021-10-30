@@ -402,7 +402,7 @@
 	.mainmobileverification {
 		display: block;
 		height: auto;
-		max-width: 85%;
+		max-width: 75%;
 	}
 	.mainmobileverification .card.otp {
 		width: 100%;
@@ -428,12 +428,13 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.mainmobileverification .card.otp div, .mainmobileverification .card.otp h6 {
-		font-size: 25px;
+	.mainmobileverification .card.otp .acode, .mainmobileverification .card.otp h6 {
+		font-size: 30px;
 		margin-bottom: 1rem;
 		line-height: 1.5;
-		width: 75%;
+		width: 80%;
 	}
+	
 	
 	
 }
