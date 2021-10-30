@@ -399,7 +399,7 @@
 	.main-box-ragistration {
 	    padding: 0;
 	}
-	.mainmobileverification {
+	.mainmobileverification.container {
 		display: block;
 		height: auto;
 		max-width: 85%;
@@ -942,10 +942,10 @@
 	}
 
 
-	.mainmobileverification {
+	.mainmobileverification.container {
 		display: block;
 		height: auto;
-		max-width:80%;
+		max-width:70%;
 	}
 	.mainmobileverification .card.otp {
 		width: 100%;
@@ -1181,6 +1181,9 @@
 	}
 	.particletext {
     color: rgb(0 0 0);
+	}
+	.mainmobileverification.container  {
+		max-width: 80%;
 	}	
 
 }
@@ -1368,10 +1371,13 @@
 	#herologin .slderleftman  {
 		padding: 0 20px 0 0;
 	}
+	.mainmobileverification.container {
+		width: 70%;
+	}
 }
 
 @media (min-width: 1366px)  {	
-	.mainmobileverification {
+	.mainmobileverification.container {
 		display: flex;
 		justify-content: center;
 		align-content: center;
