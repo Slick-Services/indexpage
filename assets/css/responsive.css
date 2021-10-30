@@ -450,6 +450,10 @@
 		font-size: 42px;
 		line-height: 1.2;
 	}
+	.form-control {
+		padding: 1.6rem .75rem !important;
+		height: calc(1.0em + .51rem + 1px);
+	}
 	
 }
 
