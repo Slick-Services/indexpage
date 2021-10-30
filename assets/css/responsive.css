@@ -402,11 +402,11 @@
 	.mainmobileverification {
 		display: block;
 		height: auto;
-		max-width: 80%;
+		max-width: 85%;
 	}
 	.mainmobileverification .card.otp {
 		width: 100%;
-		height: 500px;
+		height: 520px;
 		/*max-width: 100%;
 		flex-basis: 100%;*/
 		display: flex;
@@ -436,17 +436,17 @@
 	}
 	
 	.mainmobileverification .card.otp .acode  {
-		line-height: 1.5;
-		font-size: 28px;
-		margin: 1.5rem 0;
+		line-height: 1.7;
+		font-size: 35px;
+		margin: 1.9rem 0;
 	}
 	.mainmobileverification .card.otp .acode a.changepassword {
 		line-height: 1.5;
-		font-size: 30px;
-		margin-bottom: 1rem;
+		font-size: 33px;
+		margin-bottom: 1.2rem;
 	}	
 	.mainmobileverification .card.otp h6  {
-		font-size: 38px;
+		font-size: 42px;
 		line-height: 1.2;
 	}
 	
