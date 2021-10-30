@@ -402,8 +402,7 @@
 	.mainmobileverification {
 		display: block;
 		height: auto;
-		max-width: 50%;
-		flex-basis: 50%;
+		max-width: 70%;
 	}
 	.mainmobileverification .card.otp {
 		width: 100%;
