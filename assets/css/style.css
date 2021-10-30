@@ -1784,11 +1784,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .validate {
   border-radius: 2.5rem;
-  height: 72px;
+  height: 80px;
   background-color: #FF7657;
   border: 1px solid #FF7657;
-  width: 220px;
-  font-size: 1.3rem;
+  width: 280px;
+  font-size: 1.6rem;
 }
 .card.otp.twoemail .btn-danger:hover {
     color: #fff;
