@@ -662,6 +662,9 @@
 		padding: 00 !important;
 		width: 430px;
 	}
+	.mainmobileverification .card.otp {
+		width: 85%;
+	}
 }
 
 @media (min-width: 640px)   {
