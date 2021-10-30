@@ -403,6 +403,7 @@
 		display: block;
 		height: auto;
 		max-width: 50%;
+		flex-basis: 50%;
 	}
 	.mainmobileverification .card.otp {
 		width: 100%;
