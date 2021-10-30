@@ -435,7 +435,14 @@
 		width: auto;
 	}
 	
-	
+	.mainmobileverification .card.otp .acode {
+		line-height: 1.5;
+		font-size: 16px;
+	}
+	.mainmobileverification .card.otp h6  {
+		font-size: 25px;
+		line-height: 1.5;
+	}
 	
 }
 
