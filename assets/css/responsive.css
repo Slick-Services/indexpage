@@ -415,6 +415,7 @@
 		/* max-width: 100%; */
 		/* flex-basis: 100%; */
 		border-radius: 1rem;
+		padding: 1rem;
 	}
 	.container.height-100.d-flex.justify-content-center.align-items-center.mainmobileverification {
 		/* max-width: 85%; */
@@ -938,6 +939,64 @@
 	}
 	.main-box-ragistration {
 	    padding: 0 1rem;
+	}
+
+
+	.mainmobileverification {
+		display: block;
+		height: auto;
+		max-width:80%;
+	}
+	.mainmobileverification .card.otp {
+		width: 100%;
+		height: 650px;
+		/*max-width: 100%;
+		flex-basis: 100%;*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* max-width: 100%; */
+		/* flex-basis: 100%; */
+		border-radius: 1rem;
+		padding: 2rem;
+	}
+	.container.height-100.d-flex.justify-content-center.align-items-center.mainmobileverification {
+		/* max-width: 85%; */
+		/* flex-basis: 85%; */
+		display: block !important;
+		position: relative;
+	}
+	.maincardposition {
+		position: relative!important;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.mainmobileverification .card.otp .acode, .mainmobileverification .card.otp h6 {
+		font-size: 28px;
+		margin-bottom: 1.5rem;
+		line-height: 1.0;
+		width: auto;
+	}
+	
+	.mainmobileverification .card.otp .acode  {
+		line-height: 1.7;
+		font-size: 30px;
+		margin: 1.1rem 0;
+	}
+	.mainmobileverification .card.otp .acode a.changepassword {
+		line-height: 1.3;
+		font-size: 25px;
+		margin-bottom: 1.0rem;
+	}	
+	.mainmobileverification .card.otp h6  {
+		font-size: 35px;
+		line-height: 1.0;
+	}
+	.form-control {
+		padding: 1.1rem .75rem !important;
+		height: calc(1.0em + .51rem + 1px);
 	}
 	
 }
