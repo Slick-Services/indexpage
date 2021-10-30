@@ -1752,8 +1752,8 @@ label.form-label.col-sm-4 {
 	line-height: 1.9;
 }
 .inputs input {
-    /*width: 45px;*/
-    height: 45px
+    width: 540px;
+    height: 80px
 }
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
