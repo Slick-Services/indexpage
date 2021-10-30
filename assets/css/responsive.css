@@ -414,6 +414,7 @@
 		align-items: center;
 		/* max-width: 100%; */
 		/* flex-basis: 100%; */
+		border-radius: 1rem;
 	}
 	.container.height-100.d-flex.justify-content-center.align-items-center.mainmobileverification {
 		/* max-width: 85%; */
