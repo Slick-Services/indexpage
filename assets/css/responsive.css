@@ -6,6 +6,7 @@
 	#hero  {
 		height: auto;
 		padding: 0px 0 50px;
+		text-align: center;;
 	}
 	#hero .hero-img img {
 		max-width: 100%;
@@ -235,6 +236,7 @@
 		o-background-size: cover;
 		webkit-background-size: cover;
 		moz-background-size: cover;
+		text-align: left;
 	}
 	#hero .row {
 		margin-top: 2rem;
