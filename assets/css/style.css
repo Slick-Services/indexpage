@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .get-started-btn {
     margin-left: 10px; 
-    background: #005777;
+    background: /*#005777*/#f6821f;
     color: #fff;
     border-radius: 20px 0px 20px 0px;
     padding: 21px 30px;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: rgb(246 130 31);
+  color: rgb(0 87 119);
   font-size: 2.0rem;	
 }
 .mobile-nav-toggle i.icofont-navigation-menu  {
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: rgb(246 130 31);
+  color: /*rgb(246 130 31)*/rgb(0, 87, 119);
   text-decoration: none;
 }
 
