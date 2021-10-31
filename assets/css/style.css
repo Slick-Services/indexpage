@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .get-started-btn {
     margin-left: 10px; 
-    background: #F6821F;
+    background: #005777;
     color: #fff;
     border-radius: 20px 0px 20px 0px;
     padding: 21px 30px;
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
     cursor: pointer;
     text-align: right;
-    background: #005777;
+    background: /*#005777*/ #f6821f;
     border-radius: 8px;
     /* border: solid 1px #cdeffb; */
     padding: 5px;
