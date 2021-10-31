@@ -159,6 +159,9 @@
 	#header .logo img {
     	max-height: 65px;
 	}
+	#hero  {
+		padding: 30px 0 90px;
+	}
 	.progress.pink .mainprogress {
 		justify-content: flex-start;
 		flex-direction: row;
