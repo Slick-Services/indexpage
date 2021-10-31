@@ -77,6 +77,7 @@
 	.progress.pink .rectkal {
     	margin-left: auto;
 		top: -2rem;
+		text-align: center;
 	}
 	
 	.featured-services  {
@@ -252,6 +253,7 @@
 	}
 	.progress.pink .rectkal {
     	margin-left: -6.5rem;
+		text-align: right;
 	}
 	.contact .php-email-form {
     	padding: 2.5rem 1.9rem 4em;

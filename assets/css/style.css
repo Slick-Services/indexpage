@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: right;
     background: #005777;
     border-radius: 8px;
-    border: solid 1px #cdeffb;
+    /* border: solid 1px #cdeffb; */
     padding: 5px;
     z-index: 999999;
 }
