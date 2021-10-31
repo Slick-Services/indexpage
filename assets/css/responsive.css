@@ -23,8 +23,7 @@
 		line-height: 30px;
 	}
 	.mobile-nav {
-		min-height: 270px;
-		height: 200px;
+		height: 260px;
 	  }
 	.mobile-nav a.get-started-btn {
 		padding: 20px 10px;
@@ -167,9 +166,8 @@
 		padding: 30px 0 90px;
 	}
 	.mobile-nav {
-		min-height: 370px;
-		height: 300px;
-	  }
+		height: 360px;
+	}
 	.progress.pink .mainprogress {
 		justify-content: flex-start;
 		flex-direction: row;
@@ -247,6 +245,9 @@
 	.section-title {
 		padding-bottom: 2rem;
 		padding-top: 1rem;
+	}
+	.mobile-nav {
+		height: 410px;
 	}
 	.progress {
 		background-size: contain;
