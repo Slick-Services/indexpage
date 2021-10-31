@@ -297,7 +297,7 @@ h3 {
   text-transform: capitalize;
   color: #ffffff;
   font-size: 24px;
-  text-align: center;
+  /*text-align: center;*/
   font-weight: 400;
 }
 .question{
@@ -470,14 +470,14 @@ section.progess {
   display: inline-block;
   padding: 15px 30px;
   border-radius: 20px 0px 20px 0;
-  transition: 0.5s;
+  transition:all 0.5s;
   margin: 10px 0;
   color: #fff;
   background: #F6821F;
 }
 
 #hero .btn-get-started:hover {
-  background: #ef7f4d;
+  background: /*#ef7f4d*/rgb(0 87 119);
 }
 
 #hero .animated {
@@ -670,7 +670,7 @@ section {
 	o-background-size: cover;
 	webkit-background-size: cover;
 	moz-background-size: cover;
-	padding: 2rem 0;
+	padding: 4rem 0;
 }
 
 /*.about .icon-boxes h4 {
@@ -683,7 +683,7 @@ section {
   font-size: 27px;
   font-weight: 500;
   color: #F6821F;
-  text-align: left;	
+  /*text-align: left;	*/
   margin-top: .5rem;	
   margin-bottom: 1.5rem;
 }
@@ -1310,6 +1310,9 @@ section {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
+  position: relative;
+	bottom: 0;
+	float: left;
 	
 }
 
@@ -1335,6 +1338,27 @@ footer#footer:before {
     top: auto;
     bottom: auto;
     /* box-shadow: 2px 1px 1px rgb(150 217 235 / 40%); */
+}
+/*footer#footer:after {
+    content: "";
+    position: relative;
+    width: 1px;
+    height: 49.5%;
+    border-right: 1px solid #ffffff;
+    right: 40.0%;
+    left: auto;
+    top: auto;
+    bottom: auto;    
+}*/
+footer#footer .ftrightline {
+    position: absolute;
+    width: 1px;
+    height: 94%;
+    border-left: 1px solid #FFF;
+	right: 20.3%;
+    left: auto;
+    top: 0;
+    bottom: auto;
 }
 
 footer#footer .copyright {

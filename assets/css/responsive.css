@@ -99,23 +99,29 @@
   		height: 100%;
 	}*/
 	.featured-services  {
-		padding: 1rem 0;
+		padding: 2rem 0;
     	margin-bottom: 1rem;
+		text-align: center;
 	}
 	.contact .section-title h2 {
 		font-size: 16px;
 		line-height: 1.4;
 	}
 	.contact .php-email-form button[type="submit"] {
-		padding: 20px 20px 19px;
-		border-radius: 3.0rem 0;
-		font-size: 17px;
+		padding: 25px 40px 24px 45px;
+		border-radius: 3rem 0;
+		font-size: 20px;
 		right: -30px;
+		top: -1rem;
 	}
 	.contact .php-email-form {
 	    padding: 1.5rem 0.9rem 4em;
+		margin-top: 1.5rem;
 	}
 	footer#footer:before  {
+		display: none;
+	}
+	 footer#footer .ftrightline  {
 		display: none;
 	}
 	#footer .footer-top .footer-links {
@@ -123,14 +129,15 @@
 	}
 	#footer .footer-top {
     	padding: 2rem 0 1rem 0;
+		border-bottom: none;
 	}
 	#footer .mainsocial {
 		padding-bottom: 1rem;
 		padding-top: 1rem;
 	}
 	#footer .footer-top .footer-contact p br {
-    	display: block;
-	}
+    	display: none;
+	}	
 }
 
 @media (min-width: 360px)   {}
@@ -151,16 +158,17 @@
 		justify-content: flex-start;
 		margin-top: -2.3rem;
 	}
-	.progress.pink .progress-bar p {
-		font-size: 16px;
-		margin: 0;
-	}
 	.progress.pink .progress-bar {
 		flex-direction: row;
 		justify-content: flex-start;
 		margin: 0 0 0 0rem;
 		top: auto;
 	}
+	.progress.pink .progress-bar p {
+		font-size: 16px;
+		margin: 0;
+	}
+	
 }
 
 @media (max-width: 575.98px){}
@@ -208,6 +216,7 @@
 	.progress.pink .mainprogress {
 	    margin-top: -2.7rem;
 	}
+	
 }
 
 @media (min-width: 641px)   {}
@@ -233,6 +242,9 @@
 	}
 	section.progess  {
 		padding: 0;
+	}
+	.featured-services  {
+		text-align: left;
 	}
 	.section-title {
 		padding-bottom: 2rem;
@@ -260,6 +272,8 @@
 	}
 	.contact .php-email-form button[type="submit"]  {
 		right: -45px;
+		padding: 25px 45px 24px;
+		top: -1rem;
 	}
 	.contact .section-title h2 {
 		font-size: 20px;
@@ -317,7 +331,7 @@
 		padding: 0 30px;
 	}*/
 	#hero {
-	  height: 50vh;
+	  height: 60vh;
 	  background-size: contain;
       -o-background-size: contain;
       -webkit-background-size: contain;
@@ -361,7 +375,7 @@
 	  -webkit-background-size: cover;
 	}
 	.progress.pink .mainprogress {
-    	margin-top: -4.5rem;
+    	margin-top: -4.0rem;
 	}
 	.progress.pink .progress-bar p {
     	font-size: 25px;
@@ -377,18 +391,29 @@
     	padding: 2.5rem 1.9rem 4em;
 	}
 	.contact .php-email-form button[type="submit"] {
-		padding: 19px 24px;
+		padding: 24px 40px 24px 43px;
 		border-radius: 3.0rem 0;
-		font-size: 17px;
+		font-size: 20px;
 		right: -46px;
+		top: -0.9rem;
+	}
+	#footer .footer-top {
+		border-bottom: 1px solid #ffffff;
 	}
 	footer#footer:before  {
 		display: block;
-		right: 34.4%;
+		right: 33.9%;
+		height: 100%;
+	}
+	footer#footer .ftrightline {
+		height: 100%;
+		display: block;
+		right: 1.6%;
 	}
 	#footer .footer-top .footer-contact p br {
     	display: block;
-	}
+	}	
+	
 	
 }
 
@@ -459,13 +484,12 @@
 	}
 	#hero {
     	height: 85vh;
-		
 	}
 	.progress.pink .progress-bar p {
     	font-size: 30px;
 	}
 	.progress.pink .mainprogress {
-    	margin-top: -8rem;
+    	margin-top: -8.5rem;
 	}
 	.progress.pink .rectkal {
     	margin-left: -5rem;
@@ -476,10 +500,12 @@
 	}
 	footer#footer:before  {
 		right: 34.2%;
-		height: 45.8%;
 	}
 	#footer .social-links a {
     	padding: .7rem 2rem;
+	}
+	footer#footer .ftrightline {
+	    right: 2.5%;
 	}
 }
 
@@ -498,7 +524,7 @@
 		padding: 0px 0 5rem;
 	}
 	.progress {
-      height: 169px;    
+      height: 160px;    
 	}
 	#hero h1 {
 	  font-size: 40px;
@@ -520,11 +546,18 @@
 		margin-bottom: 3rem;
 	}
 	.progress.pink .mainprogress {
-    	margin-top: -6rem;
+    	margin-top: -6.5rem;
+	}
+	.progress.pink .rectkal {
+    	margin-left: 0rem;
 	}
 	footer#footer:before  {
+		/*right: 36.1%;
+		height: 49.5%;*/
 		right: 36.1%;
-		height: 49.5%
+	}
+	footer#footer .ftrightline {
+    	right: 8.3%;
 	}
 }
 
@@ -543,8 +576,10 @@
 		font-size: 16px;
 	}
 	footer#footer:before  {
-		right: 40.1%;
-		height: 39.3%;
+		right: 36.4%;
+	}
+	footer#footer .ftrightline {
+    	right: 9.2%;
 	}
 	
 }
@@ -559,11 +594,28 @@
 		margin-bottom: 3rem;
 		top: 0rem;
 	}
+	footer#footer:before {
+    	right: 37.4%;
+	}
+	footer#footer .ftrightline {
+    	right: 12.0%;
+	}
 }	
 
 @media (min-width: 1920px)  {
 	footer#footer:before  {
 		right: 40.0%;
+    	height: 100%;
+	}
+	footer#footer .ftrightline {
+		height: 100%;
+		right: 20.0%;
+	}
+	.progress {
+   		 height: 169px;
+	}
+	.progress.pink .rectkal {
+    	margin-left: -5rem;
 	}
 }
 	
