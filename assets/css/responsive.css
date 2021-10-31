@@ -1,5 +1,8 @@
 
 @media (min-width: 320px)   {
+	body {
+		overflow-x: hidden;
+	}
 	#header .logo img {
     	max-height: 50px;
 	}
