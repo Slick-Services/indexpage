@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
     position: fixed;
     right: 30px;
-    top: 15px;
+    top: 22px;
     z-index: 9998;
     border: 0;
     background: none;
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     text-align: right;
     background: #005777;
-    border-radius: 10px;
+    border-radius: 8px;
     border: solid 1px #cdeffb;
     padding: 5px;
     z-index: 999999;
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-toggle i {
   color: rgb(246 130 31);
-  font-size: 2.7rem;	
+  font-size: 2.0rem;	
 }
 .mobile-nav-toggle i.icofont-navigation-menu  {
 	content: "\f0c9";
