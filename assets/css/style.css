@@ -540,7 +540,7 @@ section.progess {
 #hero-inner {
     width: 100%;
     height: 500px;
-    background: url("../img/innerbanner.png")no-repeat;
+    background: url("../img/Hero_bg1.png")no-repeat;
     margin: /*72px 0 -72px 0*/
     auto;
     background-size: cover;
