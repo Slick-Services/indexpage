@@ -6,8 +6,8 @@
         max-height: 50px;
     }
     #hero-inner {
-        background: url("../img/innerbanner.png")no-repeat;
-        height: auto;
+        background: url("../img/Hero_bg.jpg")no-repeat;
+        height: 300px;
     }
     #hero-inner h1 {
         font-size: 1.0rem;
@@ -241,6 +241,9 @@
         margin-top: 2rem;
         margin-bottom: 1rem;
     }
+    #hero-inner {
+        height: 450px;
+    }
     #hero-inner h1 {
         font-size: 1.5rem;
         line-height: 40;
@@ -339,6 +342,9 @@
 	.faq .faq-list a  {
 		padding: 0 30px;
 	}*/
+    #hero-inner {
+        height: 550px;
+    }
     #hero {
         height: 60vh;
         background-size: contain;
@@ -484,9 +490,9 @@
     #hero {
         /*height: 47vh;*/
     }
-    #hero {
+    /* #hero {
         height: 80vh;
-    }
+    } */
     #hero h1 {
         font-size: 40px;
         line-height: 65px;
@@ -500,6 +506,9 @@
     }
     #hero {
         height: 85vh;
+    }
+    #hero-inner {
+        height: 650px;
     }
     .progress.pink .progress-bar p {
         font-size: 30px;
