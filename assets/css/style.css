@@ -435,6 +435,26 @@ section.progess {
   padding: 90px 0;	
 }
 
+#hero-inner {
+  width: 100%;
+  height: 500px;
+  background:url("../img/innerbanner.png")no-repeat;
+  margin: /*72px 0 -72px 0*/auto;
+  background-size: cover;
+  position: relative;
+  padding: 90px 0;	
+}
+#hero-inner h1 {
+  margin: 0 0 10px 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 65px;
+  color: #FFF;
+}
+#hero-inner h1 span {
+  color: #F6821F;
+}
+
 #hero .row {
   margin-top: 10rem;
   margin-bottom: 10rem;
@@ -1470,4 +1490,27 @@ footer#footer .lastrow  {
   background: none;
   color: #fff;
   text-decoration: none;
+}
+
+
+section#privacypolicy {
+  padding: 6rem 0;
+}
+
+.allfaqs ol li {
+  margin-top: 20px;
+}
+
+/* .mainwhusfaqs  {  
+  border: 1px solid #000;
+  border-radius:1rem;
+} */
+
+main#main.innercontent p {
+  margin-bottom:.7rem;
+}
+
+main#main.innercontent p b, b, strong, ::marker 
+  {
+  color: #005777;
 }
