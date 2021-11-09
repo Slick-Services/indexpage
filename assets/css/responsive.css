@@ -51,6 +51,12 @@
         margin-bottom: .7rem;
         font-size: 19px;
     }
+    .about {
+        background-size: cover;
+        o-background-size: cover;
+        webkit-background-size: cover;
+        moz-background-size: cover;
+    }
     .why-us {
         padding: 1rem 0 1rem;
         margin-bottom: 1rem;
@@ -581,6 +587,12 @@
         font-size: 40px;
         line-height: 65px;
     }
+    .about {
+        background-size: contain;
+        o-background-size: contain;
+        webkit-background-size: contain;
+        moz-background-size: contain;
+    }
     .faq .mainfaqimg {
         width: 100vw;
         height: 100%;
@@ -624,6 +636,12 @@
         margin-left: 13px;
         padding: 22px 30px;
         font-size: 16px;
+    }
+    .about {
+        background-size: cover;
+        o-background-size: cover;
+        webkit-background-size: cover;
+        moz-background-size: cover;
     }
     footer#footer:before {
         right: 36.4%;
