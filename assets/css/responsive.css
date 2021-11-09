@@ -550,14 +550,15 @@
     }
 }
 
-@media (min-width: 1279px) {
+
+/* @media (min-width: 1279px) {
     footer#footer:before {
         right: 35.2%;
     }
     footer#footer .ftrightline {
         right: 5.5%;
     }
-}
+} */
 
 @media (min-width: 1366px) {
     #hero {
@@ -607,7 +608,7 @@
         right: 35.9%;
     }
     footer#footer .ftrightline {
-        right: 7.3%;
+        right: 7.8%;
     }
 }
 
