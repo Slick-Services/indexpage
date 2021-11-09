@@ -1661,3 +1661,7 @@ strong,
  ::marker {
     color: #005777;
 }
+
+#footer .copyright strong span {
+    color: #005777;
+}
