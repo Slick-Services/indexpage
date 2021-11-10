@@ -1,0 +1,687 @@
+@media (min-width: 320px) {
+    body {
+        overflow-x: hidden;
+    }
+    #header .logo img {
+        max-height: 50px;
+    }
+    #hero-inner {
+        background: url("../img/Hero_bg1.png")no-repeat;
+        height: 300px;
+    }
+    #hero-inner h1 {
+        font-size: 1.0rem;
+        line-height: 30;
+    }
+    #hero {
+        height: auto;
+        padding: 0px 0 50px;
+        text-align: center;
+        ;
+    }
+    #hero .hero-img img {
+        max-width: 100%;
+    }
+    #hero .row {
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+    }
+    #hero h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .mobile-nav {
+        height: 260px;
+    }
+    .mobile-nav a.get-started-btn {
+        padding: 20px 10px;
+        width: 100px;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .section-title {
+        padding-bottom: 1rem;
+        padding-top: 0rem;
+    }
+    .section-title h2 {
+        margin-bottom: .7rem;
+        font-size: 19px;
+    }
+    .about {
+        background-size: cover;
+        o-background-size: cover;
+        webkit-background-size: cover;
+        moz-background-size: cover;
+    }
+    .why-us {
+        padding: 1rem 0 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .why-us.privacy {
+        padding: 1rem 0 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .clients {
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+    section.progess {
+        overflow: initial;
+        padding: 0px 0 0rem;
+        margin-top: -2rem;
+    }
+    .progress {
+        height: auto;
+        background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+    }
+    .progress.pink .mainprogress {
+        flex-direction: column-reverse;
+        margin: 2.5rem auto 1.5rem;
+    }
+    .progress.pink .progress-bar p {
+        font-size: 16px;
+        margin: 0;
+    }
+    .progress.pink .progress-bar {
+        justify-content: center;
+        margin: auto auto auto;
+        top: -0.5rem;
+    }
+    .progress.pink .rectkal {
+        margin-left: auto;
+        top: -2rem;
+        text-align: center;
+    }
+    .featured-services {
+        padding: 2rem 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .contact .section-title h2 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .contact .php-email-form button[type="submit"] {
+        padding: 25px 40px 24px 45px;
+        border-radius: 3rem 0;
+        font-size: 20px;
+        right: -30px;
+        top: -1rem;
+    }
+    .contact .php-email-form {
+        padding: 1.5rem 0.9rem 4em;
+        margin-top: 1.5rem;
+    }
+    footer#footer:before {
+        display: none;
+    }
+    footer#footer .ftrightline {
+        display: none;
+    }
+    #footer .footer-top .footer-links {
+        align-items: self-start;
+    }
+    #footer .footer-top {
+        padding: 2rem 0 1rem 0;
+        border-bottom: none;
+    }
+    #footer .mainsocial {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    #footer .footer-top .footer-contact p br {
+        display: none;
+    }
+}
+
+@media (min-width: 360px) {}
+
+@media (min-width: 400px) {}
+
+@media (min-width: 480px) {}
+
+@media (min-width: 575px) {
+    .progress {
+        height: auto;
+        background-size: contain;
+        -o-background-size: contain;
+        -moz-background-size: contain;
+        -webkit-background-size: contain;
+    }
+    .progress.pink .mainprogress {
+        justify-content: flex-start;
+        margin-top: -2.3rem;
+    }
+    .progress.pink .progress-bar {
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 0 0 0 0rem;
+        top: auto;
+    }
+    .progress.pink .progress-bar p {
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 575.98px) {}
+
+@media (min-width: 576px) {
+    #header .logo img {
+        max-height: 65px;
+    }
+    #hero {
+        padding: 30px 0 90px;
+    }
+    .mobile-nav {
+        height: 360px;
+    }
+    .progress.pink .mainprogress {
+        justify-content: flex-start;
+        flex-direction: row;
+        margin: -2.9rem 0 0 0;
+    }
+    .progress.pink .progress-bar p {
+        font-size: 15px;
+    }
+    .progress.pink .rectkal {
+        margin-left: -3.5rem;
+        top: auto;
+    }
+    .section-title h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #footer .mainsocial {
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+    }
+    .featured-services {
+        padding: 1.5rem 0;
+        margin-bottom: 1.5rem;
+    }
+    .section-title {
+        padding-bottom: 1.5rem;
+        padding-top: .5rem;
+    }
+    .why-us {
+        padding: 1.5rem 0 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .clients {
+        margin: 1.5rem 0;
+        padding: 1.5rem 0;
+    }
+}
+
+@media (min-width: 640px) {
+    .progress.pink .mainprogress {
+        margin-top: -2.7rem;
+    }
+}
+
+@media (min-width: 641px) {}
+
+@media (min-width: 767px) {
+    .progress.pink .mainprogress {
+        margin-top: -2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #hero {
+        height: auto;
+        padding: 100px 0 50px;
+        background-size: cover;
+        o-background-size: cover;
+        webkit-background-size: cover;
+        moz-background-size: cover;
+        text-align: left;
+    }
+    #hero .row {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    #hero-inner {
+        height: 450px;
+    }
+    #hero-inner h1 {
+        font-size: 1.5rem;
+        line-height: 40;
+    }
+    section.progess {
+        padding: 0;
+    }
+    .featured-services {
+        text-align: left;
+    }
+    .section-title {
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+    .mobile-nav {
+        height: 410px;
+    }
+    .progress {
+        background-size: contain;
+        -o-background-size: contain;
+        -moz-background-size: contain;
+        -webkit-background-size: contain;
+        height: auto;
+    }
+    .progress.pink .mainprogress {
+        margin-top: -2.9rem;
+        justify-content: flex-start;
+    }
+    .progress.pink .progress-bar p {
+        font-size: 22px;
+    }
+    .progress.pink .rectkal {
+        margin-left: -6.5rem;
+        text-align: right;
+    }
+    .contact .php-email-form {
+        padding: 2.5rem 1.9rem 4em;
+    }
+    .contact .php-email-form button[type="submit"] {
+        right: -45px;
+        padding: 25px 45px 24px;
+        top: -1rem;
+    }
+    .contact .section-title h2 {
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 2rem;
+    }
+    #footer .social-links a {
+        font-size: 1.5rem;
+        padding: .7rem 1.0rem;
+        margin-top: .4rem;
+        margin-bottom: .1rem;
+    }
+    #footer .footer-top .footer-links {
+        align-items: center;
+    }
+    #footer .footer-top .footer-contact p br {
+        display: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .progress.pink .mainprogress {
+        margin-top: -2.3rem;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-menu a {
+        padding: 11px 8px;
+        font-size: 14px;
+    }
+    .nav-menu .get-started-btn {
+        margin-left: 7px;
+        padding: 20px 16px;
+        font-size: 14px;
+    }
+    .mobile-nav a.get-started-btn {
+        padding: 20px 10px;
+        width: auto;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    /*.faq .mainfaqrow  {
+		flex-direction: row;
+	}
+	.faq .faq-list li  {
+		padding: 20px;
+	}
+	.faq .faq-list a  {
+		padding: 0 30px;
+	}*/
+    #hero-inner {
+        height: 550px;
+    }
+    #hero {
+        height: 60vh;
+        background-size: contain;
+        -o-background-size: contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+    }
+    /*#hero .row {
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}*/
+    #hero h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    #hero .row {
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+    }
+    #hero-inner h1 {
+        font-size: 2.5rem;
+        line-height: 40;
+    }
+    section.progess {
+        padding: 1rem 0 1rem;
+        margin-top: -4rem;
+    }
+    .section-title {
+        padding-bottom: 4rem;
+        padding-top: 1rem;
+    }
+    .why-us {
+        padding: 3rem 0 5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+    }
+    .why-us.privacy {
+        padding: 1.5rem 0 5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .clients {
+        margin: 2rem 0;
+        padding: 4rem 0;
+    }
+    .progress {
+        height: 100px;
+        background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+    }
+    .progress.pink .mainprogress {
+        margin-top: -4.0rem;
+    }
+    .progress.pink .progress-bar p {
+        font-size: 25px;
+    }
+    .progress.pink .rectkal {
+        margin-left: -5rem;
+    }
+    .featured-services {
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+    }
+    .contact .php-email-form {
+        padding: 2.5rem 1.9rem 4em;
+    }
+    .contact .php-email-form button[type="submit"] {
+        padding: 24px 40px 24px 43px;
+        border-radius: 3.0rem 0;
+        font-size: 20px;
+        right: -46px;
+        top: -0.9rem;
+    }
+    #footer .footer-top {
+        border-bottom: 1px solid #ffffff;
+    }
+    footer#footer:before {
+        display: block;
+        right: 33.9%;
+        height: 100%;
+    }
+    footer#footer .ftrightline {
+        height: 100%;
+        display: block;
+        right: 1.6%;
+    }
+    #footer .footer-top .footer-contact p br {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    /*#hero  {
+		height: 74vh;		
+	}*/
+    #hero {
+        height: 50vh;
+        background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+    }
+    #hero .row {
+        margin-top: 0rem;
+        margin-bottom: 4rem;
+    }
+    #hero h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    #hero p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .progress.pink .rectkal {
+        margin-left: -2rem;
+    }
+    .nav-menu a {
+        padding: 11px 7px;
+    }
+    .progress.pink .mainprogress {
+        margin-top: -4.8rem;
+    }
+    .progress.pink .progress-bar p {
+        font-size: 27px;
+    }
+    section.progess {
+        margin-top: -2rem;
+    }
+    footer#footer:before {
+        right: 34.4%;
+    }
+    footer#footer .ftrightline {
+        right: 3.1%;
+    }
+}
+
+@media (min-width: 1100px) {
+    section.progess {
+        padding: 1rem 0 1rem;
+        margin-top: -1rem;
+    }
+    .progress.pink .mainprogress {
+        margin-top: -4.5rem;
+    }
+    .progress.pink .rectkal {
+        margin-left: -4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    #hero {
+        /*height: 47vh;*/
+    }
+    /* #hero {
+        height: 80vh;
+    } */
+    #hero h1 {
+        font-size: 40px;
+        line-height: 65px;
+    }
+    #hero p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .nav-menu a {
+        padding: 11px 16px;
+    }
+    #hero {
+        height: 85vh;
+    }
+    #hero-inner {
+        height: 650px;
+    }
+    .progress.pink .progress-bar p {
+        font-size: 30px;
+    }
+    .progress.pink .mainprogress {
+        margin-top: -8.5rem;
+    }
+    .progress.pink .rectkal {
+        margin-left: -5rem;
+    }
+    .featured-services {
+        padding: 8rem 0px 5rem;
+        margin-bottom: 3rem;
+    }
+    footer#footer:before {
+        right: 34.2%;
+    }
+    #footer .social-links a {
+        padding: .7rem 2rem;
+    }
+    footer#footer .ftrightline {
+        right: 2.5%;
+    }
+}
+
+
+/* @media (min-width: 1279px) {
+    footer#footer:before {
+        right: 35.2%;
+    }
+    footer#footer .ftrightline {
+        right: 5.5%;
+    }
+} */
+
+@media (min-width: 1366px) {
+    #hero {
+        height: 125vh;
+    }
+    #hero .hero-img img {
+        max-width: 100%;
+    }
+    #hero .row {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    section.progess {
+        padding: 0px 0 5rem;
+    }
+    .progress {
+        height: 160px;
+    }
+    #hero h1 {
+        font-size: 40px;
+        line-height: 65px;
+    }
+    .about {
+        background-size: contain;
+        o-background-size: contain;
+        webkit-background-size: contain;
+        moz-background-size: contain;
+    }
+    .faq .mainfaqimg {
+        width: 100vw;
+        height: 100%;
+    }
+    .nav-menu a {
+        padding: 11px 8px;
+    }
+    .nav-menu .get-started-btn {
+        margin-left: 7px;
+        padding: 20px 20px;
+    }
+    .featured-services {
+        padding: 5rem 0px 5rem;
+        margin-bottom: 3rem;
+    }
+    .progress.pink .mainprogress {
+        margin-top: -6.5rem;
+    }
+    .progress.pink .rectkal {
+        margin-left: 0rem;
+    }
+    footer#footer:before {
+        /*right: 36.1%;
+		height: 49.5%;*/
+        right: 35.9%;
+    }
+    footer#footer .ftrightline {
+        right: 7.8%;
+    }
+}
+
+@media (min-width: 1400px) {
+    #hero .hero-img img {
+        max-width: none;
+    }
+    .nav-menu a {
+        padding: 11px 13px;
+        font-size: 15px;
+    }
+    .nav-menu .get-started-btn {
+        margin-left: 13px;
+        padding: 22px 30px;
+        font-size: 16px;
+    }
+    .about {
+        background-size: cover;
+        o-background-size: cover;
+        webkit-background-size: cover;
+        moz-background-size: cover;
+    }
+    footer#footer:before {
+        right: 36.4%;
+    }
+    footer#footer .ftrightline {
+        right: 9.2%;
+    }
+}
+
+@media (min-width: 1500px) {
+    #hero {
+        height: 100vh;
+        padding: 100px 0;
+    }
+    #hero .row {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        top: 0rem;
+    }
+    footer#footer:before {
+        right: 37.4%;
+    }
+    footer#footer .ftrightline {
+        right: 12.0%;
+    }
+}
+
+@media (min-width: 1920px) {
+    footer#footer:before {
+        right: 40.0%;
+        height: 100%;
+    }
+    footer#footer .ftrightline {
+        height: 100%;
+        right: 20.0%;
+    }
+    .progress {
+        height: 169px;
+    }
+    .progress.pink .rectkal {
+        margin-left: -5rem;
+    }
+}
