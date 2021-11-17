@@ -1012,7 +1012,8 @@ section {
 .about {
     margin: 0px 0;
     padding: 60px 0;
-    background: rgb(250 250 250 / 82%);
+    background: /*rgb(250 250 250 / 82%)*/
+    #fff;
 }
 
 .about .content h3 {
