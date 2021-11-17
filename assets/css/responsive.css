@@ -103,9 +103,7 @@
 	.availablesurvey {
     	margin: 1rem 0 0;
 	}	
-	.mobile-nav-toggle  {
-		right: 7rem;
-	}
+	
 }
 
 /* Large Mobile :480px. */
@@ -146,9 +144,7 @@
     .sbar_collapsed.page-container {
         padding-left: 0;
     }
-	.mobile-nav-toggle  {
-		right: 3rem;
-	}
+	
 }
 
 @media (max-width: 480px) {
