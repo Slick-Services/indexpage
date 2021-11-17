@@ -28,6 +28,7 @@
 	}
 	.mobile-nav .mainlogin {
 		float: left;
+		max-width: 100%;
 	}
 	.section-title {
     	padding-bottom: 10px;
