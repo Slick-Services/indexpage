@@ -83,6 +83,9 @@
 	.availablesurvey {
     	margin: 1.5rem 0 0;
 	}
+	.mobile-nav-toggle  {
+		right: 9rem;
+	}
 }
 
 /* small mobile :320px. */
