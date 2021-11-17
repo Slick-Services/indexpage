@@ -188,11 +188,7 @@
 	}
 	.services.section-bg  {
 		padding: 90px 0;
-	}
-	.services.section-bg {
-		height: 100vh;
-		padding: 30px 0 50px;
-	}
+	}	
 }
 
 @media (min-width: 640px)   {
