@@ -368,7 +368,12 @@
     }
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    .services.section-bg {
+        height: 50vh;
+        padding: 45px 0;
+    }
+}
 
 @media (min-width: 1200px) {
     .blog .member .member-info {
