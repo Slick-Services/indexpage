@@ -1098,6 +1098,7 @@ section {
     height: 190px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .services .icon-box:hover {
