@@ -103,6 +103,9 @@
 	.availablesurvey {
     	margin: 1rem 0 0;
 	}	
+	.mobile-nav-toggle  {
+		right: 7rem;
+	}
 }
 
 /* Large Mobile :480px. */
@@ -144,7 +147,7 @@
         padding-left: 0;
     }
 	.mobile-nav-toggle  {
-		right: 7rem;
+		right: 3rem;
 	}
 }
 
