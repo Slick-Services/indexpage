@@ -1132,7 +1132,7 @@ section {
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 18px;
-    text-transform: uppercase;
+    /*text-transform: lowercase;*/
     padding-top: 55px;
     text-align: center;
 }
