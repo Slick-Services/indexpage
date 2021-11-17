@@ -208,6 +208,9 @@
 	.card-body {
     	padding: 12px;
 	}
+	.main-content-inner .card.img  {
+		background: url(../img/card.jpg) no-repeat;
+	}
 }
 
 /* small mobile :320px. */
