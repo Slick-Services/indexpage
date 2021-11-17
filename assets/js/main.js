@@ -100,7 +100,7 @@
 
     $(document).on('click', '.mobile-nav-toggle', function(e) {
       $('body').toggleClass('mobile-nav-active');
-      $('.mobile-nav-toggle i').toggleClass('fa fa-navicon icofont-close');
+      $('.mobile-nav-toggle i').toggleClass('fa fa-navicon fa-close');
       $('.mobile-nav-overly').toggle();
     });
 
