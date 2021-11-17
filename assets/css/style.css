@@ -1100,6 +1100,10 @@ section {
     justify-content: center;
 }
 
+.services .icon-box:hover {
+    background: #fc9446;
+}
+
 .services .icon {
     position: absolute;
     /*left: calc(50% - 36px);*/
