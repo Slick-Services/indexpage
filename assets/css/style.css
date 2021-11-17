@@ -255,6 +255,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fc9446;
   padding: 8px 10px;
   border-radius: 6px;	
+  z-index: 99999;
 }
 
 .mobile-nav-toggle i {
