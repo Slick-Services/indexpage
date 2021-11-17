@@ -1006,14 +1006,15 @@ section {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	margin-top: 25px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	align-items: center;
 }
 .services .mainicon .icon-boxmain {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	align-items: center;
-	margin-bottom: 30px;
+	align-items: center;	
 }
 .services .icon-box {
   /* padding: 50px 20px; */
