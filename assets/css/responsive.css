@@ -80,6 +80,9 @@
 	.logo a img  {
 		height: auto;
 	}
+	.availablesurvey {
+    	margin: 1rem 0 0;
+	}
 }
 
 /* small mobile :320px. */
@@ -93,6 +96,9 @@
 	}
 	.logo a img  {
 		height: auto;
+	}
+	.availablesurvey {
+    	margin: 1rem 0 0;
 	}
 }
 
