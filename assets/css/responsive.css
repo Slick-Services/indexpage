@@ -420,6 +420,10 @@
 	.testimonials .card-title a  {
 		font-size: 2.3rem;
 	}
+	.services.section-bg {
+		height: 80vh;
+		padding: 60px 0;
+	}
 	
 }
 
