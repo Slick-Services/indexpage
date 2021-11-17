@@ -239,7 +239,7 @@
         margin-top: 15px;
     }
     .services.section-bg {
-        height: 55vh;
+        /* height: 55vh;*/
         padding: 45px 0;
     }
     .services .mainicon .icon-boxmain {
@@ -347,7 +347,7 @@
         margin-top: 35px;
     }
     .services.section-bg {
-        height: 87vh;
+        /* height: 87vh;*/
         padding: 60px 0;
     }
     .services .icon-box {
@@ -370,7 +370,7 @@
 
 @media (min-width: 1024px) {
     .services.section-bg {
-        height: 75vh;
+        /* height: 75vh;*/
         padding: 45px 0;
     }
 }
@@ -422,14 +422,14 @@
         font-size: 2.3rem;
     }
     .services.section-bg {
-        height: 70vh;
+        /*height: 70vh;*/
         padding: 60px 0;
     }
     .section-title {
         padding-bottom: 10px;
     }
     .services.section-bg {
-        height: 100vh;
+        /*height: 100vh;*/
         padding: 60px 0;
     }
 }
@@ -440,7 +440,7 @@
         background-position: right;
     }
     .services.section-bg {
-        height: 65vh;
+        /*height: 65vh;*/
         padding: 60px 0;
     }
 }
