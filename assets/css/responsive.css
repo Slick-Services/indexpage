@@ -152,9 +152,9 @@
 		font-size: 1.3rem;
 		padding: .5rem 1rem 0 .0rem;
 	}
-	.mainavilablesurvey {
+	/*.mainavilablesurvey {
     	padding: 0;
-	}
+	}*/
 	.main-content-inner .card .maincardavailable .card.row i:before {
 		padding-right: 0.3rem;
 		font-size: 1.7rem;
