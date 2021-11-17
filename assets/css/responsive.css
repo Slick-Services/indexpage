@@ -424,7 +424,7 @@
         padding-bottom: 10px;
     }
     .services.section-bg {
-        height: 65vh;
+        height: 100vh;
         padding: 60px 0;
     }
 }
@@ -433,6 +433,10 @@
     #hero:before {
         background: url("../img/hero_curve.png") no-repeat;
         background-position: right;
+    }
+    .services.section-bg {
+        height: 65vh;
+        padding: 60px 0;
     }
 }
 
