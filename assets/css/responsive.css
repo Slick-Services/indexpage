@@ -51,7 +51,7 @@
 		margin-top: 8px;
 	}
 	.services.section-bg {
-		height: 100vh;
+		height: auto;
 		padding: 30px 0 50px;
 	}
 	
@@ -160,6 +160,7 @@
 }
 
 @media (min-width: 576px)    {
+	
 	#hero:before {
 		background: url("../img/hero_curve_small.png") no-repeat;
 		background-position: right;
@@ -187,6 +188,10 @@
 	}
 	.services.section-bg  {
 		padding: 90px 0;
+	}
+	.services.section-bg {
+		height: 100vh;
+		padding: 30px 0 50px;
 	}
 }
 
