@@ -328,6 +328,8 @@ body {
 .sidebar-menu .logo {
     text-align: left;
     height: 100%;
+	top: 6px;
+    position: relative;
 }
 
 
