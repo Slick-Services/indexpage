@@ -1250,7 +1250,7 @@ img.img-hover-zoom--point-zoom:hover {
     z-index: 9999;
     position: relative;
     padding: 15px 0;
-    /*background: #fff;*/
+    background: #fff;
 }
 
 #headerlogin.header-scrolled,

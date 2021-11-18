@@ -292,6 +292,8 @@
     }
     #headerlogin .logo img {
         max-height: 70px;
+        position: relative;
+        top: 5px;
     }
     #headerlogin .logo {
         margin-left: auto;
