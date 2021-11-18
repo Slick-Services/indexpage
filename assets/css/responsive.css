@@ -638,7 +638,7 @@
 
 @media (min-width: 576px) {
     #header .logo img {
-        height: 85px;
+        max-height: 85px;
     }
     #herologin h3 {
         font-size: 2.5rem;
