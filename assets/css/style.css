@@ -499,7 +499,7 @@ h6 {
     position: relative;
     width: 100%;
     top: 2.5rem;
-    left: -.25rem;
+    /*left: -.25rem;*/
 }
 
 #hero .php-email-form .validate {
