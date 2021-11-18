@@ -467,6 +467,12 @@
         font-size: 1.0rem;
         font-weight: 500;
     }
+    section.ragistrationfom .container.mainbgrgistration {
+        background: none;
+    }
+    .main-box-ragistration {
+        border: none;
+    }
 }
 
 @media (min-width: 360px) {
@@ -553,6 +559,12 @@
         flex-direction: row;
         justify-content: space-between;
         display: inline-flex;
+    }
+    section.ragistrationfom .container.mainbgrgistration {
+        background: #fff;
+    }
+    .main-box-ragistration {
+        border: 1px solid #707070;
     }
 }
 
