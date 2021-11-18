@@ -1,9 +1,4 @@
-/**
-* Template Name: Flexor - v2.4.1
-* Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -32,15 +27,16 @@
 
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
-          $('.mobile-nav-toggle i').toggleClass('fa fa-navicon fa fa-close');
+          $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu fa fa-close');
           $('.mobile-nav-overly').fadeOut();
         }
         return false;
       }
     }
   });
+	
 
-// Init AOS
+	// Init AOS
   function aos_init() {
     AOS.init({
       duration: 1000,
@@ -50,9 +46,8 @@
   }
   $(window).on('load', function() {
     aos_init();
-  });	
-	
-	
+  });
+
   // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
     if (window.location.hash) {
@@ -95,12 +90,12 @@
       class: 'mobile-nav d-lg-none'
     });
     $('body').append($mobile_nav);
-    $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="fa fa-navicon"></i></button>');
+    $('body').prepend('<button type="button" class="mobile-nav-toggle d-md-none"><i class="fa fa-navicon"></i></button>');
     $('body').append('<div class="mobile-nav-overly"></div>');
 
     $(document).on('click', '.mobile-nav-toggle', function(e) {
       $('body').toggleClass('mobile-nav-active');
-      $('.mobile-nav-toggle i').toggleClass('fa fa-navicon fa fa-close');
+      $('.mobile-nav-toggle i').toggleClass('fa-navicon fa-close');
       $('.mobile-nav-overly').toggle();
     });
 
@@ -115,7 +110,7 @@
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
-          $('.mobile-nav-toggle i').toggleClass('fa fa-navicon fa fa-close');
+          $('.mobile-nav-toggle i').toggleClass('fa-navicon fa fa-close');
           $('.mobile-nav-overly').fadeOut();
         }
       }
@@ -126,14 +121,14 @@
 
 // Toggle .header-scrolled class to #header when page is scrolled
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 0) {
       $('#header').addClass('header-scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
     }
   });
 
-  if ($(window).scrollTop() > 100) {
+  if ($(window).scrollTop() > 0) {
     $('#header').addClass('header-scrolled');
   }
 	
@@ -214,5 +209,179 @@
     items: 1
   });
   
+	gsap.to(".bubble--container", 20, {
+  rotation: 360,
+  transformOrigin: "left 50%",
+  repeat: -1,
+  ease: "none"
+});
 
+var quotes = [
+  '"Thank you so much for all of your help with everything!',
+  '"Hands down the best support I have ever received."',
+  '"The best service I have ever received!"',
+  '"We could not have done it without you!"',
+  '"Beyond grateful for the service I received!"',
+  '"A wonderful experience all around!"'
+];
+
+var previousInt = 0;
+
+function animateOut() {
+  gsap.fromTo(".text", 2, { opacity: 1 }, { opacity: 0 });
+}
+
+function animateIn() {
+  gsap.fromTo(".text", 2, { opacity: 0 }, { opacity: 1 });
+}
+
+// returns a random integer for the quote randomizer
+function getRandomInt() {
+  return Math.floor(Math.random() * quotes.length);
+}
+
+function handleAnimation() {
+  var randomInt = getRandomInt();
+
+  // prevents the new quote from being the same as the previous quote
+  while (randomInt == previousInt) {
+    randomInt = getRandomInt();
+  }
+
+  previousInt = randomInt;
+
+  // fades the animation out after a second
+  setTimeout(() => {
+    animateOut();
+  }, 1000);
+
+  // changes the text of the quote after 2.8 seconds
+  setTimeout(() => {
+    document.querySelector(".text").innerHTML = quotes[randomInt];
+  }, 2800);
+
+  // fades the quote back in after 3 seconds
+  setTimeout(() => {
+    animateIn();
+  }, 3000);
+}
+
+// changes the quote every 7 seconds
+setInterval(handleAnimation, 7000);
+
+	function testAnim(x) {
+        $('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+          $(this).removeClass();
+        });
+      };
+
+      $(document).ready(function(){
+        $('.js--triggerAnimation').click(function(e){
+          e.preventDefault();
+          var anim = $('.js--animations').val();
+          testAnim(anim);
+        });
+
+        $('.js--animations').change(function(){
+          var anim = $(this).val();
+          testAnim(anim);
+        });
+      });	
+ 
+
+  // Skills section
+  $('.skills-content').waypoint(function() {
+    $('.progress .progress-bar').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+  }, {
+    offset: '80%'
+  });
+  
+  // Activate smooth scroll on page load with hash links in the url
+  $(document).ready(function() {
+    if (window.location.hash) {
+      var initial_nav = window.location.hash;
+      if ($(initial_nav).length) {
+        var scrollto = $(initial_nav).offset().top - scrolltoOffset;
+        $('html, body').animate({
+          scrollTop: scrollto
+        }, 1500, 'easeInOutExpo');
+      }
+    }
+  });
+	
+
+function initparticles() {
+   bubbles();
+   hearts();
+  /* lines();
+   confetti();
+   fire();
+   sunbeams();*/
+}
+
+/*The measurements are ... whack (so to say), for more general text usage I would generate different sized particles for the size of text; consider this pen a POC*/
+
+function bubbles() {
+   $.each($(".particletext.bubbles"), function(){
+      var bubblecount = ($(this).width()/50)*10;
+      for(var i = 0; i <= bubblecount; i++) {
+         var size = ($.rnd(40,80)/10);
+         $(this).append('<span class="particle" style="top:' + $.rnd(20,80) + '%; left:' + $.rnd(0,95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}
+
+function hearts() {
+   $.each($(".particletext.hearts"), function(){
+      var heartcount = ($(this).width()/50)*5;
+      for(var i = 0; i <= heartcount; i++) {
+         var size = ($.rnd(60,120)/10);
+         $(this).append('<span class="particle" style="top:' + $.rnd(20,80) + '%; left:' + $.rnd(0,95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}
+
+/*function lines() {
+   $.each($(".particletext.lines"), function(){
+      var linecount = ($(this).width()/50)*10;
+      for(var i = 0; i <= linecount; i++) {
+         $(this).append('<span class="particle" style="top:' + $.rnd(-30,30) + '%; left:' + $.rnd(-10,110) + '%;width:' + $.rnd(1,3) + 'px; height:' + $.rnd(20,80) + '%;animation-delay: -' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}
+
+function confetti() {
+   $.each($(".particletext.confetti"), function(){
+      var confetticount = ($(this).width()/50)*10;
+      for(var i = 0; i <= confetticount; i++) {
+         $(this).append('<span class="particle c' + $.rnd(1,2) + '" style="top:' + $.rnd(10,50) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(6,8) + 'px; height:' + $.rnd(3,4) + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}
+
+function fire() {
+   $.each($(".particletext.fire"), function(){
+      var firecount = ($(this).width()/50)*20;
+      for(var i = 0; i <= firecount; i++) {
+         var size = $.rnd(8,12);
+         $(this).append('<span class="particle" style="top:' + $.rnd(40,70) + '%; left:' + $.rnd(-10,100) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,20)/10) + 's;"></span>');
+      }
+   });
+}
+
+function sunbeams() {
+   $.each($(".particletext.sunbeams"), function(){
+      var linecount = ($(this).width()/50)*10;
+      for(var i = 0; i <= linecount; i++) {
+         $(this).append('<span class="particle" style="top:' + $.rnd(-50,0) + '%; left:' + $.rnd(0,100) + '%;width:' + $.rnd(1,3) + 'px; height:' + $.rnd(80,160) + '%;animation-delay: -' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}*/
+
+
+
+
+	
 })(jQuery);
