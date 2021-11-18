@@ -570,8 +570,7 @@
     .main-box-ragistration {
         border: 1px solid #707070;
     }
-    .main-form-ragistration,
-    section.ragistrationfom .mb-3 {
+    .main-form-ragistration {
         padding: 0 1rem;
     }
 }
