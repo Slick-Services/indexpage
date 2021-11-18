@@ -1,1633 +1,1654 @@
-
-@media (min-width: 320px) {	
-	#header .logo img {
-		max-height: 60px;
-	}	
-	#hero {
-		background: none;
-		height: auto;
-		padding: 4.5rem 0 4rem;
-	}
-	#hero .container .contentheromain  {
-		margin: auto;
-	}
-	#hero h1 {
-		margin: .7rem 0 0px 0;
-		font-size: 22px;
-		line-height: 30px;
-	}
-	#hero .btn-get-started, .btn-r {
-    	padding: 14px 20px 14px 20px;
-	}
-	#hero .maindeals  {
-		justify-content: center;
-	}
-	#hero .maindeals img.mlady {
-	    height: 250px;
-    	margin-top: 2rem;
-	}
-	#hero .maintext {
-    	text-align: center;
-	}
-	#hero .ladyform {
-    	height: 490px;
-	}
-	#hero .php-email-form {
-    	padding: 0 25px;
-		left: auto;
-	}
-	#hero h2 {
-		font-size: 16px;
-		margin: 0.7rem auto 1.2rem;
-	}
-	#hero .php-email-form input {
-		padding: 7px 8px;
-		height: 42px;
-	}
-	#hero .php-email-form button[type="submit"], .about .manaboutbtn {    
-		padding: 10px 20px;
-		box-shadow: 0px 13px 20px #eba492;
-		margin-top: 0rem;
-	}
-	#hero p {
-		font-size: 15px;
-		line-height: 1.7;
-		margin: 10px 0;
-		padding: 10px 0 15px;
-	}
-	#big {
-		display: none;
-	}
-	#small {
-		display: flex;
-	}	
-	.mobile-nav .mainlogin {
-		float: left;
-	}	
-	.clients {
-		margin: 10px 0 10px;
-		padding: 40px 0;
-	}
-	.clients .owl-item {
-		padding: 10px 20px 0;
-		margin-top: 8px;
-	}
-	.services.section-bg {
-		height: 80vh;
-		padding: 30px 0;
-	}
-	.about.mainreg1::before   {
-		display: none;
-	}
-	#footer .footer-top .footer-info  {
-		padding: 0px;
-	}
-	#footer .footer-top .footer-links {
-		align-items: flex-start;
-	}
-	#footer .footer-top .footer-links ul {
-		padding: 0;
-	}
-	
-	#footer .footer-top .footer-links h3 {
-		margin: 0 0 20px 0;
-	}
-
-	.breadcrumbs ol {
-		font-size: 14px;
-	}
-	.breadcrumbs ol li + li {
-    	padding-left: 5px;
-	}
-	.blog .sidebar {
-	    padding: 15px 20px;
-	    margin: 0 0 20px 0px;    
-	}
-	.blog .entries {order: 2;}
-	.blog .sdbar {order: 1;}
-	.about.connected {
-	   padding: 1.5rem 0 1.5rem;
-	   background: #fbe5e0;
-	   transform: rotateX(0deg);
-	   height:auto;
-	}
-	.about.connected .aboutmaintak .maincard .card, .about.connected .aboutmaintak .maincard .card.one {
-		width: 140px;
-		height: 140px;
-		margin: 10px auto 10px 5px;
-		text-align: center;
-		float: left;
-	}
-	.about.connected .aboutmaintak .card.two  {
-		width: 140px;
-		height: 140px;
-		top:11px;
-		margin-bottom: 15px;
-	}
-	.about.connected .aboutmaintak .maincardreal {
-		flex-direction: column;
-	}
-	.about.connected, .about {
-		background: #FBE4DF;
-		height: 100%;
-		padding: 1rem 0 2rem;		
-	}
-	.about.connected .content, .contentednew, .about .aboutmaintak, .services.take  {
-		text-align: center;
-	}
-	.about .aboutmaintak {
-		margin-top: 0rem;
-		margin-bottom: 1rem;
-		padding-bottom: 3rem;
-	}
-	.about.connected .aboutmaintak {
-		margin-top: 0;
-		margin-bottom: 0rem;
-		transform: rotateX(0deg);
-		padding-bottom: 0rem;
-	}
-	.services.about.connected .aboutmaintak {
-		margin-top: 0;
-		margin-bottom: 0rem;
-		transform: rotateX(0deg);
-		padding-bottom: 0rem;
-	}
-	.about.connected .aboutmaintak .maincard {
-		flex-direction: row;
-		justify-content: space-between;
-		display: inline-block;
-	}
-	.services.about.connected  {
-		margin: 2rem 0;
-	}
-	#footer .footer-top {
-		background: url("../img/pattern-contact.png") repeat;
-	}
-	#footer .social-links a {
-		margin-right: 7px;
-		width: 40px;
-		height: 40px;
-	}
-	
-	.services.take {
-    	margin: .5rem 0 0.5rem;
-	}
-	.services .deals {
-		margin-left: 12px;
-		margin-right: 12px;
-		width: auto;
-		padding: 15px;
-		box-shadow: 0 8px 20px 0 rgb(255 118 87 / 70%);
-		-webkit-box-shadow: 0 8px 20px 0 rgb(255 118 87 / 70%);
-    	-moz-box-shadow: 0 8px 20px 0 rgb(255 118 87 / 70%);
-	}
-	.services .deals .mainicon {
-		margin: /*4rem 0 12rem*/ 0rem 0 0.5rem 0.0rem;
-		padding: 0 10px;
-	}
-	.gif {
-		position: relative;
-		perspective: 0;
-		-webkit-perspective: 0;
-		transform-style: preserve-3d;
-		/* border: solid 13px; */
-		transform: rotate(0deg);
-	}	
-	.trasformgif {
-		width: auto;
-		height: auto;
-		border: 1px #ff7f63 solid;
-		background-color: rgb(191 122 106 / 56%);
-		line-height: 0;
-		text-align: center;
-		transform: rotate(0deg);
-		padding: 5px;
-		border-radius: 25px;
-	}
-	.trasformgif .title a {
-    	transform: rotate(180deg) scale(-1, 1);
-		font-size: 0.99rem;
-		line-height: .7;
-		margin: 0 0 1rem 0;
-	}
-	.icon img.img-fluid {
-		border-radius: 15px;
-		border: solid 5px #6b1c09;
-	}
-	.services .deals .mainicon h1 {
-		font-size: 1.6rem;
-		margin: 1rem 0 .5rem;
-		padding: .5rem 0 0;
-		line-height: 1.9rem;
-	}
-	.services .deals .mainicon p {
-		font-size: 1.2rem;
-		margin: 1rem 0 1.0rem;
-		 width: 100%; 
-	}
-	.services .deals .mainicon .reedmoremain .btn-get-started.btn-r {
-    	padding: 13px 15px 13px 15px;
-	}
-	.services.take .deals .mainicon p.delstext {
-		font-size: 2rem;
-		margin: 0.9rem 0 1rem;	
-		width: 100%;
-	}
-	.about.connected .aboutmaintak .maincard .card.last {
-		margin: auto;
-		float: none;
-	}
-	.section-title {
-		text-align: center;
-		padding-bottom: 30px;
-		width: 100%;
-		margin-top: 0rem;
-	}
-	
-	/* body.login  {
+@media (min-width: 320px) {
+    #header .logo img {
+        max-height: 60px;
+    }
+    #hero {
+        background: none;
+        height: auto;
+        padding: 4.5rem 0 4rem;
+    }
+    #hero .container .contentheromain {
+        margin: auto;
+    }
+    #hero h1 {
+        margin: .7rem 0 0px 0;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    #hero .btn-get-started,
+    .btn-r {
+        padding: 14px 20px 14px 20px;
+    }
+    #hero .maindeals {
+        justify-content: center;
+    }
+    #hero .maindeals img.mlady {
+        height: 250px;
+        margin-top: 2rem;
+    }
+    #hero .maintext {
+        text-align: center;
+    }
+    #hero .ladyform {
+        height: 490px;
+    }
+    #hero .php-email-form {
+        padding: 0 25px;
+        left: auto;
+    }
+    #hero h2 {
+        font-size: 16px;
+        margin: 0.7rem auto 1.2rem;
+    }
+    #hero .php-email-form input {
+        padding: 7px 8px;
+        height: 42px;
+    }
+    #hero .php-email-form button[type="submit"],
+    .about .manaboutbtn {
+        padding: 10px 20px;
+        box-shadow: 0px 13px 20px #eba492;
+        margin-top: 0rem;
+    }
+    #hero p {
+        font-size: 15px;
+        line-height: 1.7;
+        margin: 10px 0;
+        padding: 10px 0 15px;
+    }
+    #big {
+        display: none;
+    }
+    #small {
+        display: flex;
+    }
+    .mobile-nav .mainlogin {
+        float: left;
+    }
+    .clients {
+        margin: 10px 0 10px;
+        padding: 40px 0;
+    }
+    .clients .owl-item {
+        padding: 10px 20px 0;
+        margin-top: 8px;
+    }
+    .services.section-bg {
+        height: 80vh;
+        padding: 30px 0;
+    }
+    .about.mainreg1::before {
+        display: none;
+    }
+    #footer .footer-top .footer-info {
+        padding: 0px;
+    }
+    #footer .footer-top .footer-links {
+        align-items: flex-start;
+    }
+    #footer .footer-top .footer-links ul {
+        padding: 0;
+    }
+    #footer .footer-top .footer-links h3 {
+        margin: 0 0 20px 0;
+    }
+    .breadcrumbs ol {
+        font-size: 14px;
+    }
+    .breadcrumbs ol li+li {
+        padding-left: 5px;
+    }
+    .blog .sidebar {
+        padding: 15px 20px;
+        margin: 0 0 20px 0px;
+    }
+    .blog .entries {
+        order: 2;
+    }
+    .blog .sdbar {
+        order: 1;
+    }
+    .about.connected {
+        padding: 1.5rem 0 1.5rem;
+        background: #fbe5e0;
+        transform: rotateX(0deg);
+        height: auto;
+    }
+    .about.connected .aboutmaintak .maincard .card,
+    .about.connected .aboutmaintak .maincard .card.one {
+        width: 140px;
+        height: 140px;
+        margin: 10px auto 10px 5px;
+        text-align: center;
+        float: left;
+    }
+    .about.connected .aboutmaintak .card.two {
+        width: 140px;
+        height: 140px;
+        top: 11px;
+        margin-bottom: 15px;
+    }
+    .about.connected .aboutmaintak .maincardreal {
+        flex-direction: column;
+    }
+    .about.connected,
+    .about {
+        background: #FBE4DF;
+        height: 100%;
+        padding: 1rem 0 2rem;
+    }
+    .about.connected .content,
+    .contentednew,
+    .about .aboutmaintak,
+    .services.take {
+        text-align: center;
+    }
+    .about .aboutmaintak {
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+        padding-bottom: 3rem;
+    }
+    .about.connected .aboutmaintak {
+        margin-top: 0;
+        margin-bottom: 0rem;
+        transform: rotateX(0deg);
+        padding-bottom: 0rem;
+    }
+    .services.about.connected .aboutmaintak {
+        margin-top: 0;
+        margin-bottom: 0rem;
+        transform: rotateX(0deg);
+        padding-bottom: 0rem;
+    }
+    .about.connected .aboutmaintak .maincard {
+        flex-direction: row;
+        justify-content: space-between;
+        display: inline-block;
+    }
+    .services.about.connected {
+        margin: 2rem 0;
+    }
+    #footer .footer-top {
+        background: url("../img/pattern-contact.png") repeat;
+    }
+    #footer .social-links a {
+        margin-right: 7px;
+        width: 40px;
+        height: 40px;
+    }
+    .services.take {
+        margin: .5rem 0 0.5rem;
+    }
+    .services .deals {
+        margin-left: 12px;
+        margin-right: 12px;
+        width: auto;
+        padding: 15px;
+        box-shadow: 0 8px 20px 0 rgb(255 118 87 / 70%);
+        -webkit-box-shadow: 0 8px 20px 0 rgb(255 118 87 / 70%);
+        -moz-box-shadow: 0 8px 20px 0 rgb(255 118 87 / 70%);
+    }
+    .services .deals .mainicon {
+        margin: /*4rem 0 12rem*/
+        0rem 0 0.5rem 0.0rem;
+        padding: 0 10px;
+    }
+    .gif {
+        position: relative;
+        perspective: 0;
+        -webkit-perspective: 0;
+        transform-style: preserve-3d;
+        /* border: solid 13px; */
+        transform: rotate(0deg);
+    }
+    .trasformgif {
+        width: auto;
+        height: auto;
+        border: 1px #ff7f63 solid;
+        background-color: rgb(191 122 106 / 56%);
+        line-height: 0;
+        text-align: center;
+        transform: rotate(0deg);
+        padding: 5px;
+        border-radius: 25px;
+    }
+    .trasformgif .title a {
+        transform: rotate(180deg) scale(-1, 1);
+        font-size: 0.99rem;
+        line-height: .7;
+        margin: 0 0 1rem 0;
+    }
+    .icon img.img-fluid {
+        border-radius: 15px;
+        border: solid 5px #6b1c09;
+    }
+    .services .deals .mainicon h1 {
+        font-size: 1.6rem;
+        margin: 1rem 0 .5rem;
+        padding: .5rem 0 0;
+        line-height: 1.9rem;
+    }
+    .services .deals .mainicon p {
+        font-size: 1.2rem;
+        margin: 1rem 0 1.0rem;
+        width: 100%;
+    }
+    .services .deals .mainicon .reedmoremain .btn-get-started.btn-r {
+        padding: 13px 15px 13px 15px;
+    }
+    .services.take .deals .mainicon p.delstext {
+        font-size: 2rem;
+        margin: 0.9rem 0 1rem;
+        width: 100%;
+    }
+    .about.connected .aboutmaintak .maincard .card.last {
+        margin: auto;
+        float: none;
+    }
+    .section-title {
+        text-align: center;
+        padding-bottom: 30px;
+        width: 100%;
+        margin-top: 0rem;
+    }
+    /* body.login  {
 		overflow-x:hidden!important;
 		overflow-y: auto!important;
 	} */
-	.slderleftman.maincold {
-		position: absolute;
-		z-index: -1;
-	}
-	body.login:before  {
-	   width: 100%;
-	   height: 100%;
-	   content: "";
-	   position: absolute;
-	   top: 0;
-	   background: rgb(31 3 3 / 65%);
-	   z-index: 0;
-	}
-	#headerlogin  {
-		padding: 10px 0;
-	}
-	#herologin {
-		height: auto;
-	}
-	#headerlogin .logo img {
-		max-height: 70px;
-	}
-	#headerlogin .logo {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	#herologin .mainhero {
-		margin-left: 0.5rem;
-		margin-right: 0.5rem;
-		width: 100%;
-		display: flex;
-		/*align-items: center;*/
-		justify-content: center;
-		position: relative;
-		/*top: 38%;*/
-		height: auto;
-    	top: auto;
-	}
-	#herologin h2 {
-		color: rgb(255 255 255);
-		font-size: 2.4rem;
-		line-height: 1.1;
-		width: 100%;
-		float: left;
-		display: block;		
-		margin-top: 14px;
-	}
-	.particletext {
-	    color: rgb(253 222 222);
-	}
-	#herologin h3 span {
-    	color: #f1bbc1;
-	}
-	#herologin h3 {
-		font-size: 2.7rem;
-		line-height: 1.3;
-		margin: 0;
-		padding: 0;
-	}
-	#herologin .btnman {
-		display: flex;
-		width: 100%;
-		height: auto;
-		justify-content: center;
-		align-content: center;
-	}
-	#herologin .btnman {
-		justify-content: center;
-	}
-	span.particletext.bubbles {
-		font-size: 1.3rem;
-		line-height: 2;
-	}
-	.bd-example {
-		padding: 0.5rem 0.5rem;
-		margin: 1rem 0px 1.3rem;
-	}
-	.bd-example .mainformtext {
-		padding: 3px 0 3px 0px;
-		margin: 0;
-	}	
-	.bd-example .mainemial {
-		width: auto;
-		padding: 0 10px 15px 0;
-	}
-	.bd-example .form-check.firstcheck {
-		font-size: 14px;
-		padding: 0 0 14px 0;
-		margin: 0 0 0 35px;
-	}
-	.button {
-		position: relative;
-		top: 30px;
-		margin: 0;
-		width: auto;
-	}
-	.button_inner {
-		position: relative;
-		width: 150px;
-		height: 51px;
-		top: 15px;
-		margin: 0 0 7px;
-		border: 2px solid rgb(207 96 109);
-		color: rgb(207 96 109);
-	}
-	.button_inner i.l {
-		position: absolute;
-		left: 30px;
-		top: 20px;
-		color: rgb(207 96 109);
-		font-size: 20px;
-	}
-	.button_inner span.t {
-		position: relative;
-		top: 9px;
-		opacity: 1;
-		left: 7px;
-		font-size: 20px;
-	}
-	#herologin .slderleftman {
-		text-align: left;
-		padding: 0 5px;
-		margin-bottom: 8px;
-		width: 100%;
-	}
-	
-	.slderleftman {	
-		display: flex;
-		flex-direction: column;		
-		justify-content: center;
-	}
-	.skills-content p {
-		margin: .5rem 0 1.5rem;
-	}
-	.form-outline {
-		flex-direction: column;
-	}
-	.form-control {
-		padding: 0.45rem .4rem !important;
-	}
-	label.form-label.col-sm-4 {
-		margin-bottom: .7rem;
-	}
-	.ragistrationfom  {
-		overflow: auto;
-		height: auto;
-		padding: 1.1rem 1.5rem;
-	}
-	.main-box-ragistration {
-	    padding: 0;
-	}
-	.mainmobileverification.container {
-		display: block;
-		height: auto;
-		max-width: 100%;
-	}
-	.mainmobileverification .card.otp {
-		width: 100%;
-		height: auto;
-		/* max-width: 100%; */
-		/* flex-basis: 100%; */
-		display: block;
-		justify-content: center;
-		align-items: center;
-		/* max-width: 100%; */
-		/* flex-basis: 100%; */
-		border-radius: 1rem;
-		padding: 1rem;
-	}
-	.container.height-100.d-flex.justify-content-center.align-items-center.mainmobileverification {
-		/* max-width: 85%; */
-		/* flex-basis: 85%; */
-		display: block !important;
-		position: relative;
-	}
-	.maincardposition {
-		position: relative !important;
-		height: 100vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.mainmobileverification .card.otp .acode, .mainmobileverification .card.otp h6 {
-		font-size: 28px;
-		margin-bottom: 1.5rem;
-		line-height: 1.0;
-		width: auto;
-	}
-	
-	.mainmobileverification .card.otp .acode {
-		line-height: 1.7;
-		font-size: 17px;
-		margin: 0.5rem 0;
-	}
-	.mainmobileverification .card.otp .acode a.changepassword {
-		line-height: 0;
-		font-size: 17px;
-		margin-bottom: 0rem;
-	}	
-	.mainmobileverification .card.otp h6 {
-		font-size: 16px;
-		line-height: 1.2;
-		margin-bottom: .5rem;
-	}
-	.form-control {
-		padding: 1.6rem .75rem !important;
-		height: calc(1.0em + .51rem + 1px);
-	}
-	.inputs input {
-		/* width: 540px; */
-		height: 40px;
-		padding: 00 !important;
-		width: 250px;
-	}
-	.validate {
-		border-radius: 2.5rem;
-		height: 40px;
-		background-color: #FF7657;
-		border: 1px solid #FF7657;
-		width: 130px;
-		font-size: 1.0rem;
-		font-weight: 500;
-	}
-	
+    .slderleftman.maincold {
+        position: absolute;
+        z-index: -1;
+    }
+    body.login:before {
+        width: 100%;
+        height: 100%;
+        content: "";
+        position: absolute;
+        top: 0;
+        background: rgb(31 3 3 / 65%);
+        z-index: 0;
+    }
+    #headerlogin {
+        padding: 10px 0;
+    }
+    #herologin {
+        height: auto;
+    }
+    #headerlogin .logo img {
+        max-height: 70px;
+    }
+    #headerlogin .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #herologin .mainhero {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        width: 100%;
+        display: flex;
+        /*align-items: center;*/
+        justify-content: center;
+        position: relative;
+        /*top: 38%;*/
+        height: auto;
+        top: auto;
+    }
+    #herologin h2 {
+        color: rgb(255 255 255);
+        font-size: 2.4rem;
+        line-height: 1.1;
+        width: 100%;
+        float: left;
+        display: block;
+        margin-top: 14px;
+    }
+    .particletext {
+        color: rgb(253 222 222);
+    }
+    #herologin h3 span {
+        color: #f1bbc1;
+    }
+    #herologin h3 {
+        font-size: 2.7rem;
+        line-height: 1.3;
+        margin: 0;
+        padding: 0;
+    }
+    #herologin .btnman {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-content: center;
+    }
+    #herologin .btnman {
+        justify-content: center;
+    }
+    span.particletext.bubbles {
+        font-size: 1.3rem;
+        line-height: 2;
+    }
+    .bd-example {
+        padding: 0.5rem 0.5rem;
+        margin: 1rem 0px 1.3rem;
+    }
+    .bd-example .mainformtext {
+        padding: 3px 0 3px 0px;
+        margin: 0;
+    }
+    .bd-example .mainemial {
+        width: auto;
+        padding: 0 10px 15px 0;
+    }
+    .bd-example .form-check.firstcheck {
+        font-size: 14px;
+        padding: 0 0 14px 0;
+        margin: 0 0 0 35px;
+    }
+    .button {
+        position: relative;
+        top: 30px;
+        margin: 0;
+        width: auto;
+    }
+    .button_inner {
+        position: relative;
+        width: 150px;
+        height: 51px;
+        top: 15px;
+        margin: 0 0 7px;
+        border: 2px solid rgb(207 96 109);
+        color: rgb(207 96 109);
+    }
+    .button_inner i.l {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        color: rgb(207 96 109);
+        font-size: 20px;
+    }
+    .button_inner span.t {
+        position: relative;
+        top: 9px;
+        opacity: 1;
+        left: 7px;
+        font-size: 20px;
+    }
+    #herologin .slderleftman {
+        text-align: left;
+        padding: 0 5px;
+        margin-bottom: 8px;
+        width: 100%;
+    }
+    .slderleftman {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skills-content p {
+        margin: .5rem 0 1.5rem;
+    }
+    .form-outline {
+        flex-direction: column;
+    }
+    .form-control {
+        padding: 0.45rem .4rem !important;
+    }
+    label.form-label.col-sm-4 {
+        margin-bottom: .7rem;
+    }
+    .ragistrationfom {
+        overflow: auto;
+        height: auto;
+        padding: 1.1rem 1.5rem;
+    }
+    .main-box-ragistration {
+        padding: 0;
+    }
+    .mainmobileverification.container {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+    .mainmobileverification .card.otp {
+        width: 100%;
+        height: auto;
+        /* max-width: 100%; */
+        /* flex-basis: 100%; */
+        display: block;
+        justify-content: center;
+        align-items: center;
+        /* max-width: 100%; */
+        /* flex-basis: 100%; */
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+    .container.height-100.d-flex.justify-content-center.align-items-center.mainmobileverification {
+        /* max-width: 85%; */
+        /* flex-basis: 85%; */
+        display: block !important;
+        position: relative;
+    }
+    .maincardposition {
+        position: relative !important;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainmobileverification .card.otp .acode,
+    .mainmobileverification .card.otp h6 {
+        font-size: 28px;
+        margin-bottom: 1.5rem;
+        line-height: 1.0;
+        width: auto;
+    }
+    .mainmobileverification .card.otp .acode {
+        line-height: 1.7;
+        font-size: 17px;
+        margin: 0.5rem 0;
+    }
+    .mainmobileverification .card.otp .acode a.changepassword {
+        line-height: 0;
+        font-size: 17px;
+        margin-bottom: 0rem;
+    }
+    .mainmobileverification .card.otp h6 {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: .5rem;
+    }
+    .form-control {
+        padding: 1.6rem .75rem !important;
+        height: calc(1.0em + .51rem + 1px);
+    }
+    .inputs input {
+        /* width: 540px; */
+        height: 40px;
+        padding: 00 !important;
+        width: 250px;
+    }
+    .validate {
+        border-radius: 2.5rem;
+        height: 40px;
+        background-color: #FF7657;
+        border: 1px solid #FF7657;
+        width: 130px;
+        font-size: 1.0rem;
+        font-weight: 500;
+    }
 }
 
 @media (min-width: 360px) {
-	#hero .php-email-form {
-    	padding: 0 50px;
-	}
-	#herologin {
-		height: auto;
-	}
-	.form-outline {
-    	align-items: self-start;
-	}
+    #hero .php-email-form {
+        padding: 0 50px;
+    }
+    #herologin {
+        height: auto;
+    }
+    .form-outline {
+        align-items: self-start;
+    }
 }
 
 @media (min-width: 400px) {
-	#header .logo img {
-		max-height: 70px;
-	}
-	#hero .ladyform {
-    	height: 600px;
-		background-size: contain;
-		-o-background-size: contain;
-		-webkit-background-size: contain;
-		-moz-background-size: contain;
-	}
-	#hero .php-email-form {		
-		top: 4.5rem;
-	}
-	#hero h2 {
-		font-size: 16px;
-		margin: 0.7rem auto 2.2rem;	
-	}
-	#hero .php-email-form button[type="submit"], .about .manaboutbtn {
-		padding: 14px 36px;
-		box-shadow: 0px 13px 20px #eba492;
-		margin-top: 1rem;
-	}
-	#hero .php-email-form input {
-		padding: 10px 10px;
-		height: 52px;
-	}
-	#herologin {
-		height: auto;
-	}
-	.breadcrumbs ol li + li {
-    	padding-left: 10px;
-	}
-	.breadcrumbs ol {
-		font-size: 15px;
-	}	
-	.blog .sidebar .sidebar-title.otherservices:before {
-		width: 100%;
-	}
-	.about.connected .aboutmaintak .maincardreal {
-		flex-direction: row;
-		justify-content: center;
-	}
-	.about.connected .aboutmaintak .maincard .card, .about.connected .aboutmaintak .maincard .card.one {
-		width: 140px;
-		height: 140px;
-		margin: 10px 10px 10px 0;
-	}
-	.services .deals {
-		padding: 25px;
-		margin: auto;
+    #header .logo img {
+        max-height: 70px;
     }
-	.about.connected .aboutmaintak .maincard {
-		flex-direction: row;
-		justify-content: space-between;
-		display: inline-flex;
-	}
-	
+    #hero .ladyform {
+        height: 600px;
+        background-size: contain;
+        -o-background-size: contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+    }
+    #hero .php-email-form {
+        top: 4.5rem;
+    }
+    #hero h2 {
+        font-size: 16px;
+        margin: 0.7rem auto 2.2rem;
+    }
+    #hero .php-email-form button[type="submit"],
+    .about .manaboutbtn {
+        padding: 14px 36px;
+        box-shadow: 0px 13px 20px #eba492;
+        margin-top: 1rem;
+    }
+    #hero .php-email-form input {
+        padding: 10px 10px;
+        height: 52px;
+    }
+    #herologin {
+        height: auto;
+    }
+    .breadcrumbs ol li+li {
+        padding-left: 10px;
+    }
+    .breadcrumbs ol {
+        font-size: 15px;
+    }
+    .blog .sidebar .sidebar-title.otherservices:before {
+        width: 100%;
+    }
+    .about.connected .aboutmaintak .maincardreal {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .about.connected .aboutmaintak .maincard .card,
+    .about.connected .aboutmaintak .maincard .card.one {
+        width: 140px;
+        height: 140px;
+        margin: 10px 10px 10px 0;
+    }
+    .services .deals {
+        padding: 25px;
+        margin: auto;
+    }
+    .about.connected .aboutmaintak .maincard {
+        flex-direction: row;
+        justify-content: space-between;
+        display: inline-flex;
+    }
 }
 
 @media (min-width: 480px) {
-	.about.connected .aboutmaintak .maincard {
-       flex-direction: row;
-       justify-content: center; 
-       align-content: center; 
-	}
-	#hero .ladyform {
-    	height: 750px;
-	}
-	#hero .php-email-form  {
-		padding: 0 70px;
-	}
+    .about.connected .aboutmaintak .maincard {
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    #hero .ladyform {
+        height: 750px;
+    }
+    #hero .php-email-form {
+        padding: 0 70px;
+    }
 }
 
-@media (min-width: 500px)  {
-	#herologin {
-		height: 100vh;
-	}	
+@media (min-width: 500px) {
+    #herologin {
+        height: 100vh;
+    }
 }
 
 @media (min-width: 575px) {
-	.about.connected .aboutmaintak .maincard .card, .about.connected .aboutmaintak .maincard .card.one {
-		width: 140px;
-		height: 140px;
-		margin: 10px 20px 10px 0;
-	}
-	#hero .php-email-form {
-		padding: 0 5.5rem;
-		top: 3.5rem;
-	}
-	#herologin {
-		height: auto;
-	}	
-	#herologin h2 {
-		font-size: 3.0rem;
-		line-height: 1.1;
-		margin-bottom: 10px;
-	}
-	#herologin h3 {
-		font-size: 3.7rem;
-		line-height: 1.3;
-		margin: 10px 0;
+    .about.connected .aboutmaintak .maincard .card,
+    .about.connected .aboutmaintak .maincard .card.one {
+        width: 140px;
+        height: 140px;
+        margin: 10px 20px 10px 0;
     }
-	.bd-example {
-		padding: 1rem 1rem;
-		margin: 1rem 0px 1.3rem;
-	}
-	span.particletext.bubbles {
-    	font-size: 2rem;
+    #hero .php-email-form {
+        padding: 0 5.5rem;
+        top: 3.5rem;
     }
-	#herologin .mainhero {
-		margin-right: 1rem;
-		margin-left: 1rem;
-	}
-	#herologin .slderleftman {
-    	margin-bottom: 20px;
+    #herologin {
+        height: auto;
     }
-	#herologin .bd-example .mainformtext {
-		font-size: 1.7rem;
-		line-height: 1.9;
-	}	
+    #herologin h2 {
+        font-size: 3.0rem;
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+    #herologin h3 {
+        font-size: 3.7rem;
+        line-height: 1.3;
+        margin: 10px 0;
+    }
+    .bd-example {
+        padding: 1rem 1rem;
+        margin: 1rem 0px 1.3rem;
+    }
+    span.particletext.bubbles {
+        font-size: 2rem;
+    }
+    #herologin .mainhero {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    #herologin .slderleftman {
+        margin-bottom: 20px;
+    }
+    #herologin .bd-example .mainformtext {
+        font-size: 1.7rem;
+        line-height: 1.9;
+    }
 }
 
 @media (max-width: 575.98px) {}
 
-@media (min-width: 576px)    {
-	
-	#herologin h3 {
-		font-size: 2.5rem;
-	}
-	#hero {
-    	padding: 5rem 0 4rem;
-	}
-	#hero .ladyform {
-    	height: 820px;
-	}
-	#hero h2 {
-    	font-size: 22px;
-    	margin: 1.7rem auto 2.5rem;
-	}
-	#hero .php-email-form {
-    	top: 3.0rem;
-		padding: 0 2.5rem;
-	}
-	#hero h1 {
-		margin: 1rem 0;
-		font-size: 37px;
-		line-height: 42px;
-	}
-	.services.section-bg  {
-		padding: 90px 0;
-	}
-	.about.connected .aboutmaintak .card.two {
-    	/*top: 150px;*/
-		margin-bottom: 0;
-	}
-	.services .deals .mainicon h1 {
-		font-size: 3.2rem;
-		line-height: 4.2rem;
-	}
-	.services .deals .mainicon p {
-		font-size: 1.5rem;
-	}
-	.services.take .deals .mainicon p.delstext {
-		font-size: 4rem;
-		margin: 0.9rem 0 1.5rem;
-	}
-	.ragistrationfom  {
-		padding: 1.1rem 0rem;
-	}
-	.inputs input {
-		/* width: 540px; */
-		height: 60px;
-		padding: 00 !important;
-		width: 430px;
-	}
-	.mainmobileverification .card.otp {
-		width: 85%;
-	}
-}
-
-@media (min-width: 640px)   {
-	.services .deals {
-		margin-left: auto;
-		margin-right: auto;
+@media (min-width: 576px) {
+    #herologin h3 {
+        font-size: 2.5rem;
     }
-	.trasformgif .title a {
-    	font-size: 1.2rem;    
-	}
-	.services .deals .mainicon h1 {
-		font-size: 1.2rem;
-		margin: 1rem 0 .5rem;
-		line-height: 1.7rem;
-	}
-	.services .deals .mainicon p {
-    	font-size: 1.0rem;
-    	margin: 1rem 0 1.7rem;
-    }	
-	.services .deals .mainicon .reedmoremain .btn-get-started.btn-r {
-    	padding:12px 14px 12px 13px /*14px 20px 14px 20px*/;
-	}
-	.services.take .deals .mainicon p.delstext {
-    	font-size: 2.0rem;
-		margin: 1.3rem 0 1.4rem;
-	}	
-	.trasformgif {
-    	transform: rotateY( 308deg)  translateZ(1em);
-	}
-	.gif {
-		position: absolute;
-    	perspective: 800px;
-		-webkit-perspective: 800px;
-		transform-style: preserve-3d;
-		transform:rotateX(-3deg) rotateY(28deg);
-		top: 25%;
+    #hero {
+        padding: 5rem 0 4rem;
     }
-	.about.connected .content, .contentednew, .about .aboutmaintak, .services.take  {
-		text-align: left;
-	}
-	.form-outline {
-		flex-direction: row;
-		align-items: center;
-	}
-	.form-control {
-		padding: 1.1rem .75rem !important;
-		height: calc(1.0em + .51rem + 1px);
-	}
-	.gender {
-    	display: flex;
-	}
-	label.form-label.col-sm-4 {
-		margin-bottom: .0rem;
-	}
-	.ragistrationfom  {
-		height: 100vh;
-	}
-}
-
-@media (min-width: 641px)  {
-	#hero .php-email-form {
-		top: 4rem;
-		padding: 0 2.5rem;
-	}
-}
-
-@media (min-width: 767px)   {}
-
-
-@media (min-width: 768px)   {
-	#hero {
-		width: 100%;
-		background: url("../img/hero1.png") no-repeat top right;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;		
-		/*height: 61vh;*/
-		padding: 0;
-	}
-	#hero .container .contentheromain {
-		margin-top: 4.5rem;
-		margin-bottom: auto;
-	}
-	#hero .maintext {
-    	text-align: left;
-	}
-	#hero .maindeals {
-    	justify-content: flex-end;
-	}
-	#hero .maindeals img.mlady {
-		height: 200px;
-		margin-top: auto;	
-	}
-	#hero h1 {
-		font-size: 25px;
-		line-height: 33px;
-		margin: 10px 0 10px 0;
-	}
-	#hero p {
-		line-height: 1.7;
-		margin: 0px 0;
-		padding: 15px 0 15px;
-	}
-	#hero .btn-get-started, .btn-r {
-    	padding: 16px 25px 16px 25px;
-	}
-	#hero h2 {
-		font-size: 18px;
-		margin: 1.5rem auto;
-	}
-	
-	#hero .ladyform {
-		background-size: cover;
-		align-items: flex-start;
-		padding: 0 18px 0 17px;
-		height: 535px;
-	}
-	#hero .php-email-form input {
-		padding: 10px 10px;
-		height: 43px;
-	}
-	#hero .formsmainphpmain {
-		align-items: center;
-		padding: 0;
-	}
-	#hero .php-email-form {
-    	top: 1.8rem;
-		padding: 0 20px 0 12px;
-	}
-	.nav-menu a  {		
-		padding: 12px 35px 12px 0;
-		font-size: 16px;
-	}
-	.blog .member .member-info {
-    	bottom: -60.9%;
+    #hero .ladyform {
+        height: 820px;
     }
-	.services .deals .mainicon .reedmoremain .btn-get-started.btn-r {
-    	padding:14px 20px 14px 20px;
-	}
-	.services.take .deals .mainicon p.delstext {
-    	font-size: 2.7rem;
-	}
+    #hero h2 {
+        font-size: 22px;
+        margin: 1.7rem auto 2.5rem;
+    }
+    #hero .php-email-form {
+        top: 3.0rem;
+        padding: 0 2.5rem;
+    }
+    #hero h1 {
+        margin: 1rem 0;
+        font-size: 37px;
+        line-height: 42px;
+    }
+    .services.section-bg {
+        padding: 90px 0;
+    }
     .about.connected .aboutmaintak .card.two {
-		width: 150px;
-		height: 150px;
-		top: 90px;
-		margin-bottom: 15px;
-	}	
-	.about.connected .aboutmaintak .maincard .card, .about.connected .aboutmaintak .maincard .card.one {
-		 width: 150px; 
-		 height: 150px; 
+        /*top: 150px;*/
+        margin-bottom: 0;
     }
-	.about.connected .aboutmaintak .maincard .card h2, .about.connected .aboutmaintak .card.two h2 {
-		text-align: center;
-		font-size: 14px;
-	}
-	.clients {
-		padding: 40px 0;
-	}
-	.clients .owl-item {
-		padding: 20px 20px 0;
-		margin-top: 15px;
-	}
-	.services.section-bg {
-		height: 67vh;
-		padding: 45px 0;
-	}
-	.about.mainreg1::before   {
-		display: flex;
-	}	
+    .services .deals .mainicon h1 {
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+    }
+    .services .deals .mainicon p {
+        font-size: 1.5rem;
+    }
+    .services.take .deals .mainicon p.delstext {
+        font-size: 4rem;
+        margin: 0.9rem 0 1.5rem;
+    }
+    .ragistrationfom {
+        padding: 1.1rem 0rem;
+    }
+    .inputs input {
+        /* width: 540px; */
+        height: 60px;
+        padding: 00 !important;
+        width: 430px;
+    }
+    .mainmobileverification .card.otp {
+        width: 85%;
+    }
+}
+
+@media (min-width: 640px) {
+    .services .deals {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .trasformgif .title a {
+        font-size: 1.2rem;
+    }
+    .services .deals .mainicon h1 {
+        font-size: 1.2rem;
+        margin: 1rem 0 .5rem;
+        line-height: 1.7rem;
+    }
+    .services .deals .mainicon p {
+        font-size: 1.0rem;
+        margin: 1rem 0 1.7rem;
+    }
+    .services .deals .mainicon .reedmoremain .btn-get-started.btn-r {
+        padding: 12px 14px 12px 13px/*14px 20px 14px 20px*/
+        ;
+    }
+    .services.take .deals .mainicon p.delstext {
+        font-size: 2.0rem;
+        margin: 1.3rem 0 1.4rem;
+    }
+    .trasformgif {
+        transform: rotateY( 308deg) translateZ(1em);
+    }
+    .gif {
+        position: absolute;
+        perspective: 800px;
+        -webkit-perspective: 800px;
+        transform-style: preserve-3d;
+        transform: rotateX(-3deg) rotateY(28deg);
+        top: 25%;
+    }
+    .about.connected .content,
+    .contentednew,
+    .about .aboutmaintak,
+    .services.take {
+        text-align: left;
+    }
+    .form-outline {
+        flex-direction: row;
+        align-items: center;
+    }
+    .form-control {
+        padding: 1.1rem .75rem !important;
+        height: calc(1.0em + .51rem + 1px);
+    }
+    .gender {
+        display: flex;
+    }
+    label.form-label.col-sm-4 {
+        margin-bottom: .0rem;
+    }
+    .ragistrationfom {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 641px) {
+    #hero .php-email-form {
+        top: 4rem;
+        padding: 0 2.5rem;
+    }
+}
+
+@media (min-width: 767px) {}
+
+@media (min-width: 768px) {
+    #hero {
+        width: 100%;
+        background: url("../img/hero1.png") no-repeat top right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        /*height: 61vh;*/
+        padding: 0;
+    }
+    #hero .container .contentheromain {
+        margin-top: 4.5rem;
+        margin-bottom: auto;
+    }
+    #hero .maintext {
+        text-align: left;
+    }
+    #hero .maindeals {
+        justify-content: flex-end;
+    }
+    #hero .maindeals img.mlady {
+        height: 200px;
+        margin-top: auto;
+    }
+    #hero h1 {
+        font-size: 25px;
+        line-height: 33px;
+        margin: 10px 0 10px 0;
+    }
+    #hero p {
+        line-height: 1.7;
+        margin: 0px 0;
+        padding: 15px 0 15px;
+    }
+    #hero .btn-get-started,
+    .btn-r {
+        padding: 16px 25px 16px 25px;
+    }
+    #hero h2 {
+        font-size: 18px;
+        margin: 1.5rem auto;
+    }
+    #hero .ladyform {
+        background-size: cover;
+        align-items: flex-start;
+        padding: 0 18px 0 17px;
+        height: 535px;
+    }
+    #hero .php-email-form input {
+        padding: 10px 10px;
+        height: 43px;
+    }
+    #hero .formsmainphpmain {
+        align-items: center;
+        padding: 0;
+    }
+    #hero .php-email-form {
+        top: 1.8rem;
+        padding: 0 20px 0 12px;
+    }
+    .nav-menu a {
+        padding: 12px 35px 12px 0;
+        font-size: 16px;
+    }
+    .blog .member .member-info {
+        bottom: -60.9%;
+    }
+    .services .deals .mainicon .reedmoremain .btn-get-started.btn-r {
+        padding: 14px 20px 14px 20px;
+    }
+    .services.take .deals .mainicon p.delstext {
+        font-size: 2.7rem;
+    }
+    .about.connected .aboutmaintak .card.two {
+        width: 150px;
+        height: 150px;
+        top: 90px;
+        margin-bottom: 15px;
+    }
+    .about.connected .aboutmaintak .maincard .card,
+    .about.connected .aboutmaintak .maincard .card.one {
+        width: 150px;
+        height: 150px;
+    }
+    .about.connected .aboutmaintak .maincard .card h2,
+    .about.connected .aboutmaintak .card.two h2 {
+        text-align: center;
+        font-size: 14px;
+    }
+    .clients {
+        padding: 40px 0;
+    }
+    .clients .owl-item {
+        padding: 20px 20px 0;
+        margin-top: 15px;
+    }
+    .services.section-bg {
+        height: 67vh;
+        padding: 45px 0;
+    }
+    .about.mainreg1::before {
+        display: flex;
+    }
     #footer .footer-top .footer-links.ftlinkabt {
-		align-items: center;
-	}
-	.blog .sidebar {
-	    padding: 20px 20px;
-	    margin: 0 0 30px 0px;    
-	}
-	#footer .footer-top .footer-links {
-		align-items: center;
-	}
-	#footer .footer-top .footer-links ul {
-		padding: 0 0 0 40px;
-	}
-	#big {
-		display: flex;
-	}
-	.about.connected .aboutmaintak .maincardreal {
-		flex-direction: row;
-		justify-content: space-around;
-	}	
-	.about.connected .aboutmaintak .maincard {
-    	flex-direction: column;
-	}
-	#small {
-		display: none;
-	}
-	.about .aboutmaintak {
-		margin-top: 4rem;
-		margin-bottom: 2rem;
-		padding-bottom: 3rem;
-	}
-	.about.connected, .about {
-		background: url("../img/aboutbg.png") no-repeat;
-		height: 100%;
-		padding: 0rem 0 0rem;
-		margin: 0;
-		padding: 2rem 0 2rem;
-	}
-	.about.connected {
-	   padding: 1.5rem 0 2.0rem;
-	   transform: rotateX(180deg);
-	   height:100%;
-	}
-	.about.connected .aboutmaintak {
-		transform: rotateX(180deg);
-		margin-top: 7rem;
-    	margin-bottom: 2rem;
-		top: 0;
-		padding: 0;
-	}
-	.section-title {
-	    margin-top: 4rem;
-	}
-	.services.about.connected .aboutmaintak {
-		margin-top: -40px;
-		transform: rotateX(180deg);
-		top: 0;
-	}
-	.services.take {
-		margin: 3rem 0 1.5rem;
-		padding-top: 1rem;
-	}
-	.services .deals .mainicon h1 {
-		font-size: 2.3rem;
-		line-height: 2.9rem;
-		margin-top: .5rem;
-	}
-	.services .deals .mainicon p {
-    	font-size: 1.9rem;
-		margin: 1.5rem 0 2.1rem;
-		line-height: 1.2;
+        align-items: center;
     }
-	.services .deals .mainicon .reedmoremain .btn-get-started.btn-r {
-    	padding: 14px 20px 14px 20px;
-	}
-	.services.take .deals .mainicon p.delstext {
-		font-size: 3.7rem;
-		margin: 2.4rem 0 1.1rem;
-	}
-	/*#herologin {
+    .blog .sidebar {
+        padding: 20px 20px;
+        margin: 0 0 30px 0px;
+    }
+    #footer .footer-top .footer-links {
+        align-items: center;
+    }
+    #footer .footer-top .footer-links ul {
+        padding: 0 0 0 40px;
+    }
+    #big {
+        display: flex;
+    }
+    .about.connected .aboutmaintak .maincardreal {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .about.connected .aboutmaintak .maincard {
+        flex-direction: column;
+    }
+    #small {
+        display: none;
+    }
+    .about .aboutmaintak {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        padding-bottom: 3rem;
+    }
+    .about.connected,
+    .about {
+        background: url("../img/aboutbg.png") no-repeat;
+        height: 100%;
+        padding: 0rem 0 0rem;
+        margin: 0;
+        padding: 2rem 0 2rem;
+    }
+    .about.connected {
+        padding: 1.5rem 0 2.0rem;
+        transform: rotateX(180deg);
+        height: 100%;
+    }
+    .about.connected .aboutmaintak {
+        transform: rotateX(180deg);
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+        top: 0;
+        padding: 0;
+    }
+    .section-title {
+        margin-top: 4rem;
+    }
+    .services.about.connected .aboutmaintak {
+        margin-top: -40px;
+        transform: rotateX(180deg);
+        top: 0;
+    }
+    .services.take {
+        margin: 3rem 0 1.5rem;
+        padding-top: 1rem;
+    }
+    .services .deals .mainicon h1 {
+        font-size: 2.3rem;
+        line-height: 2.9rem;
+        margin-top: .5rem;
+    }
+    .services .deals .mainicon p {
+        font-size: 1.9rem;
+        margin: 1.5rem 0 2.1rem;
+        line-height: 1.2;
+    }
+    .services .deals .mainicon .reedmoremain .btn-get-started.btn-r {
+        padding: 14px 20px 14px 20px;
+    }
+    .services.take .deals .mainicon p.delstext {
+        font-size: 3.7rem;
+        margin: 2.4rem 0 1.1rem;
+    }
+    /*#herologin {
 		height: 100vh;
 	}*/
-	#headerlogin .logo {
-		margin-left: .5rem;
-		margin-right: 2rem;
-	}
-	#headerlogin .logo img {
-		max-height: 60px;
-	}
-	#herologin .btnman {
-		justify-content: center;
-	}
-	
-	#herologin .slderleftman {
-		padding: 0 5px;
-		margin-bottom: 0;
-		width: 100%;
-		height: auto;
-	}
-	#herologin .bd-example .mainformtext {
-		font-size: 2.1rem;
-		line-height: 1.9;
-	}
-	#herologin h3 {
-		font-size: 3.5rem;
-		margin: 5px 0 10px;
-	}	
-	#herologin h2 {
-		font-size: 3.5rem;
-		line-height: 1.2;
-		margin: 10px 0;
-	}
-	.bd-example {
-    	padding: 1.5rem 1.5rem;
-	}
-    #herologin .btn-menu, #herologin .btn-book {
-    	font-size: 15px;
-    }	
-	.bd-example .form-check.firstcheck {
-		font-size: 16px;
-		padding: 0 0 14px 0;
-		margin: 13px 0 10px 35px;
-	}
-	span.particletext.bubbles {
-    	font-size: 3.3rem;
-	}
-	.main-box-ragistration {
-	    padding: 0 1rem;
-	}
-	.mainmobileverification.container {
-		display: block;
-		height: auto;
-		max-width:85%;
-	}
-	.mainmobileverification .card.otp {
-		width: 100%;
-		height: 690px;
-		/*max-width: 100%;
-		flex-basis: 100%;*/
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		/* max-width: 100%; */
-		/* flex-basis: 100%; */
-		border-radius: 1rem;
-		padding: 2rem;
-	}
-	.container.height-100.d-flex.justify-content-center.align-items-center.mainmobileverification {
-		/* max-width: 85%; */
-		/* flex-basis: 85%; */
-		display: block !important;
-		position: relative;
-	}
-	.maincardposition {
-		position: relative!important;
-		height: 100vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.mainmobileverification .card.otp .acode, .mainmobileverification .card.otp h6 {
-		font-size: 28px;
-		margin-bottom: 0.7rem;
-		line-height: 1.0;
-		width: auto;
-	}
-	
-	.mainmobileverification .card.otp .acode  {
-		line-height: 1.7;
-		font-size: 33px;
-		margin: 1.2rem 0;
-	}
-	.mainmobileverification .card.otp .acode a.changepassword {
-		line-height: 1.3;
-		font-size: 30px;
-		margin-bottom: 1.0rem;
-	}	
-	.mainmobileverification .card.otp h6  {
-		font-size: 38px;
-		line-height: 1.3;
-	}
-	.form-control {
-		padding: 1.1rem .75rem !important;
-		height: calc(1.8em + .51rem + 1px);
-		margin-bottom: .5rem;
-	}
-	.validate {
-		border-radius: 2.5rem;
-		height: 80px;
-		background-color: #FF7657;
-		border: 1px solid #FF7657;
-		width: 300px;
-		font-size: 1.7rem;
-		font-weight: bold;
-	  }
-	  .inputs input {
-		/* width: 540px; */
-		height: 80px;
-		padding: 00 !important;
-		width: 540px;
-	}
-	
-}
-
-
-@media (min-width: 991px)   {
-	#hero {
-    	height: 100vh;
-	}
-	#hero .ladyform {
-    	height: 530px;
-	}
-	#hero .container .contentheromain  {
-		margin-top: auto;
-		margin-bottom: auto;
-		top: 1.3rem;
-	}
-	#hero .php-email-form input {
-		padding: 10px 10px;
-		height: 52px;
-	}
-	.about.connected .aboutmaintak .maincard .card h2, .about.connected .aboutmaintak .card.two h2 {
-		text-align: center;
-		font-size: 16px;
-	}
-}
-
-
-@media (min-width: 992px)   {
-	#hero  {
-		padding: 5rem 0;
-		height: 860px;
-	}
-	#hero .php-email-form {
-		top: 3.5rem;
-		left: -.25rem;
-		padding: 0 15px;
-	}
-	#hero h1 {
-		font-size: 40px;
-		line-height: 50px;
-	}
-	#hero h2 {
-    font-size: 22px;
-    margin: 1.7rem auto 1.5em;
-	}
-	#hero .maindeals img.mlady {
-		height: 250px;
-	}
-	#hero .ladyform {
-		height: 725px;
-	}
-	#hero .container .contentheromain {
-    	top: .5rem;
-	}
-	#hero p {
-		line-height: 1.9;
-		margin: 10px 0;
-		padding: 15px 0 25px;
-	}	
-	.about.connected .aboutmaintak .maincard .card, .about.connected .aboutmaintak .maincard .card.one {
-		width: 180px;
-		height: 180px;
-	}
-	.about.connected .aboutmaintak .card.two {
-		width: 180px;
-		height: 180px;
-	}
-	.mobile-nav .mainlogin {
-		float: right;
-	}
-	.clients {
-		margin: 15px 0 10px;
-		padding: 60px 0;
-	}
-	.clients .owl-item {
-		padding: 20px 20px 0;
-		margin-top: 35px;
-	}
-	.services.section-bg {
-		height: 80vh;
-		padding: 60px 0;
-	}	
-	.services.about.connected {
-    	margin: 5rem 0 3rem;
-	}
-	.about .aboutmaintak {
-		margin-top: 6rem;
-		margin-bottom: 7rem;
-		padding-bottom: 0;
-	}
-	.about.connected .aboutmaintak {
-		top: 2rem;
-		margin-top: 6rem;
-		margin-bottom: 6rem;
-		padding-bottom: 0;
-	}
-	.services .deals .mainicon p {
-		line-height: 1.4;
+    #headerlogin .logo {
+        margin-left: .5rem;
+        margin-right: 2rem;
     }
-	.gif {
-		position: absolute;
-		perspective: 1000px;
-		-webkit-perspective: 1000px;
-		transform: rotateX(354deg) rotateY(55deg);
-		top: 3.5%;
-	}
-	.trasformgif {
-		
-    	transform: rotateY( -76deg)  translateZ(7em);
-	}
-	#big {
-		display: flex;
-		justify-content: center;
-		align-items: baseline;
-	}
-	.about.connected .aboutmaintak .maincard {
-		margin-right: 0px;
-	}
-	/* body.login  {
+    #headerlogin .logo img {
+        max-height: 60px;
+    }
+    #herologin .btnman {
+        justify-content: center;
+    }
+    #herologin .slderleftman {
+        padding: 0 5px;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+    #herologin .bd-example .mainformtext {
+        font-size: 2.1rem;
+        line-height: 1.9;
+    }
+    #herologin h3 {
+        font-size: 3.5rem;
+        margin: 5px 0 10px;
+    }
+    #herologin h2 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+        margin: 10px 0;
+    }
+    .bd-example {
+        padding: 1.5rem 1.5rem;
+    }
+    #herologin .btn-menu,
+    #herologin .btn-book {
+        font-size: 15px;
+    }
+    .bd-example .form-check.firstcheck {
+        font-size: 16px;
+        padding: 0 0 14px 0;
+        margin: 13px 0 10px 35px;
+    }
+    span.particletext.bubbles {
+        font-size: 3.3rem;
+    }
+    .main-box-ragistration {
+        padding: 0 1rem;
+    }
+    .mainmobileverification.container {
+        display: block;
+        height: auto;
+        max-width: 85%;
+    }
+    .mainmobileverification .card.otp {
+        width: 100%;
+        height: 690px;
+        /*max-width: 100%;
+		flex-basis: 100%;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* max-width: 100%; */
+        /* flex-basis: 100%; */
+        border-radius: 1rem;
+        padding: 2rem;
+    }
+    .container.height-100.d-flex.justify-content-center.align-items-center.mainmobileverification {
+        /* max-width: 85%; */
+        /* flex-basis: 85%; */
+        display: block !important;
+        position: relative;
+    }
+    .maincardposition {
+        position: relative!important;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainmobileverification .card.otp .acode,
+    .mainmobileverification .card.otp h6 {
+        font-size: 28px;
+        margin-bottom: 0.7rem;
+        line-height: 1.0;
+        width: auto;
+    }
+    .mainmobileverification .card.otp .acode {
+        line-height: 1.7;
+        font-size: 33px;
+        margin: 1.2rem 0;
+    }
+    .mainmobileverification .card.otp .acode a.changepassword {
+        line-height: 1.3;
+        font-size: 30px;
+        margin-bottom: 1.0rem;
+    }
+    .mainmobileverification .card.otp h6 {
+        font-size: 38px;
+        line-height: 1.3;
+    }
+    .form-control {
+        padding: 1.1rem .75rem !important;
+        height: calc(1.8em + .51rem + 1px);
+        margin-bottom: .5rem;
+    }
+    .validate {
+        border-radius: 2.5rem;
+        height: 80px;
+        background-color: #FF7657;
+        border: 1px solid #FF7657;
+        width: 300px;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    .inputs input {
+        /* width: 540px; */
+        height: 80px;
+        padding: 00 !important;
+        width: 540px;
+    }
+}
+
+@media (min-width: 991px) {
+    #hero {
+        height: 100vh;
+    }
+    #hero .ladyform {
+        height: 530px;
+    }
+    #hero .container .contentheromain {
+        margin-top: auto;
+        margin-bottom: auto;
+        top: 1.3rem;
+    }
+    #hero .php-email-form input {
+        padding: 10px 10px;
+        height: 52px;
+    }
+    .about.connected .aboutmaintak .maincard .card h2,
+    .about.connected .aboutmaintak .card.two h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    #hero {
+        padding: 5rem 0;
+        height: 860px;
+    }
+    #hero .php-email-form {
+        top: 3.5rem;
+        left: -.25rem;
+        padding: 0 15px;
+    }
+    #hero h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #hero h2 {
+        font-size: 22px;
+        margin: 1.7rem auto 1.5em;
+    }
+    #hero .maindeals img.mlady {
+        height: 250px;
+    }
+    #hero .ladyform {
+        height: 725px;
+    }
+    #hero .container .contentheromain {
+        top: .5rem;
+    }
+    #hero p {
+        line-height: 1.9;
+        margin: 10px 0;
+        padding: 15px 0 25px;
+    }
+    .about.connected .aboutmaintak .maincard .card,
+    .about.connected .aboutmaintak .maincard .card.one {
+        width: 180px;
+        height: 180px;
+    }
+    .about.connected .aboutmaintak .card.two {
+        width: 180px;
+        height: 180px;
+    }
+    .mobile-nav .mainlogin {
+        float: right;
+    }
+    .clients {
+        margin: 15px 0 10px;
+        padding: 60px 0;
+    }
+    .clients .owl-item {
+        padding: 20px 20px 0;
+        margin-top: 35px;
+    }
+    .services.section-bg {
+        height: 80vh;
+        padding: 60px 0;
+    }
+    .services.about.connected {
+        margin: 5rem 0 3rem;
+    }
+    .about .aboutmaintak {
+        margin-top: 6rem;
+        margin-bottom: 7rem;
+        padding-bottom: 0;
+    }
+    .about.connected .aboutmaintak {
+        top: 2rem;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        padding-bottom: 0;
+    }
+    .services .deals .mainicon p {
+        line-height: 1.4;
+    }
+    .gif {
+        position: absolute;
+        perspective: 1000px;
+        -webkit-perspective: 1000px;
+        transform: rotateX(354deg) rotateY(55deg);
+        top: 3.5%;
+    }
+    .trasformgif {
+        transform: rotateY( -76deg) translateZ(7em);
+    }
+    #big {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .about.connected .aboutmaintak .maincard {
+        margin-right: 0px;
+    }
+    /* body.login  {
 		overflow:hidden!important;
 	} */
-	#herologin {
-    	height: 100vh;
-	}
-	#herologin .slderleftman  {
-		padding: 0 20px 0 0;
-	}
-	#herologin .mainhero {
-		align-items: center;
-	}
-	.slderleftman.maincold {
-		position: relative;
-		z-index: 1;
-	}
-	body.login:before {
-		background: #fff;
-		position: absolute;
-		z-index: -1;
-		display: none;
-	}
-	#herologin .btnman {
-    	justify-content: flex-start;
-	}
-	#herologin h2 {
-	   font-size: 2.0rem;
-	   line-height: 1.3;
-	}
-	#herologin h3 {
-	    font-size: 2.0rem;
-	}
-	#herologin .bd-example .mainformtext {
-		font-size: 1.1rem;
-		line-height: 1.4;
-	}	
-	span.particletext.bubbles {
-		font-size: 1.7rem;
-		line-height: 1;
-		margin: 1.5rem 0 .5rem;
-	}
-	.bd-example .mainemial {
-		width: auto;
-		padding: 0 0px 15px 0;
+    #herologin {
+        height: 100vh;
     }
-	#herologin .btn-menu, #herologin .btn-book {
-    	font-size: 16px;
-		padding: 20px 30px;
+    #herologin .slderleftman {
+        padding: 0 20px 0 0;
     }
-	.bd-example .mainformtext {
-    	/* width: 50%; */
-		font-size: 2rem;
-		color: #000;
-		line-height: 65px;
-		margin: 0px 0 5px;
-		padding: 0px 0 15px 0;
-	}
-	#herologin h3 span {
-    	color: rgb(243 101 69);
-	}
-	#herologin h2 {
-    	color: rgb(243 101 69);
-	}
-	.particletext {
-    	color: rgb(0 0 0);
-	}
-	.mainmobileverification.container  {
-		max-width: 80%;
-	}	
-
-
+    #herologin .mainhero {
+        align-items: center;
+    }
+    .slderleftman.maincold {
+        position: relative;
+        z-index: 1;
+    }
+    body.login:before {
+        background: #fff;
+        position: absolute;
+        z-index: -1;
+        display: none;
+    }
+    #herologin .btnman {
+        justify-content: flex-start;
+    }
+    #herologin h2 {
+        font-size: 2.0rem;
+        line-height: 1.3;
+    }
+    #herologin h3 {
+        font-size: 2.0rem;
+    }
+    #herologin .bd-example .mainformtext {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+    span.particletext.bubbles {
+        font-size: 1.7rem;
+        line-height: 1;
+        margin: 1.5rem 0 .5rem;
+    }
+    .bd-example .mainemial {
+        width: auto;
+        padding: 0 0px 15px 0;
+    }
+    #herologin .btn-menu,
+    #herologin .btn-book {
+        font-size: 16px;
+        padding: 20px 30px;
+    }
+    .bd-example .mainformtext {
+        /* width: 50%; */
+        font-size: 2rem;
+        color: #000;
+        line-height: 65px;
+        margin: 0px 0 5px;
+        padding: 0px 0 15px 0;
+    }
+    #herologin h3 span {
+        color: rgb(243 101 69);
+    }
+    #herologin h2 {
+        color: rgb(243 101 69);
+    }
+    .particletext {
+        color: rgb(0 0 0);
+    }
+    .mainmobileverification.container {
+        max-width: 80%;
+    }
 }
 
-@media (min-width: 1024px)  {
-	
-	/*#hero {
+@media (min-width: 1024px) {
+    /*#hero {
     	height: 107vh;
 	}*/
-	#hero .ladyform {
-    	height: 724px;
-	}
-	#hero h1 {
-		font-size: 32px;
-		line-height: 45px;
-	}
-	#hero .maindeals img.mlady {
-   	 	height: 300px;
-	}
-	.nav-menu a {
-		padding: 12px 37px 12px 0;
-		font-size: 17px;
-	}
-	#herologin {
-    	height: auto;
-	}
-	.bd-example {
-    	padding: 1.0rem 0.8rem;
-		margin: 0;
-	}
-	/*#herologin .mainhero {
+    #hero .ladyform {
+        height: 724px;
+    }
+    #hero h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    #hero .maindeals img.mlady {
+        height: 300px;
+    }
+    .nav-menu a {
+        padding: 12px 37px 12px 0;
+        font-size: 17px;
+    }
+    #herologin {
+        height: auto;
+    }
+    .bd-example {
+        padding: 1.0rem 0.8rem;
+        margin: 0;
+    }
+    /*#herologin .mainhero {
 		align-items: flex-start;
 	}*/
-	#headerlogin .logo {
-		margin-left: 0rem;
-	}
-	span.particletext.bubbles {
-		font-size: 1.7rem;
-		line-height: 1;
-		margin: 0.5rem 0 .5rem;
-	}
-	#herologin .bd-example .mainformtext {
-    	font-size: 1.5rem;
-    }	
-
+    #headerlogin .logo {
+        margin-left: 0rem;
+    }
+    span.particletext.bubbles {
+        font-size: 1.7rem;
+        line-height: 1;
+        margin: 0.5rem 0 .5rem;
+    }
+    #herologin .bd-example .mainformtext {
+        font-size: 1.5rem;
+    }
 }
 
-@media (min-width: 1200px)  {
-	#hero {		
-		height: auto;
-	}
-	#hero .container .contentheromain {
-	    top: auto;
-	}
-	#hero .maindeals {
-    	justify-content: end;
-	}
-	
-	#hero .ladyform {
-		height: 706px;
-		background-size: contain;
-		align-items: baseline;
-		/* padding: 0 18px 0 17px; */
-	}
-	#hero .php-email-form {
-    	padding: 0 48px 0 55px;
-	}
-	#hero .maintext {
-    	text-align: left;    
-	}
-	.nav-menu a {
-		padding: 12px 40px 12px 0;
-	}
-	.container, .container-lg, .container-md, .container-sm, .container-xl {
-		max-width: 1140px;
-	}
-	
-	.blog .member .member-info {
-    	bottom: -57.9%;
-	}
-	.blog .member h4 {
-		font-size: 16px;
-	}
-	.blog .sidebar {
-	    padding: 20px 20px;
-	    margin: 0 0 60px 15px;    
-	}
-	.about.connected {
-		height: 101vh;
-		margin: 0;
-		padding: 0;
-		line-height: 0;
-		display: flex;
-		flex-direction: column-reverse;
-		justify-content: center;
-	}
-	.about.connected .aboutmaintak .maincardreal  {
-		justify-content: center;
-	}
-	.about.connected .aboutmaintak .maincard .card, .about.connected .aboutmaintak .maincard .card.one {
-		width: 250px;
-		height: 250px;
-		margin: 10px 15px 10px 0;
-	} 
-	.about.connected .aboutmaintak .card.two {
-		width: 250px;
-		height: 250px;
-		top: 150px;
-		margin-bottom: 15px;
-	} 
-	.services.about.connected .aboutmaintak {
-		margin-top: -70px;
-		margin-bottom: 0rem;
-		transform: rotateX(180deg);
-		padding-bottom: 0rem;
-		top: -90px;
-	}
-	.about.connected, .about {
-		height: 115vh;
-		margin: 0rem 0;
-		padding: 0rem 0 0rem;
-	}
-	.about .aboutmaintak {
-		margin-top: 5rem;
-		margin-bottom: 1rem;
-		padding-bottom: 0;
-		top: 10rem;
-	}
-	.about.connected .aboutmaintak {
-		top: 0rem;
-		margin-top: -2rem;
-		margin-bottom: 1rem;
-		padding-bottom: 0;
-	}
-	.services.about.connected .aboutmaintak  {
-		margin-top: 0;
-		top: 0;
-	}
-	.services .deals .mainicon p {
-		line-height: 1.5;
+@media (min-width: 1200px) {
+    #hero {
+        height: auto;
     }
-	.services.about.connected {
-    	margin: 4rem 0 4rem;
-	}
-	.gif {
-		transform: rotateX(11deg) rotateY(63deg);
-		top: -4.9%;
-	}
-	.trasformgif {
-    	transform: rotateY( -42deg)  translateZ(-4em);
-	}
-	.services .deals .mainicon {
-    	margin: 1rem 0 0.5rem .5rem;
-	}
-	#headerlogin .logo {
-    	margin-left: 0.5rem;
-	}
-	#headerlogin .logo img {
-		max-height: 70px;
-	}
-	#herologin .carousel-content {
-		margin: 0rem 4rem;
-	}	
-	#herologin .mainhero {
-		margin-left: 1.2rem;
-		margin-right: 1.2rem;
-	}
-	#herologin h2 {
-		font-size: 2.4rem;
-		line-height: 1.2;
-	}
-	#herologin h3 {
-	    font-size: 2.5rem;
-	}
-	#herologin .bd-example .mainformtext {
-		font-size: 1.7rem;
-	}
-	span.particletext.bubbles {
-		margin: 0rem 0 0rem;
-	}
-	.bd-example .mainemial {
-		width: 450px;
-		padding: 0 20px 15px 0;
+    #hero .container .contentheromain {
+        top: auto;
     }
-	.mainmobileverification.container {
-		width: 70%;
-	}
-}
-
-@media (min-width: 1366px)  {	
-	.mainmobileverification.container {
-		display: flex;
-		justify-content: center;
-		align-content: center;
-	}
-	.container, .container-lg, .container-md, .container-sm, .container-xl {
-		max-width: 1314px;
-	}	
-	#hero {
-		height: auto;
-	}
-	#hero .container .contentheromain {
-	    top: 0rem;
-	}
-	#hero .php-email-form {
-    	padding: 0 50px 0 60px;
-		top: 2.8rem;
-	}
-	.nav-menu a {
-		padding: 12px 60px 12px 0;
-	}
+    #hero .maindeals {
+        justify-content: end;
+    }
+    #hero .ladyform {
+        height: 706px;
+        background-size: contain;
+        align-items: baseline;
+        /* padding: 0 18px 0 17px; */
+    }
+    #hero .php-email-form {
+        padding: 0 48px 0 55px;
+    }
+    #hero .maintext {
+        text-align: left;
+    }
+    .nav-menu a {
+        padding: 12px 40px 12px 0;
+    }
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px;
+    }
+    .blog .member .member-info {
+        bottom: -57.9%;
+    }
+    .blog .member h4 {
+        font-size: 16px;
+    }
+    .blog .sidebar {
+        padding: 20px 20px;
+        margin: 0 0 60px 15px;
+    }
+    .about.connected {
+        height: 101vh;
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .about.connected .aboutmaintak .maincardreal {
+        justify-content: center;
+    }
+    .about.connected .aboutmaintak .maincard .card,
+    .about.connected .aboutmaintak .maincard .card.one {
+        width: 250px;
+        height: 250px;
+        margin: 10px 15px 10px 0;
+    }
+    .about.connected .aboutmaintak .card.two {
+        width: 250px;
+        height: 250px;
+        top: 150px;
+        margin-bottom: 15px;
+    }
+    .services.about.connected .aboutmaintak {
+        margin-top: -70px;
+        margin-bottom: 0rem;
+        transform: rotateX(180deg);
+        padding-bottom: 0rem;
+        top: -90px;
+    }
+    .about.connected,
+    .about {
+        height: 115vh;
+        margin: 0rem 0;
+        padding: 0rem 0 0rem;
+    }
+    .about .aboutmaintak {
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0;
+        top: 10rem;
+    }
+    .about.connected .aboutmaintak {
+        top: 0rem;
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0;
+    }
+    .services.about.connected .aboutmaintak {
+        margin-top: 0;
+        top: 0;
+    }
+    .services .deals .mainicon p {
+        line-height: 1.5;
+    }
     .services.about.connected {
-    	margin: 1rem 0 1rem;
-		padding: 0;
-	}
-	.testimonials .card-title a  {
-		font-size: 2.3rem;
-	}	
-	.about.connected, .about {
-    	height: auto;
+        margin: 4rem 0 4rem;
     }
-	.about.connected .aboutmaintak {
-    	margin: 9rem auto 17rem;
-	}
-	.about .aboutmaintak {
-		margin-top: 14rem;
-		margin-bottom: 23rem;
-		padding-bottom: 0;
-		top: auto;
-	}
-	.gif {
-		transform: rotateX(20deg) rotateY(64deg);
-		top: -20.9%;
-	}
-	.trasformgif {
-    	transform: rotateY( -57deg)  translateZ(-17em);
-	}
-	#headerlogin  {
-		padding: 20px 0 0;
-	}
-	/*#headerlogin .logo {
+    .gif {
+        transform: rotateX(11deg) rotateY(63deg);
+        top: -4.9%;
+    }
+    .trasformgif {
+        transform: rotateY( -42deg) translateZ(-4em);
+    }
+    .services .deals .mainicon {
+        margin: 1rem 0 0.5rem .5rem;
+    }
+    #headerlogin .logo {
+        margin-left: 0.5rem;
+    }
+    #headerlogin .logo img {
+        max-height: 70px;
+    }
+    #herologin .carousel-content {
+        margin: 0rem 4rem;
+    }
+    #herologin .mainhero {
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
+    #herologin h2 {
+        font-size: 2.4rem;
+        line-height: 1.2;
+    }
+    #herologin h3 {
+        font-size: 2.5rem;
+    }
+    #herologin .bd-example .mainformtext {
+        font-size: 1.7rem;
+    }
+    span.particletext.bubbles {
+        margin: 0rem 0 0rem;
+    }
+    .bd-example .mainemial {
+        width: 450px;
+        padding: 0 20px 15px 0;
+    }
+    .mainmobileverification.container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1366px) {
+    .mainmobileverification.container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1314px;
+    }
+    #hero {
+        height: auto;
+    }
+    #hero .container .contentheromain {
+        top: 0rem;
+    }
+    #hero .php-email-form {
+        padding: 0 85px 0 90px;
+        top: 2.8rem;
+    }
+    #hero h2 {
+        font-size: 22px;
+        margin: 1.4rem auto 1.3em;
+    }
+    #hero .php-email-form input {
+        padding: 10px 10px;
+        height: 45px;
+        margin: 0;
+    }
+    .nav-menu a {
+        padding: 12px 60px 12px 0;
+    }
+    .services.about.connected {
+        margin: 1rem 0 1rem;
+        padding: 0;
+    }
+    .testimonials .card-title a {
+        font-size: 2.3rem;
+    }
+    .about.connected,
+    .about {
+        height: auto;
+    }
+    .about.connected .aboutmaintak {
+        margin: 9rem auto 17rem;
+    }
+    .about .aboutmaintak {
+        margin-top: 14rem;
+        margin-bottom: 23rem;
+        padding-bottom: 0;
+        top: auto;
+    }
+    .gif {
+        transform: rotateX(20deg) rotateY(64deg);
+        top: -20.9%;
+    }
+    .trasformgif {
+        transform: rotateY( -57deg) translateZ(-17em);
+    }
+    #headerlogin {
+        padding: 20px 0 0;
+    }
+    /*#headerlogin .logo {
     	margin-left: 2rem;
 	}*/
-	#headerlogin .logo img {
-    	max-height: 65px;
-	}
-	#herologin .mainhero {
-		margin-left: 1.5rem;
-		margin-right: 1.5rem;
-	}
-	#herologin h2 {
-		font-size: 2.0rem;
-		line-height: 1.2;
-	}
-	#herologin h3 {
-	    font-size: 2.0rem;
-		margin: 5px 0;
-	}
-	#herologin .bd-example .mainformtext {
-		font-size: 1.9rem;
-	}
-	span.particletext.bubbles {
-    	font-size: 2.1rem;
-	}
-	.bd-example {
-		padding: 1rem;
-	}
-	/*#herologin .slderleftman {
+    #headerlogin .logo img {
+        max-height: 65px;
+    }
+    #herologin .mainhero {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    #herologin h2 {
+        font-size: 2.0rem;
+        line-height: 1.2;
+    }
+    #herologin h3 {
+        font-size: 2.0rem;
+        margin: 5px 0;
+    }
+    #herologin .bd-example .mainformtext {
+        font-size: 1.9rem;
+    }
+    span.particletext.bubbles {
+        font-size: 2.1rem;
+    }
+    .bd-example {
+        padding: 1rem;
+    }
+    /*#herologin .slderleftman {
 	    justify-content: center;
 	}*/
-
-	.mainmobileverification.container {
-		width: 50%;
-	}
-	.mainmobileverification .card.otp {
-		width: 100%;
-		height: 500px;
-		/* max-width: 100%; */
-		/* flex-basis: 100%; */
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		/* max-width: 100%; */
-		/* flex-basis: 100%; */
-		border-radius: 1rem;
-		padding: 2rem;
-	}
-	.mainmobileverification .card.otp h6 {
-		font-size: 27px;
-		line-height: 1.3;
-	}
-	.mainmobileverification .card.otp .acode {
-		line-height: 1.1;
-		font-size: 25px;
-		margin: 0.7rem 0;
-	}
-	.inputs input {
-		/* width: 540px; */
-		height: 66px;
-		padding: 00 !important;
-		width: 400px;
-	}
-	.mainmobileverification .card.otp .acode {
-		line-height: 1.1;
-		font-size: 25px;
-		margin: 0.7rem 0;
-	}
-	.mainmobileverification .card.otp .acode a.changepassword {
-		line-height: 1.5;
-		font-size: 25px;
-		margin-bottom: 1.5rem;
-	}
-	.validate {
-		border-radius: 2.5rem;
-		height: 60px;
-		background-color: #FF7657;
-		border: 1px solid #FF7657;
-		width: 205px;
-		font-size: 1.4rem;
-		font-weight: 400;
-	}
-	
-	
+    .mainmobileverification.container {
+        width: 50%;
+    }
+    .mainmobileverification .card.otp {
+        width: 100%;
+        height: 500px;
+        /* max-width: 100%; */
+        /* flex-basis: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* max-width: 100%; */
+        /* flex-basis: 100%; */
+        border-radius: 1rem;
+        padding: 2rem;
+    }
+    .mainmobileverification .card.otp h6 {
+        font-size: 27px;
+        line-height: 1.3;
+    }
+    .mainmobileverification .card.otp .acode {
+        line-height: 1.1;
+        font-size: 25px;
+        margin: 0.7rem 0;
+    }
+    .inputs input {
+        /* width: 540px; */
+        height: 66px;
+        padding: 00 !important;
+        width: 400px;
+    }
+    .mainmobileverification .card.otp .acode {
+        line-height: 1.1;
+        font-size: 25px;
+        margin: 0.7rem 0;
+    }
+    .mainmobileverification .card.otp .acode a.changepassword {
+        line-height: 1.5;
+        font-size: 25px;
+        margin-bottom: 1.5rem;
+    }
+    .validate {
+        border-radius: 2.5rem;
+        height: 60px;
+        background-color: #FF7657;
+        border: 1px solid #FF7657;
+        width: 205px;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
 }
 
-@media (min-width: 1400px)  {
-	#hero {
-   	 	height: 1050px;
-	}
-	
-	#hero .container .contentheromain {
-	    top: auto;
-	}
-	#hero .ladyform {
-    	height: 875px;
-	}
-	#hero .php-email-form {
-		top: 4.5rem;
-		/*padding:  0 30px 0 35px;*/
-		padding: 0 50px 0 55px;
-	}
-	#headerlogin  {
-		padding: 15px 0;
-	}
-	#headerlogin .logo {
-    	margin-left: 2rem;
-	}
-	#herologin .mainhero {
-		margin-left: 3rem;
-		margin-right: 3rem;
-		display: flex;
-    	/*justify-content: center;*/
-    	/*align-items: center;*/
-	}
-	#herologin h2 {
-		font-size: 2.5rem;
-		line-height: 1.2;
-		margin-bottom: 10px;
-		margin-top:10px;
-	}
-	#herologin h3 {
-    	font-size: 2.5rem;
-		margin: 10px 0;
-	}	
-	#herologin .bd-example .mainformtext {
-		font-size: 1.8rem;
-		line-height: 1.9;
-	}
-	
-	span.particletext.bubbles {
-		font-size: 2.5rem;
-		margin: 1rem 0;
-	}
-	.bd-example {
-	  padding: 1.5rem;
-	}
-	.ragistrationfom  {
-		overflow: hidden;
-		height: 100vh;
-	}
-	.gif {
-		transform: /*rotateX(7deg) rotateY(61deg)*/rotateX(11deg) rotateY(45deg);
-		top: -23%;
-	}
-	.trasformgif {
-    	transform: /*rotateY( -58deg)  translateZ(-35em)*/rotateY( -44deg)  translateZ(-22em);
-	}
+@media (min-width: 1400px) {
+    #hero {
+        height: 1050px;
+    }
+    #hero .container .contentheromain {
+        top: auto;
+    }
+    #hero .ladyform {
+        height: 875px;
+    }
+    #hero .php-email-form {
+        top: 4.5rem;
+        /*padding:  0 30px 0 35px;*/
+        padding: 0 50px 0 55px;
+    }
+    #headerlogin {
+        padding: 15px 0;
+    }
+    #headerlogin .logo {
+        margin-left: 2rem;
+    }
+    #herologin .mainhero {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        display: flex;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+    }
+    #herologin h2 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #herologin h3 {
+        font-size: 2.5rem;
+        margin: 10px 0;
+    }
+    #herologin .bd-example .mainformtext {
+        font-size: 1.8rem;
+        line-height: 1.9;
+    }
+    span.particletext.bubbles {
+        font-size: 2.5rem;
+        margin: 1rem 0;
+    }
+    .bd-example {
+        padding: 1.5rem;
+    }
+    .ragistrationfom {
+        overflow: hidden;
+        height: 100vh;
+    }
+    .gif {
+        transform: /*rotateX(7deg) rotateY(61deg)*/
+        rotateX(11deg) rotateY(45deg);
+        top: -23%;
+    }
+    .trasformgif {
+        transform: /*rotateY( -58deg)  translateZ(-35em)*/
+        rotateY( -44deg) translateZ(-22em);
+    }
 }
 
-@media (min-width: 1920px)  {
-	/*#herologin {
+@media (min-width: 1920px) {
+    /*#herologin {
 		height: 100vh;
 	}*/
-	#hero {
-   	 	height: 1150px;
-	}
-	#herologin h2 {
-		font-size: 3.2rem;
-	}
-	#herologin h3 {
-    	font-size: 3.1rem;
-	}
-	#herologin .bd-example .mainformtext {
-    	font-size: 2.8rem;
-	}
+    #hero {
+        height: 1150px;
+    }
+    #herologin h2 {
+        font-size: 3.2rem;
+    }
+    #herologin h3 {
+        font-size: 3.1rem;
+    }
+    #herologin .bd-example .mainformtext {
+        font-size: 2.8rem;
+    }
 }
-
