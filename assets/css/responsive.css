@@ -262,7 +262,7 @@
         position: absolute;
         z-index: -1;
     }
-    .smallmobileblack {
+    body.login .smallmobileblack {
         width: 100%;
         height: auto;
         content: "";
@@ -1244,7 +1244,7 @@
     .mainmobileverification.container {
         max-width: 80%;
     }
-    .smallmobileblack {
+    body.login .smallmobileblack {
         display: none;
     }
 }
