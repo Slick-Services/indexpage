@@ -637,6 +637,9 @@
 @media (max-width: 575.98px) {}
 
 @media (min-width: 576px) {
+    #header .logo img {
+        height: 85px;
+    }
     #herologin h3 {
         font-size: 2.5rem;
     }
