@@ -32,10 +32,10 @@
     #hero .ladyform {
         height: 490px;
     }
-    #hero .php-email-form {
+    /*#hero .php-email-form {
         padding: 0 25px;
         left: auto;
-    }
+    }*/
     #hero h2 {
         font-size: 16px;
         margin: 0.7rem auto 1.2rem;
@@ -494,9 +494,9 @@
 }
 
 @media (min-width: 360px) {
-    #hero .php-email-form {
+    /*#hero .php-email-form {
         padding: 0 50px;
-    }
+    }*/
     #herologin {
         height: auto;
     }
@@ -586,9 +586,9 @@
     #hero .ladyform {
         height: 750px;
     }
-    #hero .php-email-form {
+    /*#hero .php-email-form {
         padding: 0 70px;
-    }
+    }*/
 }
 
 @media (min-width: 500px) {
@@ -609,7 +609,7 @@
         /*margin: 10px 20px 10px 0;*/
     }
     #hero .php-email-form {
-        padding: 0 5.5rem;
+        /*padding: 0 5.5rem;*/
         top: 3.5rem;
     }
     #herologin {
@@ -663,7 +663,7 @@
     }
     #hero .php-email-form {
         top: 3.0rem;
-        padding: 0 2.5rem;
+        /*padding: 0 2.5rem;*/
     }
     #hero h1 {
         margin: 1rem 0;
@@ -766,7 +766,7 @@
 @media (min-width: 641px) {
     #hero .php-email-form {
         top: 4rem;
-        padding: 0 2.5rem;
+        /*padding: 0 2.5rem;*/
     }
 }
 
@@ -831,7 +831,7 @@
     }
     #hero .php-email-form {
         top: 1.8rem;
-        padding: 0 20px 0 12px;
+        /*padding: 0 20px 0 12px;*/
     }
     .nav-menu a {
         padding: 12px 35px 12px 0;
@@ -1111,7 +1111,7 @@
     #hero .php-email-form {
         top: 3.5rem;
         left: -.25rem;
-        padding: 0 15px;
+        /*padding: 0 15px;*/
     }
     #hero h1 {
         font-size: 40px;
