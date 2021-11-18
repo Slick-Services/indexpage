@@ -40,19 +40,6 @@
         font-size: 16px;
         margin: 0.7rem auto 1.2rem;
     }
-    #hero .php-email-form input {
-        padding: 20px 10px;
-        height: 35px;
-    }
-    /*#hero .php-email-form input {
-        padding: 10px 10px;
-        height: 45px;
-        margin: 0;
-    }*/
-    /*#hero .php-email-form input {
-        padding: 7px 8px;
-        height: 42px;
-    }*/
     #hero .php-email-form button[type="submit"],
     .about .manaboutbtn {
         padding: 10px 20px;
@@ -405,9 +392,6 @@
     .form-outline {
         flex-direction: column;
     }
-    .form-control {
-        padding: 0.45rem .4rem !important;
-    }
     label.form-label.col-sm-4 {
         margin-bottom: .7rem;
     }
@@ -472,10 +456,6 @@
         line-height: 1.2;
         margin-bottom: .5rem;
     }
-    .form-control {
-        padding: 1.3rem .75rem !important;
-        height: calc(1.0em + .51rem + 1px);
-    }
     .inputs input {
         /* width: 540px; */
         height: 40px;
@@ -521,17 +501,13 @@
     }
     #hero h2 {
         font-size: 16px;
-        margin: 0.7rem auto 2.2rem;
+        margin: 0.7rem auto 1.7rem;
     }
     #hero .php-email-form button[type="submit"],
     .about .manaboutbtn {
         padding: 14px 36px;
         box-shadow: 0px 13px 20px #eba492;
         margin-top: 1rem;
-    }
-    #hero .php-email-form input {
-        padding: 10px 10px;
-        height: 52px;
     }
     #herologin {
         height: auto;
@@ -748,10 +724,6 @@
         flex-direction: row;
         align-items: center;
     }
-    .form-control {
-        padding: 1.1rem .75rem !important;
-        height: calc(1.0em + .51rem + 1px);
-    }
     .gender {
         display: flex;
     }
@@ -820,10 +792,6 @@
         align-items: flex-start;
         padding: 0 18px 0 17px;
         height: 535px;
-    }
-    #hero .php-email-form input {
-        padding: 10px 10px;
-        height: 43px;
     }
     #hero .formsmainphpmain {
         align-items: center;
@@ -1058,11 +1026,6 @@
         font-size: 38px;
         line-height: 1.3;
     }
-    .form-control {
-        padding: 1.1rem .75rem !important;
-        height: calc(1.8em + .51rem + 1px);
-        margin-bottom: .5rem;
-    }
     .validate {
         border-radius: 2.5rem;
         height: 80px;
@@ -1092,10 +1055,6 @@
         margin-bottom: auto;
         top: 1.3rem;
     }
-    #hero .php-email-form input {
-        padding: 10px 10px;
-        height: 52px;
-    }
     .about.connected .aboutmaintak .maincard .card h2,
     .about.connected .aboutmaintak .card.two h2 {
         text-align: center;
@@ -1109,7 +1068,7 @@
         height: 860px;
     }
     #hero .php-email-form {
-        top: 3.5rem;
+        top: 2.5rem;
         left: -.25rem;
         /*padding: 0 15px;*/
     }
@@ -1481,11 +1440,6 @@
         font-size: 22px;
         margin: 1.4rem auto 1.3em;
     }
-    #hero .php-email-form input {
-        padding: 10px 10px;
-        height: 45px;
-        margin: 0;
-    }
     .nav-menu a {
         padding: 12px 60px 12px 0;
     }
@@ -1642,11 +1596,6 @@
     #herologin .bd-example .mainformtext {
         font-size: 1.8rem;
         line-height: 1.9;
-    }
-    #hero .php-email-form input {
-        padding: 10px 10px;
-        height: 50px;
-        margin: 0;
     }
     span.particletext.bubbles {
         font-size: 2.5rem;
