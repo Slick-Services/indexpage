@@ -458,12 +458,6 @@
         line-height: 1.2;
         margin-bottom: .5rem;
     }
-    .inputs input {
-        /* width: 540px; */
-        height: 40px;
-        padding: 00 !important;
-        width: 250px;
-    }
     .validate {
         border-radius: 2.5rem;
         height: 40px;
@@ -684,12 +678,6 @@
     }
     .ragistrationfom {
         padding: 1.1rem 0rem;
-    }
-    .inputs input {
-        /* width: 540px; */
-        height: 60px;
-        padding: 00 !important;
-        width: 430px;
     }
     .mainmobileverification .card.otp {
         width: 85%;
@@ -1052,12 +1040,6 @@
         width: 300px;
         font-size: 1.7rem;
         font-weight: bold;
-    }
-    .inputs input {
-        /* width: 540px; */
-        height: 80px;
-        padding: 00 !important;
-        width: 540px;
     }
 }
 
