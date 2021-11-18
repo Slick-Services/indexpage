@@ -1607,11 +1607,6 @@ label {
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.col-md-12.form-group {
-    margin-bottom: .5rem;
-    ;
-}
-
 section.ragistrationfom {
     height: 100vh;
     display: flex;
