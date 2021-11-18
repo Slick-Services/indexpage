@@ -1765,7 +1765,7 @@ img.img-fluid.mainsidebg {
     height: 870px;
     background-size: cover;
     padding: 0;
-    margin-left: -1px;
+    margin-left: -4px;
     position: relative;
     z-index: 0;
 }
