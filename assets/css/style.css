@@ -1969,8 +1969,9 @@ body .particletext.hearts>.particle:after {
 .inputs input {
     /*width: 45px;*/
     /*height: 45px*/
-    width: 540px;
-    height: 80px;
+    /*width: 540px;
+    height: 80px;*/
+    padding: 1.9rem;
 }
 
 input[type=number]::-webkit-inner-spin-button,
