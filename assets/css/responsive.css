@@ -473,8 +473,7 @@
     .main-box-ragistration {
         border: none;
     }
-    .main-form-ragistration,
-    section.ragistrationfom .mb-3 {
+    .main-form-ragistration {
         padding: 0;
     }
 }
@@ -570,7 +569,8 @@
     .main-box-ragistration {
         border: 1px solid #707070;
     }
-    .main-form-ragistration {
+    .main-form-ragistration,
+    section.ragistrationfom .mb-3 {
         padding: 0 1rem;
     }
 }
