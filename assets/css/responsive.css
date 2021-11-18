@@ -491,6 +491,9 @@
     .main-form-ragistration {
         padding: 0;
     }
+    #herologin .slderleftman.maincold {
+        display: none;
+    }
 }
 
 @media (min-width: 360px) {
@@ -1270,6 +1273,9 @@
         background: rgb(255 255 255 / 100%);
         z-index: 0;
         display: flex;
+    }
+    #herologin .slderleftman.maincold {
+        display: block;
     }
 }
 
