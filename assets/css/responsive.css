@@ -262,15 +262,27 @@
         position: absolute;
         z-index: -1;
     }
-    body.login .smallmobileblack {
-        width: 100%;
+    .test {
+        background: #fffccc;
+        border: solid 3px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 40px 20px;
+    }
+    .login.blue {
+        background: rgb(31 3 3 / 65%);
+    }
+    .test.green {
+        background: green;
+    }
+    body.login.smallmobileblack {
+        /*width: 100%;
         height: auto;
         content: "";
-        position: absolute;
+        position: absolute;*/
         top: 0;
         background: rgb(31 3 3 / 65%);
         z-index: 0;
-        display: block;
+        display: flex;
     }
     #headerlogin {
         padding: 10px 0;
@@ -1244,9 +1256,9 @@
     .mainmobileverification.container {
         max-width: 80%;
     }
-    body.login .smallmobileblack {
+    /*body.login.smallmobileblack {
         display: none;
-    }
+    }*/
 }
 
 @media (min-width: 1024px) {
