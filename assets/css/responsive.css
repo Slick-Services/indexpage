@@ -473,6 +473,10 @@
     .main-box-ragistration {
         border: none;
     }
+    .main-form-ragistration,
+    section.ragistrationfom .mb-3 {
+        padding: 0;
+    }
 }
 
 @media (min-width: 360px) {
@@ -565,6 +569,10 @@
     }
     .main-box-ragistration {
         border: 1px solid #707070;
+    }
+    .main-form-ragistration,
+    section.ragistrationfom .mb-3 {
+        padding: 0 1rem;
     }
 }
 
