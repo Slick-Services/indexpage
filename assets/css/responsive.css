@@ -270,7 +270,7 @@
         top: 0;
         background: rgb(31 3 3 / 65%);
         z-index: 0;
-        display: flex;
+        display: block;
     }
     #headerlogin {
         padding: 10px 0;
