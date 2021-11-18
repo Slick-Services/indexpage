@@ -139,15 +139,16 @@ h6 {
 #header .nav-menu a.btn-get-started {
     color: #212529;
     border-radius: 8px;
-    padding: 13px 26px 13px 26px;
+    padding: 10px 26px 10px 26px;
     white-space: nowrap;
     transition: 0.3s;
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     border: 2px solid rgb(143 49 27);
     margin: 2px 0;
     margin: auto;
     position: relative;
+    width: 110px;
 }
 
 #header.header-scrolled .nav-menu a.btn-get-started:hover {
