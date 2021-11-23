@@ -473,7 +473,7 @@
         line-height: 1.2;
         margin-bottom: .5rem;
     }
-    .validate {
+    button.validate {
         border-radius: 2.5rem;
         height: 40px;
         background-color: #FF7657;
@@ -1069,7 +1069,7 @@
         font-size: 38px;
         line-height: 1.3;
     }
-    .validate {
+    button.validate {
         border-radius: 2.5rem;
         height: 80px;
         background-color: #FF7657;
@@ -1597,7 +1597,7 @@
         font-size: 25px;
         margin-bottom: 1.5rem;
     }
-    .validate {
+    button.validate {
         border-radius: 2.5rem;
         height: 60px;
         background-color: #FF7657;

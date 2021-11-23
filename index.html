@@ -105,21 +105,26 @@
                                 <form action="forms/contact.php" method="post" role="form" class="php-email-form formmainhero col-xl-9 col-lg-12 col-md-11 col-11">
                                     <div class="form-row">
                                         <h2>Create New Account</h2>
-                                        <div class="col-md-12 form-group">
+                                        <div class="col-md-12 form-group d-flex">
                                             <input type="text" name="name" class="form-control" id="name" placeholder="First Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                            <div class="validate"></div>
+                                            <div class="validate pl-2"><i class="las la-asterisk"></i></div>
                                         </div>
-                                        <div class="col-md-12 form-group">
+                                        <div class="col-md-12 form-group d-flex">
                                             <input type="text" name="name" class="form-control" id="name-new" placeholder="Last Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                            <div class="validate"></div>
+                                            <div class="validate pl-2"><i class="las la-asterisk"></i></div>
                                         </div>
-                                        <div class="col-md-12 form-group">
+                                        <div class="col-md-12 form-group d-flex">
                                             <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" data-rule="email" data-msg="Please enter a valid email" />
-                                            <div class="validate"></div>
+                                            <div class="validate pl-2"><i class="las la-asterisk"></i></div>
                                         </div>
 
-                                        <div class="col-md-12 form-group">
+                                        <div class="col-md-12 form-group d-flex">
                                             <input type="phone" class="form-control" name="phone" id="phone" placeholder="Phone Number" data-rule="email" data-msg="Please enter phonenumber" />
+                                            <div class="validate pl-2"><i class="las la-asterisk"></i></div>
+                                        </div>
+
+                                        <div class="col-md-12 form-group d-flex pr-4">
+                                            <input type="text" name="referral_code" class="form-control" id="referral_code" placeholder="Referral Code" data-msg="Please enter at least 4 chars" />
                                             <div class="validate"></div>
                                         </div>
                                     </div>
@@ -160,32 +165,32 @@
                     <div id="big" class="col-lg-6 col-md-6 maincardreal" data-aos="fade-left" data-aos-delay="100">
                         <div class="maincard">
                             <div class="card">
-                                <img src="assets/img/icon-1.png" class="img-fluid" />
+                                <img src="assets/img/opinion.svg" class="img-fluid" />
                                 <h2>Read Real Opinions</h2>
                             </div>
                             <div class="card one">
-                                <img src="assets/img/icon_2.png" class="img-fluid" />
-                                <h2>Read Real Opinions</h2>
+                                <img src="assets/img/rewards.svg" class="img-fluid" />
+                                <h2>Take Survey</h2>
                             </div>
                         </div>
                         <div class="card two">
-                            <img src="assets/img/icon_3.png" class="img-fluid" />
-                            <h2>Read Real Opinions</h2>
+                            <img src="assets/img/survey.svg" class="img-fluid" />
+                            <h2>Get Rewards</h2>
                         </div>
                     </div>
                     <div id="small" class="col-lg-6 col-md-6 maincardreal" data-aos="fade-left" data-aos-delay="100">
                         <div class="maincard">
                             <div class="card">
-                                <img src="assets/img/2.svg" class="img-fluid" />
+                                <img src="assets/img/opinion.svg" class="img-fluid" />
                                 <h2>Read Real Opinions</h2>
                             </div>
                             <div class="card second">
-                                <img src="assets/img/1.svg" class="img-fluid" />
-                                <h2>Read Real Opinions</h2>
+                                <img src="assets/img/rewards.svg" class="img-fluid" />
+                                <h2>Take Survey</h2>
                             </div>
                             <div class="card last">
-                                <img src="assets/img/3.svg" class="img-fluid" />
-                                <h2>Read Real Opinions</h2>
+                                <img src="assets/img/survey.svg" class="img-fluid" />
+                                <h2>Get Rewards</h2>
                             </div>
                         </div>
                         <!--<div class="card two">
@@ -226,7 +231,7 @@
                     <div class="timeline contentednew">
                         <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1" data-aos="fade-up" data-aos-delay="100">
                             <div class="timeline__event__icon ">
-                                <i class="fas fa-user-edit"></i>
+                                <img src="assets/img/icon1.svg" class="img-fluid" />
                             </div>
                             <div class="timeline__event__date">
                                 01
@@ -242,8 +247,7 @@
                         </div>
                         <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2" data-aos="fade-up" data-aos-delay="200">
                             <div class="timeline__event__icon">
-                                <i class="fa fa-file-alt"></i>
-
+                                <img src="assets/img/icon2-01.svg" class="img-fluid" />
                             </div>
                             <div class="timeline__event__date">
                                 02
@@ -260,8 +264,7 @@
 
                         <div class="timeline__event animated fadeInUp timeline__event--type1" data-aos="fade-up" data-aos-delay="300">
                             <div class="timeline__event__icon">
-                                <i class="fas fa-trophy"></i>
-
+                                <img src="assets/img/icon3-01.svg" class="img-fluid" />
                             </div>
                             <div class="timeline__event__date">
                                 03

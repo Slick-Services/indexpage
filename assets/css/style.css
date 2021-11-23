@@ -25,6 +25,23 @@ h6 {
     font-family: "Poppins", sans-serif;
 }
 
+::-webkit-input-placeholder {
+    /* Edge */
+    color: rgb(255, 255, 255);
+    background: none;
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(255, 255, 255);
+    background: none;
+}
+
+ ::placeholder {
+    color: rgb(255, 255, 255);
+    background: none;
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -504,11 +521,10 @@ h6 {
 }
 
 #hero .php-email-form .validate {
-    display: none;
     color: red;
     margin: 0 0 15px 0;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 #hero .php-email-form .error-message {
@@ -1011,7 +1027,7 @@ section {
 
 #footer .footer-top {
     padding: 60px 0 40px 0;
-    background: url("../img/pattern-contact.png") no-repeat;
+    background: url("../img/footer.png") no-repeat;
 }
 
 #footer .footer-top .footer-contact {
@@ -2015,7 +2031,7 @@ input[type=number]::-webkit-outer-spin-button {
     width: 140px
 }*/
 
-.validate {
+button.validate {
     border-radius: 2.5rem;
     height: 80px;
     background-color: #FF7657;
