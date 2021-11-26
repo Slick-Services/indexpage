@@ -728,8 +728,13 @@
     .maingetredm,
     .maingifopi {
         max-width: 100%;
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 641.00px) {
+    .maingetredm,
+    .maingifopi {
+        max-width: unset;
     }
 }
 
