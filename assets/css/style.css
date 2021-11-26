@@ -2056,3 +2056,19 @@ button.validate {
     background-color: #c55036;
     border-color: #c55036;
 }
+
+section#privacypolicy {
+    /* float: left; */
+    /* display: flex; */
+    margin: 2rem auto 2rem;
+}
+
+#header.innerpolicy .nav-menu a {
+    color: rgb(144 37 12);
+    padding: 9px 25px;
+    transition: 1s all;
+}
+
+#header.innerpolicy {
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
