@@ -194,7 +194,6 @@
         position: relative;
         perspective: 0;
         -webkit-perspective: 0;
-        transform-style: preserve-3d;
         /* border: solid 13px; */
         transform: rotate(0deg);
     }
@@ -575,7 +574,7 @@
     }
     .services .deals {
         padding: 25px;
-        margin: auto;
+        margin: auto .7rem;
     }
     .about.connected .aboutmaintak .maincard {
         flex-direction: row;
@@ -725,6 +724,15 @@
     }
 }
 
+@media (max-width: 639.98px) {
+    .maingetredm,
+    .maingifopi {
+        max-width: 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+}
+
 @media (min-width: 640px) {
     .services .deals {
         margin-left: auto;
@@ -757,9 +765,8 @@
         position: absolute;
         perspective: 800px;
         -webkit-perspective: 800px;
-        transform-style: preserve-3d;
         transform: rotateX(-3deg) rotateY(28deg);
-        top: 25%;
+        top: 16%;
     }
     .about.connected .content,
     .contentednew,
@@ -969,7 +976,14 @@
     }
     .services.take .deals .mainicon p.delstext {
         font-size: 3.7rem;
-        margin: 2.4rem 0 1.1rem;
+        margin: 1.4rem 0 1.1rem;
+    }
+    .gif {
+        transform: rotateX(-1deg) rotateY(21deg);
+        top: 18%;
+    }
+    .trasformgif {
+        transform: rotateY( 316deg) translateZ(3em);
     }
     /*#herologin {
 		height: 100vh;
@@ -1178,7 +1192,6 @@
         line-height: 1.4;
     }
     .gif {
-        position: absolute;
         perspective: 1000px;
         -webkit-perspective: 1000px;
         transform: rotateX(354deg) rotateY(55deg);
@@ -1668,7 +1681,7 @@
     .gif {
         transform: /*rotateX(7deg) rotateY(61deg)*/
         rotateX(11deg) rotateY(45deg);
-        top: -23%;
+        top: -26%;
     }
     .trasformgif {
         transform: /*rotateY( -58deg)  translateZ(-35em)*/

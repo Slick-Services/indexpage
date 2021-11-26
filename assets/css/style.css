@@ -833,8 +833,9 @@ section {
     font-family: "Poppins", sans-serif;
     color: #eb6f53;
     padding: 0px 0 10px;
-    word-break: break-all;
-    word-spacing: -2px;
+    /* word-break: break-all;
+    word-spacing: -2px; */
+    line-height: 1.3;
 }
 
 .about .content p {
@@ -973,7 +974,8 @@ section {
     transform: rotateY( 285deg) translateZ(3em);
 }
 
-.gif {
+
+/* .gif {
     position: absolute;
     perspective: 900px;
     -webkit-perspective: 900px;
@@ -981,14 +983,16 @@ section {
     transform: rotateX(341deg) rotateY(-90deg);
     top: 1%;
     right: 0;
-}
+} */
 
 .gif {
     position: absolute;
     perspective: 1000px;
-    -webkit-perspective: 1000px;
     transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
     transform: rotateX(0deg) rotateY(22deg);
+    top: 1%;
+    right: 0;
 }
 
 .trasformgif {
