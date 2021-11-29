@@ -189,7 +189,7 @@
         background: url("../img/footer.jpg") repeat;
     }
     #footer .social-links a {
-        margin-right: 30px;
+        margin-right: 3px;
         width: 40px;
         height: 40px;
     }
@@ -842,6 +842,9 @@
     .ragistrationfom {
         height: 100vh;
     }
+    #footer .social-links a {
+        margin-right: 30px;
+    }
 }
 
 @media (min-width: 641px) {
@@ -968,6 +971,9 @@
     }
     #footer .footer-top .footer-links ul {
         padding: 0 0 0 40px;
+    }
+    #footer .social-links a {
+        margin-right: 10px;
     }
     #big {
         display: flex;
@@ -1360,6 +1366,9 @@
     }
     #herologin .slderleftman.maincold {
         display: block;
+    }
+    #footer .social-links a {
+        margin-right: 5px;
     }
 }
 
