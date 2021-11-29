@@ -73,7 +73,43 @@
                             <li><a href="#howit">How It Work</a></li>
                             <!-- <li><a href="#contactus">Contact Us</a></li> -->
                         </ul>
-                        <a href="#" class="btn-get-started scrollto mainlogin btn-14">Login</a>
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header login-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                                    <h4 class="modal-title">Login</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <!---login form starts here-->
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="text" name="email" class="form-control" id="email" placeholder="Enter Email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password">Password</label>
+                                            <input type="password" name="password" class="form-control" id="password" placeholder="Enter Password">
+                                        </div>
+                                    </form>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Sign In</button>
+                                    <div class="row">
+                                        <div class="col-xs-7 col-sm-7 col-md-7">
+                                            <a href="#" class="btn btn-link">Forgot Password?</a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                            <a href="#" class="btn btn-link">Register</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-link btn-get-started scrollto mainlogin btn-14" data-toggle="modal" data-target="#tutorialsplaneModal">
+                            <a href="#">Login </a>
+                        </button>
+                        <!-- <a href="#" class="btn-get-started scrollto mainlogin btn-14">Login</a> -->
                         <!--<ul class="col-sm-3 col-12 mainlogin">
 			  <li><a href="#help">Help</a></li>
 			  <li><a href="login.html">Login</a></li>
