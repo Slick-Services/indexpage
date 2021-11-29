@@ -1609,12 +1609,19 @@
         padding-bottom: 0;
         top: auto;
     }
-    .gif {
+    /* .gif {
         transform: rotateX(20deg) rotateY(64deg);
         top: -20.9%;
     }
     .trasformgif {
         transform: rotateY( -57deg) translateZ(-17em);
+    } */
+    .gif {
+        transform: rotateX(7deg) rotateY(41deg);
+        top: -18.9%;
+    }
+    .trasformgif {
+        transform: rotateY( 321deg) translateZ(-19em);
     }
     #headerlogin {
         padding: 20px 0 0;
