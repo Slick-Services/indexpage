@@ -1,8 +1,4 @@
 @media (min-width: 320px) {
-    body {
-        height: auto;
-        overflow: auto;
-    }
     #header .logo img {
         max-height: 50px;
     }
@@ -37,12 +33,7 @@
 
 @media (min-width: 991px) {}
 
-@media (min-width: 992px) {
-    body {
-        height: 100vh;
-        overflow: hidden;
-    }
-}
+@media (min-width: 992px) {}
 
 @media (min-width: 1024px) {}
 
