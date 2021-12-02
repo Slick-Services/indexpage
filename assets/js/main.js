@@ -45,14 +45,14 @@
     let selectHeader = select('#header')
     if (selectHeader) {
         const headerScrolled = () => {
-            if (window.scrollY > 100) {
-                selectHeader.classList.add('fixed-top')
-            } else {
-                selectHeader.classList.remove('fixed-top')
+                if (window.scrollY > 100) {
+                    selectHeader.classList.add('fixed-top')
+                } else {
+                    selectHeader.classList.remove('fixed-top')
+                }
             }
-        }
-        window.addEventListener('load', fixed - top)
-        onscroll(document, fixed - top)
+            // window.addEventListener('load', fixed - top)
+            // onscroll(document, fixed - top)
     }
 
     /**
