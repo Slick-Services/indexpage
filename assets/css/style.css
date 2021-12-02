@@ -96,8 +96,9 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgb(255 255 255 / 90%);
+    background: rgb(255 255 255 / 90%);
 }
+
 
 /*#header.fixed-top {
     position: fixed;
@@ -594,7 +595,7 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-	display: flex;
+    display: flex;
     align-items: center;
     flex-direction: row;
 }
@@ -625,8 +626,8 @@ section {
 }
 
 .about-us .cardleftmaincontentpart .pointsbg img {
-	position: absolute;
-	bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .about-us .cardleftmaincontentpart .pointsbg.mainpoints .earnpointtxt {
@@ -664,16 +665,18 @@ section {
     border-style: solid;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
-	display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .about-us .cardleftmaincontentpart.mainimgpart {}
+
 .about-us .icon-box .lorenmaincontent {
     float: left;
     text-align: left;
     position: relative;
+    left: 2%;
 }
 
 .about-us .icon-box .icon {
