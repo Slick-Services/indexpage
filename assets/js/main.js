@@ -12,7 +12,19 @@
             return document.querySelector(el)
         }
     }
-
+	
+	/**
+     * Animation on scroll
+     */
+    window.addEventListener('load', () => {
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+        })
+    });
+	  
     /**
      * Easy event listener function
      */
@@ -26,6 +38,40 @@
             }
         }
     }
+	
+	/**
+   * Toggle .fixed-top class to #header when page is scrolled
+   */
+  let selectHeader = select('#header')
+  if (selectHeader) {
+    const headerScrolled = () => {
+      if (window.scrollY > 100) {
+        selectHeader.classList.add('fixed-top')
+      } else {
+        selectHeader.classList.remove('fixed-top')
+      }
+    }
+    window.addEventListener('load', fixed-top)
+    onscroll(document, fixed-top)
+  }
+
+	/**
+   * Scrolls to an element with header offset
+   */
+  const scrollto = (el) => {
+    let header = select('#header')
+    let offset = header.offsetHeight
+
+    if (!header.classList.contains('fixed-top')) {
+      offset -= 20
+    }
+
+    let elementPos = select(el).offsetTop
+    window.scrollTo({
+      top: elementPos - offset,
+      behavior: 'smooth'
+    })
+  }
 
     /**
      * Easy on scroll event listener 
@@ -86,16 +132,6 @@
         })
     }
 
-    /**
-     * Animation on scroll
-     */
-    window.addEventListener('load', () => {
-        AOS.init({
-            duration: 1000,
-            easing: 'ease-in-out',
-            once: true,
-            mirror: false
-        })
-    });
+    
 
 })()

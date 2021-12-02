@@ -95,6 +95,25 @@ h6 {
     border-radius: 12px;
 }
 
+#header.header-scrolled {
+  background: rgb(255 255 255 / 90%);
+}
+
+/*#header.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}*/
+
+#header.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
 #header .container.headercontiner {
     box-shadow: 0px 3px 8px rgb(0 0 0 / 10%);
     border-radius: 1rem;
@@ -454,16 +473,8 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 
-#main {
-    position: absolute;
-    margin: 6rem auto 0;
-    width: 100%;
-    float: left;
-    top: 9%;
-}
-
 section {
-    padding: 35px 0;
+    padding: 10px 0;
     overflow: hidden;
     position: relative;
     background-color: #fff;
@@ -474,7 +485,7 @@ section {
 }
 
 .section-title {
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .section-title h2 {
@@ -583,10 +594,7 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.about-us .cardleftmaincontentpart .pointsbg.mainpoints {
-    display: flex;
+	display: flex;
     align-items: center;
     flex-direction: row;
 }
@@ -616,10 +624,9 @@ section {
     justify-content: center;
 }
 
-.about-us .cardleftmaincontentpart.mainimgpart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about-us .cardleftmaincontentpart .pointsbg img {
+	position: absolute;
+	bottom: 0;
 }
 
 .about-us .cardleftmaincontentpart .pointsbg.mainpoints .earnpointtxt {
@@ -637,7 +644,7 @@ section {
 .about-us .icon-box {
     text-align: center;
     /* padding: 70px 20px 80px 20px; */
-    padding: 24px 4px 24px 4px;
+    padding: 1.4rem .3rem;
     transition: all ease-in-out 0.3s;
     /* background: #fff; */
     display: flex;
@@ -650,15 +657,19 @@ section {
 }
 
 .about-us .cardleftmaincontentpart {
-    padding: 1rem 1.3rem;
+    padding: 1rem 1.3rem 0;
     border-radius: 1rem;
     border-width: 0.25px;
     border-color: rgb(196, 195, 195);
     border-style: solid;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.about-us .cardleftmaincontentpart.mainimgpart {}
 .about-us .icon-box .lorenmaincontent {
     float: left;
     text-align: left;
