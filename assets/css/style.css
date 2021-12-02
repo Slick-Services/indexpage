@@ -637,11 +637,10 @@ section {
     align-items: flex-start;
 }
 
-
-/* main#main {
+main#main {
     position: relative;
-    top: 20%;
-} */
+    top: 50px;
+}
 
 
 /*--------------------------------------------------------------
