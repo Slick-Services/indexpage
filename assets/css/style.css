@@ -455,10 +455,11 @@ h6 {
 --------------------------------------------------------------*/
 
 #main {
-    position: relative;
+    position: absolute;
     margin: 6rem auto 0;
     width: 100%;
     float: left;
+    top: 9%;
 }
 
 section {
