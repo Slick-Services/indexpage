@@ -456,7 +456,7 @@ h6 {
 
 #main {
     position: relative;
-    margin: 6rem auto;
+    margin: 6rem auto 0;
     width: 100%;
     float: left;
 }
