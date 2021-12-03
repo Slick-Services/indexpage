@@ -637,11 +637,6 @@ section {
     align-items: flex-start;
 }
 
-main#main {
-    position: relative;
-    top: 70px;
-}
-
 
 /*--------------------------------------------------------------
 # Services
