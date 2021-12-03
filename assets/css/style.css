@@ -108,11 +108,31 @@ h6 {
     z-index: 1030;
 }*/
 
-#header.sticky-top {
-    position: -webkit-sticky;
-    position: sticky;
+/*#header.sticky-top {
+	position: -webkit-relative;
+    position: relative;
     top: 0;
     z-index: 1020;
+}
+.content {
+    padding: 16px;
+}
+
+#header.sticky-top.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}*/
+
+##header.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
 }
 
 #header .container.headercontiner {
@@ -637,19 +657,7 @@ section {
     align-items: flex-start;
 }
 
-.content {
-    padding: 16px;
-}
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky+.content {
-    padding-top: 102px;
-}
 
 
 /*--------------------------------------------------------------
