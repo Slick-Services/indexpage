@@ -134,7 +134,7 @@ main#main {
     padding-top: 102px;
 }*/
 
-##header.fixed-header {
+#header.header-scrolled.fixed-header {
     position: fixed;
     top: 0;
     left: 0;
