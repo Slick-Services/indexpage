@@ -95,6 +95,10 @@ h6 {
     border-radius: 12px;
 }
 
+main#main {
+    height: 100vh;
+}
+
 #header.header-scrolled {
     background: rgb(255 255 255 / 90%);
     position: relative;
