@@ -108,6 +108,7 @@ h6 {
     z-index: 1030;
 }*/
 
+
 /*#header.sticky-top {
 	position: -webkit-relative;
     position: relative;
@@ -132,7 +133,7 @@ h6 {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; 
+    width: 100%;
 }
 
 #header .container.headercontiner {
@@ -656,8 +657,6 @@ section {
     justify-content: center;
     align-items: flex-start;
 }
-
-
 
 
 /*--------------------------------------------------------------
