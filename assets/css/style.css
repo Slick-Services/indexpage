@@ -14,7 +14,6 @@ body {
     /* font-family: "Open Sans", sans-serif; */
     color: #4d4643;
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
 }
 
 a {
@@ -94,11 +93,11 @@ h6 {
     padding: 15px 0;
     /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
     border-radius: 12px;
-    position: relative;
 }
 
 #header.header-scrolled {
     background: rgb(255 255 255 / 90%);
+    position: relative;
 }
 
 
