@@ -104,9 +104,18 @@ main#main {
     position: relative;
 }
 
-#header.header-scrolled.sticky {
+
+/* #header.header-scrolled.sticky {
     position: -webkit-sticky;
     position: sticky;
+} */
+
+#header.header-scrolled.sticky-top.sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 
