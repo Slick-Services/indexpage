@@ -137,11 +137,6 @@
         margin-top: 0;
         margin-bottom: 0;
         padding: 0 .7rem;
-    }
-    .d-flex.align-items-stretch.aos-init.aos-animate {
-        display: flex !important;
-    }
-    .about-us .cardleftmaincontentpart {
         border-width: 0.25px;
         border-color: rgb(196, 195, 195);
         border-style: solid;
@@ -149,6 +144,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .d-flex.align-items-stretch.aos-init.aos-animate {
+        display: flex !important;
     }
 }
 
