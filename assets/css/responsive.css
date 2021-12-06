@@ -140,7 +140,6 @@
     }
     .d-flex.align-items-stretch.aos-init.aos-animate {
         display: flex !important;
-        justify-self: center;
     }
     .about-us .cardleftmaincontentpart {
         border-width: 0.25px;
@@ -193,6 +192,8 @@
     }
     .about-us .cardleftmaincontentpart.mainimgpart {
         padding: 1rem 1.3rem 0;
+        display: flex;
+        justify-content: center;
     }
     .about-us .cardleftmaincontentpart {
         padding: 1rem 1.3rem 0;
