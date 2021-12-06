@@ -681,11 +681,15 @@ section {
 
 .about-us .cardleftmaincontentpart .pointsbg.mainpoints h1 {
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     line-height: 40px;
     margin-bottom: .5rem;
     margin-top: 1rem;
     color: #fff;
+}
+
+.about-us .cardleftmaincontentpart .pointsbg.mainpoints h1 span {
+    font-size: 3.5rem;
 }
 
 .about-us .cardleftmaincontentpart .pointsbg.mainpoints .mainbankicon {
