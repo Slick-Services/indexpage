@@ -1,15 +1,94 @@
 @media (min-width: 320px) {
+    #header.header-scrolled {
+        margin: 0 .5rem;
+    }
     #header .logo img {
         max-height: 50px;
     }
     #header .manbtnlogout .welcometxt br {
         display: flex;
     }
+    #header .manbtnlogout {
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+    }
+    .about-us .cardleftmaincontentpart {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        padding: 1rem ​1.0rem 0;
+        padding: 1rem;
+    }
+    .about-us .icon-box .lorenmaincontent {
+        margin-top: 1rem;
+    }
+    .about-us .cardleftmaincontentpart.mainimgpart {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0 .7rem;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg {
+        padding: 1rem 1rem;
+        margin: 1rem 2rem 2rem;
+        margin: 10px 0;
+        flex-direction: column;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg.mainpoints h2 {
+        margin-bottom: 0;
+    }
+    .section-title h2 {
+        font-size: 27px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+    .about-us .icon-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .about-us .icon-box .btn.btn-dark {
+        font-size: 1.2rem;
+        padding: 9px;
+    }
+    .about-us .icon-box span {
+        font-size: 1.2rem;
+    }
+    .about-us .icon-box .minstext {
+        position: relative;
+        top: auto;
+        right: auto;
+        display: inline-flex;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-us .iconbox-blue i {
+        color: rgb(7 92 123);
+        font-size: 1.5rem;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: space-evenly; */
+        align-items: center;
+        justify-content: center;
+    }
+    .about-us .iconbox-blue i span {
+        font-size: 1.0rem;
+        margin: 0 0 0 .2rem;
+    }
+    .about-us .icon-box .cardheddingmain {
+        display: flex;
+        align-items: baseline;
+    }
 }
 
 @media (min-width: 360px) {}
 
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+    .about-us .cardleftmaincontentpart .pointsbg {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 2.5rem 0;
+    }
+}
 
 @media (min-width: 480px) {}
 
@@ -23,23 +102,186 @@
     #header .logo img {
         max-height: 70px;
     }
+    .about-us .icon-box .btn.btn-dark {
+        border-radius: 7px;
+        font-size: 1.0rem;
+        padding: 8px 7px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .about-us .icon-box .lorenmaincontent {
+        left: -1%;
+    }
+    .about-us .icon-box h4 {
+        margin: 5px 5px 0px 5px;
+        font-size: 1.0rem;
+    }
+    .about-us .iconbox-blue i span {
+        font-size: 1.1rem;
+    }
+    .about-us .icon-box span.sprte {
+        font-size: 1.0rem;
+        margin: 4px 0px 0px 3px;
+    }
+    .about-us .iconbox-blue i {
+        font-size: 1.3rem;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .about-us .iconbox-blue i span {
+        font-size: 1.1rem;
+    }
+    .about-us .cardleftmaincontentpart.mainimgpart {
+        padding: 1rem 1.3rem 0;
+    }
+    .about-us .cardleftmaincontentpart {
+        padding: 1rem 1.3rem 0;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg {
+        padding: 3rem 1rem;
+        margin: 1rem 2rem 2rem;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg.mainpoints h2 {
+        font-size: 1.6rem;
+        line-height: 40px;
+        margin-bottom: 1rem;
+    }
+    .about-us .icon-box {
+        flex-direction: row;
+        align-items: center;
+    }
+    .about-us .icon-box .minstext {
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+    .about-us .icon-box .lorenmaincontent {
+        margin-top: 0rem;
+    }
 }
 
 @media (min-width: 641px) {}
 
 @media (min-width: 767px) {}
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    #header.header-scrolled {
+        margin: 0;
+    }
+    .about-us .icon-box .btn.btn-dark {
+        padding: 15px 15px;
+        border-radius: 10px;
+    }
+}
 
 @media (min-width: 991px) {}
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .about-us .cardleftmaincontentpart {
+        margin-top: 0rem;
+        margin-bottom: .5rem;
+        padding: .8rem;
+    }
+    .about-us .icon-box .btn.btn-dark {
+        padding: 10px 6px;
+        font-size: 1.1rem;
+    }
+    .about-us .icon-box .lorenmaincontent {
+        left: -2%;
+    }
+    .about-us .iconbox-blue i {
+        font-size: 1.5rem;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .about-us .iconbox-blue i span {
+        font-size: 1.1rem;
+    }
+    .about-us .icon-box h4 {
+        margin: 5px 5px 5px 5px;
+        font-size: 1.0rem;
+    }
+    .about-us .icon-box p {
+        line-height: 22px;
+    }
+    .about-us .cardleftmaincontentpart.mainimgpart {
+        padding: .5rem;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg {
+        padding: 3rem 1rem;
+        margin: 0rem 0rem 1rem;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg.mainpoints h2 {
+        font-size: 1.3rem;
+        line-height: 40px;
+        margin-bottom: .5rem;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg.mainpoints h1 {
+        font-size: 2.5rem;
+        margin-bottom: .5rem;
+        margin-top: .3rem;
+    }
+}
 
 @media (min-width: 1024px) {}
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .about-us .icon-box .btn.btn-dark {
+        padding: 20px 24px;
+        font-size: 1.1rem;
+    }
+    .about-us .icon-box .lorenmaincontent {
+        left: 1%;
+    }
+    .about-us .iconbox-blue i {
+        font-size: 2rem;
+    }
+    .about-us .iconbox-blue i span {
+        font-size: 1.3rem;
+    }
+    .about-us .icon-box h4 {
+        margin: 5px 5px 6px 5px;
+        font-size: 1.1rem;
+    }
+    .about-us .icon-box p {
+        line-height: 24px;
+    }
+    .about-us .cardleftmaincontentpart {
+        padding: 1rem 1.3rem 0;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg {
+        padding: 3rem 1rem;
+        margin: 1rem 1rem 2rem;
+    }
+    .about-us .content h2 {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg.mainpoints h1 {
+        font-size: 2.5rem;
+        margin-bottom: .5rem;
+        margin-top: 1rem;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg.mainpoints h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+}
 
-@media (min-width: 1366px) {}
+@media (min-width: 1366px) {
+    .about-us .cardleftmaincontentpart .pointsbg {
+        margin: 1rem 2rem 2rem;
+    }
+    .about-us .cardleftmaincontentpart .pointsbg.mainpoints h2 {
+        font-size: 1.5rem;
+    }
+    .about-us .icon-box .lorenmaincontent {
+        left: 0%;
+    }
+}
 
 @media (min-width: 1400px) {
     #header .manbtnlogout .welcometxt br {
@@ -56,243 +298,4 @@
     .error-content {
         margin-top: 100px;
     }
-}
-
-
-/*Medium Desktop Device*/
-
-@media screen and (min-width: 1200px) and (max-width: 1440px) {}
-
-
-/* Normal desktop :992px. */
-
-@media (min-width: 1200px) and (max-width: 1364px) {
-    .nav-btn {
-        position: fixed;
-        z-index: 99;
-        left: 363px;
-        background: #303641;
-        padding: 14px;
-        top: 0;
-        margin: 0;
-    }
-    .nav-btn span {
-        background: #fffbfb;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* dashboard one */
-    .mt-md-30 {
-        margin-top: 30px;
-    }
-    .nav-btn {
-        position: fixed;
-        z-index: 99;
-        left: 304px;
-        background: #303641;
-        padding: 14px;
-        top: 0;
-        margin: 0;
-    }
-    .nav-btn span {
-        background: #fffbfb;
-    }
-    .card-body {
-        padding: 1.25rem;
-    }
-    .logo a img {
-        height: auto;
-    }
-}
-
-
-/* Normal desktop :991px. */
-
-@media (min-width: 768px) and (max-width: 991px) {
-    /* dashboard one */
-    /* sidebar */
-    .nav-btn {
-        position: fixed;
-        z-index: 99;
-        left: 304px;
-        background: #303641;
-        padding: 14px;
-        top: 0;
-        margin: 0;
-    }
-    .nav-btn span {
-        background: #fffbfb;
-    }
-    .card-body {
-        padding: 0.5rem 1.0rem 0.5rem;
-    }
-    .logo a img {
-        height: auto;
-    }
-    .availablesurvey {
-        margin: 1.5rem 0 0;
-    }
-    .mobile-nav-toggle {
-        right: 9rem;
-    }
-}
-
-
-/* small mobile :320px. */
-
-@media (max-width: 767px) {
-    .ptb--100 {
-        padding: 90px 0;
-    }
-    .card-body {
-        padding: 1.25rem;
-    }
-    .logo a img {
-        height: auto;
-    }
-    .availablesurvey {
-        margin: 1rem 0 0;
-    }
-}
-
-
-/* Large Mobile :480px. */
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    /* dashboard one */
-    .mb-xs-30 {
-        margin-bottom: 30px;
-    }
-    .mt-sm-30 {
-        margin-top: 30px;
-    }
-    .mb-sm-40 {
-        margin-bottom: 40px;
-    }
-    /* sidebar */
-    /*.sidebar-menu {
-        width: 365px;
-    }*/
-    .nav-btn {
-        position: fixed;
-        z-index: 99;
-        left: 363px;
-        background: #303641;
-        padding: 14px;
-        top: 0;
-        margin: 0;
-    }
-    .nav-btn span {
-        background: #fffbfb;
-    }
-    /* main content */
-    .main-content-inner {
-        padding: 0 15px 35px;
-    }
-    .page-container,
-    .sbar_collapsed.page-container {
-        padding-left: 0;
-    }
-}
-
-@media (max-width: 480px) {
-    .main-content-inner .card .maincardavailable h2 {
-        font-size: 1.3rem;
-        padding: .5rem 1rem 0 .0rem;
-    }
-    /*.mainavilablesurvey {
-    	padding: 0;
-	}*/
-    .main-content-inner .card .maincardavailable .card.row i:before {
-        padding-right: 0.3rem;
-        font-size: 1.7rem;
-    }
-    .main-content-inner .card .maincardavailable .card.row .mins {
-        font-size: 0.9rem;
-    }
-    .main-content-inner .card .maincardavailable .btn.btn-dark {
-        padding: 11px 10px;
-    }
-}
-
-@media (max-width: 450px) {
-    .mainprfilecols {
-        flex-direction: column;
-        align-items: flex-start !important;
-    }
-    .mainhealthtxt,
-    .minstext {
-        max-width: 50%;
-        flex: 0 0 50%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-    .earnpointtxt {
-        max-width: 100%;
-        flex: 0 0 100%;
-        justify-content: flex-start;
-        display: flex;
-        margin-top: 1rem;
-    }
-    .col-4.pl-sm-4.p-0.pl-sm-2.minstext {
-        justify-content: flex-end;
-        position: absolute;
-        top: 0;
-        right: 0.7rem;
-    }
-    .main-content-inner {
-        padding: 15px 15px 50px 15px;
-        margin-top: 2rem;
-    }
-    .mainavimagcard {
-        padding: 0;
-    }
-    .availablesurvey {
-        margin: 1rem 0 0;
-    }
-    .logo a img {
-        height: 70px;
-    }
-    .card-body {
-        padding: 12px;
-    }
-    .main-content-inner .card.img {
-        background: url(../img/card.jpg) no-repeat;
-    }
-}
-
-
-/* small mobile :320px. */
-
-@media (min-width: 240px) and (max-width: 479px) {
-    /* dashboard one */
-    /* sidebar */
-    .nav-btn {
-        position: fixed;
-        z-index: 99;
-        right: 0;
-        background: #303641;
-        padding: 14px;
-        top: 0;
-        margin: 0;
-    }
-    .nav-btn span {
-        background: #fffbfb;
-    }
-    .minisidebar.main-menu {
-        margin-right: 0;
-    }
-    /* main content */
-    /*.main-content-inner {
-        padding: 0 15px 50px;
-    }*/
-    .page-container,
-    .sbar_collapsed.page-container {
-        padding-left: 0;
-    }
-    /*.card-body {
-        padding: 1.25rem;
-    }*/
 }

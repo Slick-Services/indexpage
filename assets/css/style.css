@@ -625,9 +625,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
     flex-direction: row;
 }
 
@@ -668,6 +665,39 @@ section {
     align-items: flex-start;
 }
 
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+    outline: none;
+}
+
+.bi-list::before {
+    content: "\f479";
+}
+
+.bi-x::before {
+    content: "\f62a";
+}
+
+.la-bars:before {
+    content: "\f0c9"
+}
+
+
+/* .bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
 
 /*--------------------------------------------------------------
 # Services
@@ -700,8 +730,6 @@ section {
     justify-content: center;
     align-items: center;
 }
-
-.about-us .cardleftmaincontentpart.mainimgpart {}
 
 .about-us .icon-box .lorenmaincontent {
     float: left;
@@ -755,7 +783,6 @@ section {
 
 .about-us .icon-box span {
     font-weight: 500;
-    margin: 2px ​5px 8px 7px;
     font-size: 22px;
     margin: 0px 3px 0 7px;
 }
@@ -779,7 +806,6 @@ section {
 }
 
 .about-us .icon-box .btn.btn-dark {
-    padding: 18px ​26px;
     border-radius: 10px;
     box-shadow: 0 5px 5px 0 rgb(246 130 31 / 38%);
     background: rgb(246 130 31);
