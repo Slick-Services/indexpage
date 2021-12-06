@@ -12,6 +12,10 @@
         margin-top: 1rem;
         margin-bottom: .5rem;
     }
+    #header.header-scrolled.sticky {
+        position: -webkit-fixed;
+        position: fixed;
+    }
     .about-us .cardleftmaincontentpart {
         margin-top: 2rem;
         margin-bottom: 1rem;
@@ -168,6 +172,10 @@
 @media (min-width: 767px) {}
 
 @media (min-width: 768px) {
+    #header.header-scrolled.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
     #header.header-scrolled {
         margin: 0;
     }

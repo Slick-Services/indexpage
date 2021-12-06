@@ -100,7 +100,7 @@ main#main {
 }
 
 #header.header-scrolled {
-    background: rgb(255 255 255 / 90%);
+    background: rgb(255 255 255 / 97%);
     position: relative;
 }
 
@@ -113,6 +113,14 @@ main#main {
 #header.header-scrolled.sticky {
     position: -webkit-sticky;
     position: sticky;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 
