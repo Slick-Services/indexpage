@@ -104,6 +104,11 @@ main#main {
     position: relative;
 }
 
+#header.header-scrolled.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
 
 /*#header.fixed-top {
     position: fixed;
