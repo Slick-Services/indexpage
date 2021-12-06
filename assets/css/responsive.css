@@ -1,7 +1,4 @@
 @media (min-width: 320px) {
-    #header.header-scrolled {
-        margin: 0 .5rem;
-    }
     #header .logo img {
         max-height: 50px;
     }
@@ -12,9 +9,14 @@
         margin-top: 1rem;
         margin-bottom: .5rem;
     }
+    #header.header-scrolled {
+        margin: 0 .5rem;
+        width: 100%;
+    }
     #header.header-scrolled.sticky {
         position: -webkit-fixed;
         position: fixed;
+        width: 100%;
     }
     .about-us .cardleftmaincontentpart {
         margin-top: 2rem;
@@ -91,6 +93,12 @@
         flex-direction: row;
         justify-content: space-evenly;
         padding: 2.5rem 0;
+    }
+    #header.header-scrolled {
+        margin: 0;
+    }
+    #header.header-scrolled.sticky {
+        margin: 0;
     }
 }
 
