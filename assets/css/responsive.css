@@ -133,21 +133,6 @@
     #header .manbtnlogout .welcometxt {
         font-size: 1rem;
     }
-    .about-us .cardleftmaincontentpart.mainimgpart {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding: 0 .7rem;
-        border-width: 0.25px;
-        border-color: rgb(196, 195, 195);
-        border-style: solid;
-        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .d-flex.align-items-stretch.aos-init.aos-animate {
-        display: flex !important;
-    }
 }
 
 @media (max-width: 575.98px) {}
@@ -242,6 +227,21 @@
     }
     .mainclient {
         display: flex;
+    }
+    .about-us .cardleftmaincontentpart.mainimgpart {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0 .7rem;
+        border-width: 0.25px;
+        border-color: rgb(196, 195, 195);
+        border-style: solid;
+        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .d-flex.align-items-stretch.aos-init.aos-animate {
+        display: flex !important;
     }
 }
 
