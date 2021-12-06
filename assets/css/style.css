@@ -81,6 +81,10 @@ h6 {
     }
 }
 
+.la-sign-in-alt:before {
+    content: "\f2f6";
+}
+
 
 /*--------------------------------------------------------------
 # Header
@@ -93,6 +97,7 @@ h6 {
     padding: 15px 0;
     /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
     border-radius: 12px;
+    width: 100%;
 }
 
 main#main {
@@ -165,8 +170,8 @@ main#main {
     border-radius: 1rem;
     padding-top: .6rem;
     padding-bottom: .6rem;
-    padding-left: 1.2rem;
-    padding-right: 1.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 #header .logo {
@@ -404,8 +409,25 @@ main#main {
 * Mobile Navigation 
 */
 
+
+/* .mobile-nav-toggle {
+    color: #f6821f;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.5s;
+    position: fixed;
+    right: 67px;
+    top: 30px;
+    background: #005777;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px 1px rgb(246 130 31 / 44%);
+} */
+
 .mobile-nav-toggle {
-    color: #111;
+    color: #f6821f;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -413,7 +435,13 @@ main#main {
     transition: 0.5s;
     position: fixed;
     right: 15px;
+    background: #005777;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px 1px rgb(246 130 31 / 44%);
     top: 15px;
+    height: 50px;
+    /* width: 50px; */
 }
 
 .mobile-nav-toggle.bi-x {

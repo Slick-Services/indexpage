@@ -1,4 +1,7 @@
 @media (min-width: 320px) {
+    /* #header {
+        width: auto;
+    } */
     #header .logo img {
         max-height: 50px;
     }
@@ -8,15 +11,11 @@
     #header .manbtnlogout {
         margin-top: 1rem;
         margin-bottom: .5rem;
-    }
-    #header.header-scrolled {
-        margin: 0 .5rem;
-        width: 100%;
+        justify-content: flex-start;
     }
     #header.header-scrolled.sticky {
         position: -webkit-fixed;
         position: fixed;
-        width: 100%;
     }
     .about-us .cardleftmaincontentpart {
         margin-top: 2rem;
@@ -84,6 +83,11 @@
         display: flex;
         align-items: baseline;
     }
+    .mobile-nav-toggle {
+        position: fixed;
+        right: 15px;
+        top: 20px;
+    }
 }
 
 @media (min-width: 360px) {}
@@ -94,19 +98,24 @@
         justify-content: space-evenly;
         padding: 2.5rem 0;
     }
-    #header.header-scrolled {
-        margin: 0;
-    }
-    #header.header-scrolled.sticky {
-        margin: 0;
-    }
 }
 
 @media (min-width: 480px) {}
 
 @media (min-width: 500px) {}
 
-@media (min-width: 575px) {}
+@media (min-width: 575px) {
+    .navbar {
+        padding: 0;
+        justify-content: end;
+        align-items: end;
+        order: 2 !important;
+    }
+    .mobile-nav-toggle {
+        position: relative;
+        top: auto;
+    }
+}
 
 @media (max-width: 575.98px) {}
 
@@ -177,7 +186,13 @@
 
 @media (min-width: 641px) {}
 
-@media (min-width: 767px) {}
+@media (min-width: 767px) {
+    #header .manbtnlogout {
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+        justify-content: flex-start;
+    }
+}
 
 @media (min-width: 768px) {
     #header.header-scrolled.sticky {
@@ -196,6 +211,17 @@
 @media (min-width: 991px) {}
 
 @media (min-width: 992px) {
+    .navbar {
+        justify-content: center;
+        align-items: center;
+        order: 2 !important;
+    }
+    #header .manbtnlogout {
+        justify-content: end;
+    }
+    #header .manbtnlogout .welcometxt br {
+        display: flex;
+    }
     .about-us .cardleftmaincontentpart {
         margin-top: 0rem;
         margin-bottom: .5rem;
