@@ -322,6 +322,7 @@ h6 {
     -moz-background-size: cover;
     position: relative;
     background-attachment: fixed;
+    background: url("assets/img/hero_bg.jpg") no-repeat top center;
 }
 
 #hero:before {
