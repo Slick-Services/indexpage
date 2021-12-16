@@ -34,6 +34,20 @@ h6 {
     font-family: "Raleway", sans-serif;
 }
 
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
