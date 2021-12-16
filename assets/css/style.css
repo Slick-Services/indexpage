@@ -245,6 +245,12 @@ h6 {
     .navbar ul {
         display: none;
     }
+    .navbar a.get-started-btn.sign {
+        padding: 1.7rem 0.3rem;
+    }
+    .navbar a.get-started-btn.sign.ml {
+        margin-left: 0rem;
+    }
 }
 
 .navbar-mobile {
