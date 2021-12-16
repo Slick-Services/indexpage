@@ -226,12 +226,16 @@ h6 {
 */
 
 .mobile-nav-toggle {
-    color: #fff;
+    color: #4c3577;
     font-size: 28px;
     cursor: pointer;
     display: none;
     line-height: 0;
     transition: 0.5s;
+    background: #cdb4f1;
+    padding: .7rem;
+    border-radius: .5rem;
+    box-shadow: 0 3px 0px 3px #6f4f9d;
 }
 
 @media (max-width: 991px) {
