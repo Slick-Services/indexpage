@@ -90,6 +90,7 @@ h6 {
     z-index: 997;
     transition: all 0.5s;
     padding: 1rem 0;
+    background: transparent;
 }
 
 #header .logo h1 {
