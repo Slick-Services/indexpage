@@ -86,11 +86,11 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-    transition: all 0.5s;
-    z-index: 997;
+    z-index: 9999;
     transition: all 0.5s;
     padding: 1rem 0;
     background: transparent;
+    transition: all 0.5s;
 }
 
 #header .logo h1 {
