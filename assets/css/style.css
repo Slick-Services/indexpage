@@ -1040,6 +1040,20 @@ section {
     color: #fff;
 }
 
+.info .php-email-form input::-webkit-input-placeholder {
+    /* Edge */
+    color: #fff;
+}
+
+.info .php-email-form input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+.info .php-email-form input::placeholder {
+    color: #fff;
+}
+
 .info .php-email-form .validate {
     display: none;
     color: red;
