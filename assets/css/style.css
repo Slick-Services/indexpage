@@ -249,7 +249,16 @@ h6 {
         padding: 1.7rem 0.3rem;
     }
     .navbar a.get-started-btn.sign.ml {
-        margin-left: 0rem;
+        margin-left: 0.7rem;
+    }
+    .navbar-mobile a,
+    .navbar-mobile a:focus {
+        font-size: 1.1rem;
+    }
+    .navbar a,
+    .navbar a:focus {
+        font-size: 1.1rem;
+        font-weight: 600;
     }
 }
 
