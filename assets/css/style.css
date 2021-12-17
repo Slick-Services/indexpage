@@ -11,13 +11,14 @@
 --------------------------------------------------------------*/
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #444444;
 }
 
 a {
     text-decoration: none;
     color: #915bde;
+    font-family: 'Poppins', sans-serif;
 }
 
 a:hover {
@@ -31,25 +32,29 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-input::-webkit-input-placeholder {
+p {
+    font-family: "Lato", sans-serif;
+}
+
+::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: white;
 }
 
-input::-moz-placeholder {
+::-moz-placeholder {
     /* Firefox 19+ */
     color: white;
 }
 
-input:-ms-input-placeholder {
+:-ms-input-placeholder {
     /* IE 10+ */
     color: white;
 }
 
-input:-moz-placeholder {
+:-moz-placeholder {
     /* Firefox 18- */
     color: white;
 }
@@ -650,6 +655,7 @@ section {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     transition: all ease-in-out 0.3s;
     background: #fff;
+    border-radius: 1.5rem;
 }
 
 .why-us .box span {
@@ -685,6 +691,11 @@ section {
 .why-us .box:hover h4,
 .why-us .box:hover p {
     color: #fff;
+}
+
+.why-us .whyusgapping {
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 
@@ -897,7 +908,7 @@ section {
 }*/
 
 .clients .client-logo {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -909,10 +920,15 @@ section {
     /* cursor: pointer; */
 }
 
+.clients .m-right {
+    margin-left: 11rem;
+}
+
 .clients .client-logo img {
     transition: all 0.3s ease-in-out;
     border-radius: .7rem;
     /*height: 36px;*/
+    width: 100%;
 }
 
 .clients .client-logo:hover img {
@@ -924,6 +940,13 @@ section {
     .clients .clients-wrap {
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .clients .clients-wrap {
+        margin-left: .5rem;
+        margin-right: .5rem;
     }
 }
 
@@ -1026,7 +1049,15 @@ section {
 
 @media screen and (max-width:767px) {
     .info h3 {
-        font-size: 16px;
+        font-size: 25px;
+        line-height: 1.4;
+        margin: 1rem 0 2.0rem 0;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .info h3 {
+        font-size: 19px;
         line-height: 1.4;
         margin: 1rem 0 2.0rem 0;
     }
@@ -1064,6 +1095,26 @@ section {
     background: none;
     border: solid 1px #fff;
     color: #fff;
+}
+
+.info .php-email-form input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white;
+}
+
+.info .php-email-form input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+.info .php-email-form input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+.info .php-email-form input:-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
 }
 
 .info .php-email-form .validate {
