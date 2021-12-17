@@ -785,8 +785,8 @@ section {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 500;
-    padding: 0 30px;
+    font-weight: 600;
+    padding: 0 0px;
     outline: none;
     cursor: pointer;
 }
@@ -860,6 +860,30 @@ section {
     padding: 21px 30px;
     transition: all 0.3s ease 0s;
 }*/
+
+.bx {
+    /* font-family: boxicons!important; */
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Line Awesome Free' !important;
+    font-weight: 900;
+}
+
+.bx-chevron-up:before {
+    content: "\f106";
+}
+
+.bx-chevron-down:before {
+    content: "\f107";
+}
 
 .get-started-btn {
     margin-left: 10px;
