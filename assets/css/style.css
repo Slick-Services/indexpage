@@ -861,39 +861,54 @@ section {
     transition: all 0.3s ease 0s;
 }*/
 
-.bx {
+
+/* .bx {
     /* font-family: boxicons!important; */
-    font-weight: 400;
-    font-style: normal;
-    font-variant: normal;
-    line-height: 1;
-    text-rendering: auto;
+
+font-weight: 400;
+font-style: normal;
+font-variant: normal;
+line-height: 1;
+text-rendering: auto;
+display: inline-block;
+text-transform: none;
+speak: none;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-family: 'Line Awesome Free' !important;
+font-weight: 500;
+
+}
+.bx-chevron-up:before {
+    content: "\f106";
+}
+.bx-chevron-down:before {
+    content: "\f107";
+}
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
     display: inline-block;
+    /*font-family: bootstrap-icons !important;*/
+    
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
     text-transform: none;
-    speak: none;
+    line-height: 1;
+    vertical-align: -.125em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Line Awesome Free' !important;
     font-weight: 500;
 }
-
-.bx-chevron-up:before {
-    content: "\f106";
-}
-
-.bx-chevron-down:before {
-    content: "\f107";
-}
-
 .bi-list::before {
     content: "\f0c9";
 }
-
 .bi-x::before {
-    content: "\f62a";
+    content: "\f00d";
 }
-
-.get-started-btn {
+*/ .get-started-btn {
     margin-left: 10px;
     color: rgb(145 91 222);
     white-space: nowrap;
@@ -901,34 +916,30 @@ section {
     display: inline-block;
     line-height: 0px;
     /* background: rgb(145 91 222); */
+    
     border-radius: .7rem;
     padding: 21px 30px;
     transition: all 0.3s ease 0s;
     border: 2px solid rgb(145 91 222);
 }
-
 .btn:hover {
     color: rgb(255, 255, 255);
     background: rgb(145 91 222);
 }
-
 @media (max-width: 1200px) {
     .faq .faq-list {
         padding: 0;
     }
 }
 
-
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-
 
 /*.clients .clients-wrap {
   border-top: 1px solid #f1eeed;
   border-left: 1px solid #f1eeed;
 }*/
-
 
 /*.clients .client-logo {
   padding: 20px;
@@ -942,7 +953,6 @@ section {
   height: 100px;
   cursor: pointer;
 }*/
-
 
 /*.owl-item.active>div:after {
     content: 'active';
@@ -961,41 +971,33 @@ section {
     font-size: 24px;
     font-weight: bold;
 }*/
-
 .clients.bgsectionblue {
     background: #31274F;
 }
-
 .clients.bgsectionblue .section-title h3 {
     color: #fff;
 }
-
 .owl-theme .owl-nav {
     display: none;
 }
-
 .owl-theme .owl-dots {
     margin-top: 4rem;
 }
-
 @media (max-width: 767px) {
     .owl-item.cloned {
         width: inherit !important;
     }
 }
-
 @media (max-width: 768px) {
     .owl-item.cloned {
         width: 281px !important;
     }
 }
-
 @media (max-width: 991px) {
     .owl-item.cloned {
         width: 450px !important;
     }
 }
-
 .clients .client-logo {
     padding: 20px;
     display: flex;
@@ -1008,36 +1010,31 @@ section {
     /* height: 100px; */
     /* cursor: pointer; */
 }
-
 .clients .m-right {
     margin-left: 0rem;
 }
-
 .clients .client-logo img {
     transition: all 0.3s ease-in-out;
     border-radius: .7rem;
     /*height: 36px;*/
+    
     width: 100%;
 }
-
 .clients .client-logo:hover img {
     filter: grayscale(100%);
     transform: scale(1.1);
 }
-
 @media (max-width: 991px) {
     .clients .m-right {
         margin-left: 0rem;
     }
 }
-
 @media (max-width: 768px) {
     .clients .clients-wrap {
         margin-left: 1rem;
         margin-right: 1rem;
     }
 }
-
 @media (max-width: 576px) {
     .clients .clients-wrap {
         margin-left: .5rem;
@@ -1045,23 +1042,19 @@ section {
     }
 }
 
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
-
 .breadcrumbs {
     padding: 15px 0;
     background: #f4f4f4;
     min-height: 40px;
 }
-
 .breadcrumbs h2 {
     font-size: 24px;
     padding-top: 4px;
     font-weight: 500;
 }
-
 .breadcrumbs ol {
     display: flex;
     flex-wrap: wrap;
@@ -1069,30 +1062,28 @@ section {
     padding: 0;
     margin: 0;
 }
-
 .breadcrumbs ol li+li {
     padding-left: 10px;
 }
-
 .breadcrumbs ol li+li::before {
     display: inline-block;
     padding-right: 10px;
     color: #4f4f4f;
     content: "/";
 }
-
 @media (max-width: 768px) {
     .breadcrumbs .d-flex {
         display: block !important;
     }
+    
     .breadcrumbs ol {
         display: block;
     }
+    
     .breadcrumbs ol li {
         display: inline-block;
     }
 }
-
 .info {
     position: relative;
     padding-top: 0;
@@ -1100,10 +1091,10 @@ section {
     overflow: visible;
     top: 6rem;
 }
-
 .info .action-container {
     position: relative;
     /*background-color: #925add;*/
+    
     background: rgb(73, 45, 111);
     background: -moz-linear-gradient(-180deg, rgba(73, 45, 111, 1) 0%, rgba(146, 90, 221, 1) 100%);
     background: -webkit-linear-gradient(-180deg, rgba(73, 45, 111, 1) 0%, rgba(146, 90, 221, 1) 100%);
@@ -1120,7 +1111,6 @@ section {
     margin-top: -227px
 }
 
-
 /*@media screen and (max-width:991px) {
 	.info .action-container {
 		padding: 175px 50px 80px
@@ -1131,7 +1121,6 @@ section {
 	padding: 170px 10px 80px
   }
 }*/
-
 .info h3 {
     font-family: poppins, sans-serif;
     color: #fff;
@@ -1141,7 +1130,6 @@ section {
     margin: 0;
     margin-bottom: 40px;
 }
-
 @media screen and (max-width:767px) {
     .info h3 {
         font-size: 25px;
@@ -1149,7 +1137,6 @@ section {
         margin: 1rem 0 2.0rem 0;
     }
 }
-
 @media screen and (max-width:400px) {
     .info h3 {
         font-size: 19px;
@@ -1157,13 +1144,11 @@ section {
         margin: 1rem 0 2.0rem 0;
     }
 }
-
 .info .form-mailchimp {
     position: relative;
     margin-right: 0;
     margin-left: 0;
 }
-
 .info .php-email-form {
     box-shadow: 0 18px 21px 15px rgb(58 30 94 / 18%);
     padding: 3.5rem 1.9rem 3.5em;
@@ -1171,11 +1156,9 @@ section {
     margin-bottom: 2.5rem;
     background: #d2eef580;
 }
-
 .info .php-email-form .form-group {
     margin-bottom: 2rem;
 }
-
 .info .php-email-form input {
     padding: 10px 15px 10px 15px;
     border-radius: .5rem;
@@ -1191,27 +1174,26 @@ section {
     border: solid 1px #fff;
     color: #fff;
 }
-
 .info .php-email-form input::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
+    
     color: white;
 }
-
 .info .php-email-form input::-moz-placeholder {
     /* Firefox 19+ */
+    
     color: white;
 }
-
 .info .php-email-form input:-ms-input-placeholder {
     /* IE 10+ */
+    
     color: white;
 }
-
 .info .php-email-form input:-moz-placeholder {
     /* Firefox 18- */
+    
     color: white;
 }
-
 .info .php-email-form .validate {
     display: none;
     color: red;
@@ -1219,12 +1201,10 @@ section {
     font-weight: 400;
     font-size: 13px;
 }
-
 .info .php-email-form .mainnuber {
     display: flex;
     position: relative;
 }
-
 .info .php-email-form #countycode {
     width: 200px;
     border: none;
@@ -1236,28 +1216,27 @@ section {
     padding-top: 1px;
     height: calc(1.5em + 1.05rem + 15px);
     /* background: #7341bb; */
+    
     color: #fff;
     border: 1px solid #fff;
     background: none;
     border-right: 0;
 }
-
 .info .php-email-form .dropdown {
     -webkit-appearance: none;
     -moz-appearance: window;
     padding: 2px 50px 2px 2px;
     border: none;
     /*background-image: url("https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png");*/
+    
     background-repeat: no-repeat;
     background-position: right center;
 }
-
 @media screen and (max-width:567px) {
     .info .php-email-form #countycode {
         width: 120px;
     }
 }
-
 select {
     padding: 4px;
     margin: 0;
@@ -1275,7 +1254,6 @@ select {
     -moz-border-radius: .8rem 0 0 .8rem;
     border-radius: .8rem 0 0 .8rem;
 }
-
 .info .php-email-form #countycode.dropdown:before {
     content: "\10f107";
     position: absolute;
@@ -1289,12 +1267,10 @@ select {
     height: 50px;
     /* font-family: "Font Awesome 5 Pro"; */
 }
-
 label {
     position: relative;
     top: -.7rem;
 }
-
 label:after {
     content: "\f107";
     font-family: 'Line Awesome Free';
@@ -1307,7 +1283,6 @@ label:after {
     pointer-events: none;
 }
 
-
 /*label:before {
     content:'';
     right:4px; 
@@ -1319,24 +1294,20 @@ label:after {
     pointer-events:none;
     display:block;
 }*/
-
 select#countycode option {
     background: #fff;
     color: #000;
 }
-
 .info .php-email-form input#phone {
     border-radius: 0 .5rem .5rem 0;
     padding-left: 8px;
 }
-
 .info .php-email-form .loading {
     display: none;
     background: #fff;
     text-align: center;
     padding: 15px;
 }
-
 .info .php-email-form .sent-message {
     display: none;
     color: #fff;
@@ -1345,14 +1316,13 @@ select#countycode option {
     padding: 15px;
     font-weight: 600;
 }
-
 .senbtnmain {
     display: flex;
     justify-content: center;
 }
-
 .info .php-email-form button[type="submit"] {
     /*background: rgb(115 65 187);*/
+    
     background: none;
     border: solid 1px #fff;
     padding: 1.1rem 2.5rem 1.2rem;
@@ -1369,17 +1339,14 @@ select#countycode option {
     transition: all .5s;
     outline: none;
 }
-
 .info .php-email-form button:hover {
     background: #fff;
     color: #000;
 }
 
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
 
 /*
 #footer {
@@ -1494,11 +1461,9 @@ select#countycode option {
   font-size: 13px;
 }*/
 
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
 #footer {
     color: #FFF;
     font-size: 14px;
@@ -1517,7 +1482,6 @@ select#countycode option {
     /*transform: skew(10deg, 10deg);*/
     /*padding-top: 270px;*/
 }
-
 #footer .skew-divider-top {
     width: 100%;
     height: 100px;
@@ -1527,7 +1491,6 @@ select#countycode option {
     background: -o-linear-gradient(left top, #ffffff 49%, #262B47 50%), -o-linear-gradient(140deg, #ffffff 16px, #000 0);
     background: linear-gradient(to right bottom, #ffffff 49%, #262B47 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
 }
-
 
 /*#footer:before {
     content: "";
@@ -1539,27 +1502,21 @@ select#countycode option {
     right: 0;
 	/*transform: skew(10deg, 10deg);*/
 
-
 /*transform: skewY(-3deg);*/
 
-
 /*}*/
-
 #footer .footer-top {
     padding: 260px 0 40px 0;
 }
-
 
 /*#footer .footer-top .footer-contact {
     display: flex;
     align-items: center;	
 }*/
 
-
 /*#footer .footer-top .footer-contact {
     margin-bottom: 30px;
 }*/
-
 
 /*#footer .footer-top .footer-contact h4 {
     font-size: 22px;
@@ -1568,7 +1525,6 @@ select#countycode option {
     line-height: 1;
     font-weight: 700;
 }*/
-
 #footer .footer-top .footer-contact p {
     font-size: 14px;
     line-height: 24px;
@@ -1579,7 +1535,6 @@ select#countycode option {
     /*padding-top: 20px;*/
 }
 
-
 /*#footer .footer-top h4 {
     font-size: 17px;
     font-weight: bold;
@@ -1588,14 +1543,12 @@ select#countycode option {
     padding-bottom: 30px;
 }*/
 
-
 /*#footer .footer-top .footer-contact .mainsocial {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 0;
 }*/
-
 #footer .footer-top .footer-links {
     margin-bottom: 1.6px;
     flex-direction: row;
@@ -1604,7 +1557,6 @@ select#countycode option {
     border-top: solid 1px #fff;
     margin-top: 1.5rem;
 }
-
 #footer .footer-top .footer-links ul {
     list-style: none;
     padding: 0 0 0 0px;
@@ -1614,20 +1566,17 @@ select#countycode option {
     width: 100%;
 }
 
-
 /*#footer .footer-top .footer-links ul i {
     padding-right: 4px;
     color: #ffa587;
     font-size: 13px;
     line-height: 1;
 }*/
-
 #footer .footer-top .footer-links ul li {
     padding: 10px 0;
     display: flex;
     align-items: center;
 }
-
 #footer .footer-top .footer-links ul a {
     color: #fff;
     transition: 0.3s;
@@ -1635,20 +1584,16 @@ select#countycode option {
     line-height: 1;
     font-size: 16px;
 }
-
 #footer input:focus-visible {
     outline: 0px;
 }
-
 #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
     color: #915bde
 }
-
 #footer .footer-newsletter {
     font-size: 15px;
 }
-
 #footer .footer-newsletter h4 {
     font-size: 16px;
     font-weight: bold;
@@ -1656,28 +1601,28 @@ select#countycode option {
     position: relative;
     padding-bottom: 30px;
 }
-
 #footer .credits {
     padding-top: 5px;
     font-size: 13px;
     color: #313030;
 }
-
 #footer .social-links {
     /*margin-top: 15px;
     padding-top: 15px;*/
+    
     display: flex;
     justify-content: flex-end;
 }
-
 #footer .social-links a {
     font-size: 18px;
     display: inline-flex;
     /*background: #fc9446;*/
+    
     color: #fff;
     line-height: 1;
     /* padding: 9px 0; 
     margin-right: 16px;*/
+    
     border-radius: 50%;
     text-align: center;
     width: 36px;
@@ -1685,26 +1630,24 @@ select#countycode option {
     transition: 0.3s;
     flex-direction: row;
     /* float: left; */
+    
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
     border: solid 1px #fff;
     margin-right: 1.8rem;
 }
-
 #footer .social-links a:hover {
     background: #915bde;
     color: #fff;
     text-decoration: none;
     border-color: #915bde;
 }
-
 #footer .copyrightmain {
     border-top: solid 1px #fff;
     margin: 1rem 0 0 0;
     padding: 2rem 0 0 0;
 }
-
 .why-us.privacy,
 .why-us.disclosure,
 #faq {
