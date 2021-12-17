@@ -338,6 +338,11 @@ p {
     margin: 15px;
 }
 
+section#hero-inner {
+    top: 80px;
+    margin: 2rem auto;
+}
+
 
 /*--------------------------------------------------------------
 # Hero Section
