@@ -319,6 +319,7 @@ p {
     background-color: #fff;
     overflow-y: auto;
     transition: 0.3s;
+    height: 320px;
 }
 
 .navbar-mobile a,
@@ -778,7 +779,7 @@ section {
 }
 
 .faq .faq-list li {
-    padding: 20px;
+    padding: 20px 15px 20px 15px;
     background: #fff;
     border-radius: .7rem;
     position: relative;
@@ -793,7 +794,7 @@ section {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    padding: 0 0px;
+    padding: 0 40px 0 0px;
     outline: none;
     cursor: pointer;
 }
@@ -1649,7 +1650,7 @@ select#countycode option {
     font-size: 18px;
     display: inline-flex;
     /*background: #fc9446;*/
-    color: #fff;
+    background-color: #fff;
     line-height: 1;
     /* padding: 9px 0; 
     margin-right: 16px;*/
@@ -1665,6 +1666,7 @@ select#countycode option {
     padding: 1.5rem;
     border: solid 1px #fff;
     margin-right: 1.8rem;
+    color: #31274F;
 }
 
 #footer .social-links a:hover {
