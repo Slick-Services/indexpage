@@ -165,7 +165,7 @@
 
 @media (min-width: 991px) {
     .counts .icon-box {
-        margin: 0 0 40px 0;
+        margin: 0 0 0px 0;
         padding: 30px;
     }
 }
