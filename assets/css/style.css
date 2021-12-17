@@ -1268,7 +1268,7 @@ select#countycode option {
     border-radius: .5rem;
     max-width: 100%;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 500;
     transition: all .5s;
     outline: none;
 }
@@ -1545,7 +1545,7 @@ select#countycode option {
 
 #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #d0742f;
+    color: #915bde
 }
 
 #footer .footer-newsletter {
