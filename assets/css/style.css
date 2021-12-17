@@ -204,12 +204,13 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #915bde;
+    color: #c4aae9;
+    text-decoration: underline;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-    background: #915bde;
+    background: #c4aae9;
     padding: 8px 20px;
     margin-left: 30px;
     border-radius: 4px;
@@ -353,7 +354,7 @@ p {
     -moz-background-size: cover;
     position: relative;
     background-attachment: fixed;
-    z-index: -1;
+    z-index: 0;
 }
 
 #hero:before {
@@ -1323,7 +1324,7 @@ select#countycode option {
     /*background: rgb(115 65 187);*/
     background: none;
     border: solid 1px #fff;
-    padding: 1.1rem 2.5rem 1.2rem;
+    padding: 1.2rem 3rem 1.2rem;
     color: #fff;
     top: 0.0rem;
     position: relative;
