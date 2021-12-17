@@ -37,6 +37,12 @@
     .clients .client-logo {
         padding: 10px;
     }
+    .bigshow {
+        display: none;
+    }
+    .row.smallshow {
+        display: flex;
+    }
     #footer .footer-top .footer-info {
         padding: 0px;
     }
@@ -138,6 +144,9 @@
         padding: 3.5rem 1.9rem 3.5em;
         border-radius: 3rem;
     }
+    .clients .m-right {
+        margin-left: 7rem;
+    }
     #footer .footer-top .footer-contact {
         justify-content: flex-start;
         margin: 5rem 0 0 0;
@@ -201,11 +210,18 @@
         padding: 20px;
     }
     .clients .m-right {
-        margin-left: 10rem;
+        margin-left: 0rem;
     }
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    .bigshow {
+        display: flex;
+    }
+    .row.smallshow {
+        display: none;
+    }
+}
 
 @media (min-width: 1100px) {
     .why-us .whyusgapping {
@@ -218,17 +234,11 @@
     .why-us .box h4 {
         font-size: 24px;
     }
-    .clients .m-right {
-        margin-left: 12rem;
-    }
 }
 
 @media (min-width: 1366px) {
     .why-us .box {
         padding: 50px 30px;
-    }
-    .clients .m-right {
-        margin-left: 13rem;
     }
 }
 
@@ -236,9 +246,6 @@
     .why-us .whyusgapping {
         margin-left: 3rem;
         margin-right: 3rem;
-    }
-    .clients .m-right {
-        margin-left: 14rem;
     }
 }
 

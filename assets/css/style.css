@@ -464,7 +464,7 @@ section {
 
 .section-title {
     text-align: center;
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .section-title h2 {
@@ -518,6 +518,10 @@ section {
     align-items: center;
 }
 
+.about .section-title {
+    text-align: left;
+}
+
 .about .box-heading h4 {
     font-size: 13px;
     letter-spacing: 1px;
@@ -535,7 +539,7 @@ section {
     font-size: 28px;
     font-weight: 700;
     color: #353535;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.2rem;
     margin-top: 1.0rem;
 }
 
@@ -907,6 +911,59 @@ section {
   cursor: pointer;
 }*/
 
+
+/*.owl-item.active>div:after {
+    content: 'active';
+}
+
+.owl-item.center>div:after {
+    content: 'center';
+}
+
+.owl-item.active.center>div:after {
+    content: 'active center';
+}
+
+.owl-item>div:after {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}*/
+
+.clients.bgsectionblue {
+    background: #31274F;
+}
+
+.clients.bgsectionblue .section-title h3 {
+    color: #fff;
+}
+
+.owl-theme .owl-nav {
+    display: none;
+}
+
+.owl-theme .owl-dots {
+    margin-top: 4rem;
+}
+
+@media (max-width: 767px) {
+    .owl-item.cloned {
+        width: inherit !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .owl-item.cloned {
+        width: 281px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .owl-item.cloned {
+        width: 450px !important;
+    }
+}
+
 .clients .client-logo {
     padding: 20px;
     display: flex;
@@ -921,7 +978,7 @@ section {
 }
 
 .clients .m-right {
-    margin-left: 14rem;
+    margin-left: 0rem;
 }
 
 .clients .client-logo img {
@@ -1190,13 +1247,15 @@ select {
 .info .php-email-form #countycode.dropdown:before {
     content: "\10f107";
     position: absolute;
+    content: "\f107";
+    font-family: 'Line Awesome Free';
     top: 0;
     left: 0;
     bottom: 0;
     background: none;
     width: 50px;
     height: 50px;
-    font-family: "Font Awesome 5 Pro";
+    /* font-family: "Font Awesome 5 Pro"; */
 }
 
 label {
@@ -1205,8 +1264,8 @@ label {
 }
 
 label:after {
-    content: "\f078";
-    font-family: "Font Awesome 5 Pro";
+    content: "\f107";
+    font-family: 'Line Awesome Free';
     font-size: 1.1rem;
     color: #fff;
     right: 11px;
