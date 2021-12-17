@@ -1576,7 +1576,7 @@ select#countycode option {
 #footer .footer-top .footer-links ul {
     list-style: none;
     padding: 0 0 0 0px;
-    margin: 3rem 0 2.5rem;
+    margin: 2rem 0 1.0rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
