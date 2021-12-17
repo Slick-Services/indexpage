@@ -874,7 +874,7 @@ section {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Line Awesome Free' !important;
-    font-weight: 900;
+    font-weight: 500;
 }
 
 .bx-chevron-up:before {
