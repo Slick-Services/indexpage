@@ -1264,8 +1264,8 @@ label {
 }
 
 label:after {
-    content: "\f107";
-    font-family: 'Line Awesome Free';
+    content: "\f078";
+    font-family: "Font Awesome 5 Pro";
     font-size: 1.1rem;
     color: #fff;
     right: 11px;
