@@ -66,6 +66,9 @@
     #footer .footer-top .footer-contact {
         justify-content: center;
     }
+    #footer .social-links {
+        justify-content: center;
+    }
 }
 
 @media (min-width: 360px) {}
@@ -211,6 +214,9 @@
     }
     .clients .m-right {
         margin-left: 0rem;
+    }
+    #footer .social-links {
+        justify-content: flex-end;
     }
 }
 
