@@ -200,6 +200,9 @@
     .clients .client-logo {
         padding: 20px;
     }
+    .clients .m-right {
+        margin-left: 10rem;
+    }
 }
 
 @media (min-width: 1024px) {}
@@ -215,11 +218,17 @@
     .why-us .box h4 {
         font-size: 24px;
     }
+    .clients .m-right {
+        margin-left: 12rem;
+    }
 }
 
 @media (min-width: 1366px) {
     .why-us .box {
         padding: 50px 30px;
+    }
+    .clients .m-right {
+        margin-left: 13rem;
     }
 }
 
@@ -227,6 +236,9 @@
     .why-us .whyusgapping {
         margin-left: 3rem;
         margin-right: 3rem;
+    }
+    .clients .m-right {
+        margin-left: 14rem;
     }
 }
 

@@ -921,7 +921,7 @@ section {
 }
 
 .clients .m-right {
-    margin-left: 11rem;
+    margin-left: 14rem;
 }
 
 .clients .client-logo img {
@@ -934,6 +934,12 @@ section {
 .clients .client-logo:hover img {
     filter: grayscale(100%);
     transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+    .clients .m-right {
+        margin-left: 0rem;
+    }
 }
 
 @media (max-width: 768px) {
