@@ -1,11 +1,3 @@
-/**
-* Template Name: Remember - v4.7.0
-* Template URL: https://bootstrapmade.com/remember-free-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1789,7 +1781,7 @@ body.login {
 
 /* Start body rules */
 
-body {
+body.loginbg {
     background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
     background-attachment: fixed;
@@ -1838,7 +1830,7 @@ form .con {
 
 /* the header form form */
 
-header {
+form header {
     margin: 1rem auto 1rem auto;
     text-align: center;
 }
@@ -1846,7 +1838,7 @@ header {
 
 /* Login title form form */
 
-header h2 {
+form header h2 {
     font-size: 250%;
     font-family: 'Playfair Display', serif;
     color: #fff;
@@ -1855,7 +1847,7 @@ header h2 {
 
 /*  A welcome message or an explanation of the login form */
 
-header.head-form p {
+form header.head-form p {
     letter-spacing: 0.05em;
     color: #fff;
 }
@@ -1876,7 +1868,7 @@ header.head-form p {
     color: #333;
     margin: 5.9px 0 0 0;
     margin-left: -20px;
-    padding: 15px 9px 19px 0px;
+    padding: 18px 9px 16px 0px;
     border-radius: 0px 5px 5px 0px;
     float: right;
     position: relative;
@@ -1911,7 +1903,7 @@ input[id="txt-input"] {
 /* focus  */
 
 input:focus {
-    transform: translateX(-2px);
+    transform: translateX(-4px);
     border-radius: 5px;
 }
 
@@ -2000,7 +1992,7 @@ button:hover {
     .form-signin {
         max-width: unset;
     }
-    header.head-form p {
+    form header.head-form p {
         margin: 0;
     }
 }
@@ -2009,7 +2001,7 @@ button:hover {
     .form-signin {
         max-width: 400px;
     }
-    header.head-form p {
+    form header.head-form p {
         letter-spacing: 0.05em;
         color: #fff;
         margin: 0 0 1rem 0;
