@@ -77,6 +77,41 @@
         font-size: 1.0rem;
         line-height: 0px;
     }
+    #dashboard .navbar li {
+        justify-content: start;
+    }
+    #dashboard .navbar-mobile a,
+    #dashboard .navbar-mobile a:focus {
+        padding: 20px 10px;
+    }
+    #dashboard .about-us .pointsbg {
+        background: url(../img/bg_card.png) no-repeat;
+        padding: 1.9rem;
+        background-size: contain;
+        -o-background-size: contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+    }
+    #dashboard .about-us .mainpointcard {
+        flex-direction: column;
+    }
+    #dashboard .about-us .pointsbg {
+        padding: 0.9rem;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body {
+        padding: 0.5rem 0.5rem 0.5rem;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body h2 {
+        font-size: 1.2rem;
+        line-height: 1.3;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body p.pointscalculate {
+        font-size: 1.0rem;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body p {
+        font-size: 0.9rem;
+        padding: 0.1rem 0;
+    }
 }
 
 @media (min-width: 360px) {}
@@ -239,6 +274,52 @@
     #hero-inner h1 {
         font-size: 2.5rem;
     }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body p {
+        font-size: 0.8rem;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body h2 {
+        font-size: 1.0rem;
+        line-height: 1.3;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body p.pointscalculate {
+        font-size: 1.0rem;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body {
+        padding: .0rem 0.5rem 1.3rem;
+    }
+    #dashboard .about-us .pointsbg {
+        background-size: contain;
+        -o-background-size: contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+    }
+    .main-content-inner .card .maincardavailable .card.row .seashell,
+    .main-content-inner .card .maincardavailable .card.row .tranquil,
+    .main-content-inner .card .maincardavailable .card.row .pigpink,
+    .main-content-inner .card .maincardavailable .card.row .rumswizzle,
+    .main-content-inner .card .maincardavailable .card.row .palepink {
+        margin-right: .5rem;
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols {
+        padding: 1.0rem;
+        flex-direction: column;
+        width: 250px;
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols .mainalignment .maineanrbtn {
+        margin: 1rem 0 .5rem;
+    }
+    .main-content-inner .card .maincardavailable .btn.btn-dark.profile {
+        padding: 12px 20px;
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols .mainalignment {
+        flex-direction: column;
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols .mainhelthcare {
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 4rem;
+        align-items: flex-end;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -264,11 +345,88 @@
     #hero-inner {
         height: 400px;
     }
+    #dashboard .about-us .pointsbg {
+        background: url("../img/vectbg.png") no-repeat;
+        padding: 1rem 1rem;
+        border-radius: 1.1rem;
+        margin: 0rem 0rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body {
+        padding: 1.5rem 0.5rem 1.5rem;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body p {
+        color: #fff;
+        font-size: 1.0rem;
+        padding: 0.0rem 0;
+        margin: 0;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body h2 {
+        margin: 0;
+        padding: 0.2rem 0;
+        font-size: 2.2rem;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body p.pointscalculate {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+    #dashboard .main-content-inner .card.img .maincardavailable .card-body {
+        padding: 1.5rem 0.5rem 1.5rem;
+    }
+    .main-content-inner .card .maincardavailable .btn.btn-dark.profile {
+        padding: 12px 13px;
+        width: 100%;
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols {
+        padding: 1.4rem 1.2em;
+        flex-direction: row;
+        width: 300px;
+    }
+    .main-content-inner .card .maincardavailable .card.row .seashell {
+        margin-right: .5rem;
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols .mainalignment {
+        flex-direction: row;
+        align-items: center;
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols .mainhelthcare {
+        padding-left: .5rem;
+        padding-right: .5rem;
+        align-items: flex-start;
+    }
 }
 
 @media (min-width: 1366px) {
     .why-us .box {
         padding: 50px 30px;
+    }
+    .main-content-inner .card .maincardavailable .card.row .seashell {
+        margin-right: 1rem;
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols {
+        width: 305px;
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols .mainhelthcare {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .main-content-inner .card .maincardavailable .card.row .seashell,
+    .main-content-inner .card .maincardavailable .card.row .tranquil,
+    .main-content-inner .card .maincardavailable .card.row .pigpink,
+    .main-content-inner .card .maincardavailable .card.row .rumswizzle,
+    .main-content-inner .card .maincardavailable .card.row .palepink {
+        margin-right: 1rem;
     }
 }
 
@@ -276,6 +434,27 @@
     .why-us .whyusgapping {
         margin-left: 3rem;
         margin-right: 3rem;
+    }
+    .main-content-inner .card .maincardavailable .card.row .seashell {
+        margin-right: 2rem;
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols {
+        width: 340px;
+        padding: 1.9rem 1.7rem
+    }
+    .main-content-inner .card .maincardavailable .card.row .mainprfilecols .mainhelthcare {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .main-content-inner .card .maincardavailable .btn.btn-dark.profile {
+        padding: 14px 11px;
+    }
+    .main-content-inner .card .maincardavailable .card.row .seashell,
+    .main-content-inner .card .maincardavailable .card.row .tranquil,
+    .main-content-inner .card .maincardavailable .card.row .pigpink,
+    .main-content-inner .card .maincardavailable .card.row .rumswizzle,
+    .main-content-inner .card .maincardavailable .card.row .palepink {
+        margin-right: 2rem;
     }
 }
 
