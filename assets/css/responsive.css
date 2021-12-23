@@ -193,6 +193,9 @@
     .clients .m-right {
         margin-left: 7rem;
     }
+    .info h3 {
+        font-size: 32px;
+    }
     #footer .footer-top .footer-contact {
         justify-content: flex-start;
         margin: 5rem 0 0 0;
@@ -264,6 +267,9 @@
     }
     .clients .m-right {
         margin-left: 0rem;
+    }
+    .info h3 {
+        font-size: 36px;
     }
     #footer .social-links {
         justify-content: flex-end;
