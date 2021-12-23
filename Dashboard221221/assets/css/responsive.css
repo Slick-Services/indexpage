@@ -437,7 +437,7 @@
     .main-content-inner .card .maincardavailable .card.row .mainprfilecols {
         padding: 0.8rem .7rem;
         flex-direction: column;
-        width: 250px;
+        width: 245px;
     }
     .col-8.col-lg-12.col-xl-7.d-flex.iconbox {
         width: 62%;
@@ -558,7 +558,7 @@
     .main-content-inner .card .maincardavailable .card.row .mainprfilecols {
         padding: 2.2rem 1.2em;
         flex-direction: row;
-        width: 310px;
+        width: 305px;
     }
     .main-content-inner .card .maincardavailable .btn.btn-dark.profile {
         padding: 16px 8px;

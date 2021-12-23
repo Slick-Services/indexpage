@@ -1641,17 +1641,21 @@ a {
     margin: auto;
     text-align: left;
     border-radius: .7rem;
-    border: solid 1px rgb(49 39 79);
+    border: solid 1px #DD5A87;
     font-weight: 500;
     font-size: 1rem;
-    padding-left: 1.5rem;
+    margin-bottom: 1rem;
 }
 
-.d-flex.profilemain {
+.card.mainprofile .profilemain {
     align-items: center;
 }
 
-.complitprofile .btn.btn-dark.profile {
+.card.mainprofile .profilemain span {
+    padding-left: 1.5rem;
+}
+
+.card.mainprofile .complitprofile .btn.btn-dark.profile {
     padding: 1.4rem 0;
     display: flex;
     border-radius: 0 0.7rem.7rem 0;
@@ -1661,6 +1665,31 @@ a {
     border: none;
     color: #31274F;
     font-weight: 600;
+    border-left: solid 1px #DD5A87;
+    transition: all .5s ease-in-out;
+}
+
+.card.mainprofile .complitprofile .btn.btn-dark.profile:hover {
+    background: rgb(44 34 74 / 43%);
+    color: #fff;
+}
+
+.card.mainprofile.blues {
+    border-color: #5A79DD;
+}
+
+.card.orpans {
+    border-color: #DDA95A;
+}
+
+.card.blues .complitprofile .btn.btn-dark.profile {
+    background: #829AE5;
+    border-color: #5A79DD;
+}
+
+.card.orpans .complitprofile .btn.btn-dark.profile {
+    background: #EED4AE;
+    border-color: #DDA95A;
 }
 
 
