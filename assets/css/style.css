@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Poppins:100,300,400,500,600,700,800,900');
 
 /* Your default CSS. */
@@ -93,7 +91,9 @@ p {
     color: white;
 }
 
+
 /*================================== Start Main css ================================ */
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -191,7 +191,7 @@ p {
 section#hero-inner {
     width: 100%;
     height: 500px;
-    background: url("../img/heroinnerbg.jpg")no-repeat;
+    background: url("../img/heroinnerbg.png")no-repeat;
     margin: /*72px 0 -72px 0*/
     auto;
     background-size: cover;
@@ -200,6 +200,10 @@ section#hero-inner {
     -moz-background-size: cover;
     position: relative;
     padding: 90px 0;
+}
+
+section#hero-inner.nda {
+    background: url("../img/heroinnernda.png")no-repeat;
 }
 
 
@@ -1500,6 +1504,7 @@ select#countycode option {
     background: none;
 }
 
+
 /*================================== End Main css ================================ */
 
 
@@ -1585,6 +1590,7 @@ form {
     -moz-background-image: linear-gradient(-180deg, rgba(73, 45, 111, 1) 0%, rgba(146, 90, 221, 1) 100%);
 }
 
+
 /* form Container */
 
 form .con {
@@ -1596,6 +1602,7 @@ form .con {
     flex-wrap: wrap;
     margin: 0 auto;
 }
+
 
 /* the header form form */
 
@@ -1647,6 +1654,7 @@ form header.head-form p {
     cursor: pointer;
 }
 
+
 /* inputs form  */
 
 input[class="form-input"] {
@@ -1675,7 +1683,9 @@ input:focus {
     border-radius: 5px;
 }
 
+
 /* input[type="text"] {min-width: 250px;} */
+
 
 /* buttons  */
 
@@ -1781,6 +1791,7 @@ button:hover {
 
 
 /*=========================================== Dash Board CSS =============================================*/
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -2597,6 +2608,7 @@ button:hover {
     border-radius: 50%;
     margin: .3rem;
 }
+
 .main-content-inner .card .maincardavailable .card.row i.mainhealthicon:before {
     font-size: 1.8rem;
     padding: 0;
@@ -2604,12 +2616,14 @@ button:hover {
     top: 2px;
     position: relative;
 }
+
 .main-content-inner .card .maincardavailable .btn.btn-dark.profile {
     padding: 13px 20px;
     background: none;
     border-color: #31274F;
     background: #31274F;
 }
+
 .main-content-inner .card .maincardavailable .btn.btn-dark.profile:hover,
 .main-content-inner .card .maincardavailable .btn.btn-dark.profile:active,
 .main-content-inner .card .maincardavailable .btn.btn-dark.profile.active {
@@ -2617,12 +2631,14 @@ button:hover {
     border: solid 1px #000;
     color: #fff;
 }
+
 .main-content-inner .card .maincardavailable .card.row .mins.point {
     color: #ff7657;
     font-size: 1.0rem;
     font-weight: 500;
     line-height: 1.3;
 }
+
 .main-content-inner .card .maincardavailable .btn.btn-dark.takesurvey {
     background: #fff;
     border: none;
@@ -2632,11 +2648,12 @@ button:hover {
     font-weight: 600;
     transition: .5s all;
 }
+
 .main-content-inner .card .maincardavailable .btn.btn-dark.takesurvey:hover,
 .main-content-inner .card .maincardavailable .btn.btn-dark.takesurvey:active,
 .main-content-inner .card .maincardavailable .btn.btn-dark.takesurvey.active {
     background: #000;
 }
 
-/*-------------------- END Login ------------------- */
 
+/*-------------------- END Login ------------------- */
