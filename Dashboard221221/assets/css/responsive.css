@@ -281,6 +281,9 @@
     .main-content-inner .mainavilablesurvey {
         padding-right: 0;
     }
+    .main-content-inner .mainavimagcard {
+        padding-left: 0;
+    }
     .main-content-inner .card .maincardavailable .card.row .seashell,
     .main-content-inner .card .maincardavailable .card.row .tranquil,
     .main-content-inner .card .maincardavailable .card.row .pigpink,
@@ -574,6 +577,9 @@
     }
     .main-content-inner .mainavilablesurvey {
         padding-right: calc(var(--bs-gutter-x) * .5);
+    }
+    .main-content-inner .mainavimagcard {
+        padding-left: calc(var(--bs-gutter-x) * .5);
     }
     .main-content-inner .card .maincardavailable .card.row .seashell,
     .main-content-inner .card .maincardavailable .card.row .tranquil,

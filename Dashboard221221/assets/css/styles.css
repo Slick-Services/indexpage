@@ -674,6 +674,7 @@ main#main {
 
 .main-content-inner .mainavimagcard {
     padding-right: 0;
+    padding-left: calc(var(--bs-gutter-x) * .5);
 }
 
 
