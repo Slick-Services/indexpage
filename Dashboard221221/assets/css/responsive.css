@@ -713,7 +713,7 @@
     }
     .main-content-inner .card .maincardavailable h2 {
         padding-bottom: 1.5rem;
-        padding-left: 1.9rem;
+        /*padding-left: 1.9rem;*/
     }
     .main-content-inner .card.img {
         padding: 2.9rem 0 2.9rem;

@@ -45,6 +45,7 @@
     });
 
 
+
     // Activate smooth scroll on page load with hash links
     $(document).ready(function() {
         if (window.location.hash) {
@@ -117,6 +118,7 @@
     const onscroll = (el, listener) => {
         el.addEventListener('scroll', listener)
     }
+
 
 
     /*================================
