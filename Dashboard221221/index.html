@@ -33,13 +33,13 @@
         <header id="header" class="header-scrolled sticky-top">
             <!-- <header id="header" class="fixed-top"> -->
             <div class="container headercontiner">
-                <div class="row d-flex align-items-center">
+                <div class="row d-flex align-items-center mainhdrow">
 
                     <!-- <h1 class="logo me-auto col-sm-3 col-12"><a href="index.html"><span>Com</span>pany</a></h1> -->
                     <!-- Uncomment below if you prefer to use an image logo -->
                     <a href="index.html" class="logo me-lg-0 col-6 col-sm-6 col-md-4 col-lg-3 order-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
-                    <nav id="navbar" class="nav-menu d-lg-flex col-6 col-sm-6 col-md-2 col-lg-6 navbar order-2 order-sm-3">
+                    <nav id="navbar" class="nav-menu d-lg-flex col-6 col-sm-6 col-md-2 col-lg-6 navbar order-2 order-sm-3 order-md-3 order-lg-2">
                         <!--<div>-->
                         <ul>
                             <li>
@@ -55,7 +55,7 @@
                         <i class="las la-bars mobile-nav-toggle"></i>
                     </nav>
 
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 manbtnlogout order-sm-3 order-2">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 manbtnlogout order-sm-3 order-md-2 order-lg-3 order-2">
                         <p class="m-0 welcometxt">Welcome, <br>Nrendra Vishvakrama
                             <button class="btn signinbtn p-0 pl-4"><a href="#"><i class="las la-sign-in-alt"></i></a></button></p>
 
@@ -75,6 +75,19 @@
                     <div class="row">
                         <div class="col-12 col-lg-7 mainavilablesurvey">
                             <div class="availablesurvey">
+                                <div class="card img d-flex d-lg-none">
+                                    <div class="maincardavailable">
+                                        <div class="card-body">
+                                            <!--<h3>Welcome John,</h3>-->
+                                            <p>Your Total Reward Points</p>
+                                            <h2>9000 Points</h2>
+                                            <p class="pointscalculate">1000 Points = $1</p>
+                                            <a href="#">
+                                                <div class="btn btn-dark takesurvey">Take Survey</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="card mainsurvey">
                                     <div class="maincardavailable">
                                         <h2>Available Survey</h2>
@@ -292,7 +305,7 @@
 
                         <div class="col-12 col-lg-5 pr-0 mainavimagcard">
                             <div class="availablesurvey">
-                                <div class="card img">
+                                <div class="card img d-none d-lg-flex">
                                     <div class="maincardavailable">
                                         <div class="card-body">
                                             <!--<h3>Welcome John,</h3>-->
@@ -304,15 +317,11 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <!-- <div class="maincardavailable">
-					   				 <div></div>
-						 			 <div class="card-body border-bottom"></div>
-					   				 </div>-->
                                 </div>
                             </div>
 
                             <div class="availablesurvey mt-4">
-                                <div class="card mainsurvey">
+                                <div class="card mainsurvey smallpadding">
 
                                     <div class="maincardavailable">
                                         <h2>Survey Profiles</h2>
@@ -320,7 +329,7 @@
 
                                     <div class="card-body">
 
-                                        <div class="card mainprofile col-11">
+                                        <div class="card mainprofile col-12 col-sm-8 col-lg-11">
                                             <div class="d-flex profilemain">
                                                 <div class="col-6">
                                                     <span>Healthcare</span>
@@ -333,7 +342,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="card mainprofile col-11 blues">
+                                        <div class="card mainprofile col-12 col-sm-8 col-lg-11 blues">
                                             <div class="d-flex profilemain">
                                                 <div class="col-6">
                                                     <span>Education</span>
@@ -346,7 +355,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="card mainprofile col-11 orpans">
+                                        <div class="card mainprofile col-12 col-sm-8 col-lg-11 orpans">
                                             <div class="d-flex profilemain">
                                                 <div class="col-6">
                                                     <span>Insurance</span>
