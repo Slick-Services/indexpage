@@ -278,6 +278,13 @@
         margin-left: .5rem;*/
         padding: 1rem .7rem 1.6rem .4rem
     }
+    .main-content-inner .mainavimagcard {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    .main-content-inner .mainavilablesurvey {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
     .main-content-inner .card .maincardavailable .card.row .seashell,
     .main-content-inner .card .maincardavailable .card.row .tranquil,
     .main-content-inner .card .maincardavailable .card.row .pigpink,
@@ -355,9 +362,6 @@
     .card.mainprofile .complitprofile .btn.btn-dark.profile {
         font-size: .9rem;
     }
-    .card.mainsurvey.smallpadding {
-        margin: 1rem;
-    }
 }
 
 @media (min-width: 400px) {
@@ -410,6 +414,9 @@
     }
     .navbar {
         justify-content: end;
+    }
+    .card.mainsurvey.smallpadding {
+        margin: 1rem;
     }
 }
 
