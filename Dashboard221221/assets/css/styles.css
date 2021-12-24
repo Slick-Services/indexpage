@@ -436,7 +436,7 @@ main#main {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #F6821F;
+    color: #925ADD;
 }
 
 
@@ -520,7 +520,7 @@ main#main {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-    color: #1bbd36;
+    color: #925ADD;
 }
 
 .navbar-mobile .getstarted,
@@ -983,6 +983,7 @@ main#main {
 
 a {
     text-decoration: none;
+    color: #925ADD;
 }
 
 
@@ -1095,7 +1096,8 @@ a {
 }
 
 .card.mainprofile .complitprofile .btn.btn-dark.profile:hover {
-    background: rgb(44 34 74 / 43%);
+    background: /*rgb(44 34 74 / 43%)*/
+    #000;
     color: #fff;
 }
 
