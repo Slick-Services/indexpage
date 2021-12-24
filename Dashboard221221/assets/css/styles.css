@@ -668,6 +668,14 @@ main#main {
     /*top: 15%;*/
 }
 
+.main-content-inner .mainavilablesurvey {
+    padding-left: 0;
+}
+
+.main-content-inner .mainavimagcard {
+    padding-right: 0;
+}
+
 
 /*.main-content-inner .card .maincardavailable h2 {
     color: #ff7657;
