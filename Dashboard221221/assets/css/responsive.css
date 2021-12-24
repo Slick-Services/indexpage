@@ -278,6 +278,9 @@
         margin-left: .5rem;*/
         padding: 1rem .7rem 1.6rem .4rem
     }
+    .main-content-inner .mainavilablesurvey {
+        padding-right: 0;
+    }
     .main-content-inner .card .maincardavailable .card.row .seashell,
     .main-content-inner .card .maincardavailable .card.row .tranquil,
     .main-content-inner .card .maincardavailable .card.row .pigpink,
@@ -568,6 +571,9 @@
     }*/
     .main-content-inner {
         margin: 2rem 0 0 0;
+    }
+    .main-content-inner .mainavilablesurvey {
+        padding-right: calc(var(--bs-gutter-x) * .5);
     }
     .main-content-inner .card .maincardavailable .card.row .seashell,
     .main-content-inner .card .maincardavailable .card.row .tranquil,
