@@ -188,6 +188,7 @@ body {
     /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
     border-radius: 0;
     width: 100%;
+    z-index: 0;
 }
 
 main#main {
@@ -1086,7 +1087,7 @@ a {
     margin-right: 1rem;
 }
 
-.main-content-inner .availablesurvey.profile .card-body form.row.g-3 button.btn {
+.main-content-inner .availablesurvey.profile .card-body form.row.g-3 button.btn.mainbtnchange {
     border-radius: .6rem;
     padding: .6rem 1.7rem;
     transition: all .1s;
@@ -1094,14 +1095,36 @@ a {
     margin-bottom: 1rem;
 }
 
-.main-content-inner .availablesurvey.profile .card-body form.row.g-3 button.btn.dropdown-toggle.btn-default.bs-placeholder {
-    padding: 0;
-    margin: 0;
+.availablesurvey {
+    position: relative;
+    z-index: -1;
 }
 
+.main-content-inner .availablesurvey.profile .card-body form.row.g-3 button.btn.dropdown-toggle.btn-default.bs-placeholder,
+.main-content-inner .availablesurvey.profile .card-body form.row.g-3 button.btn.dropdown-toggle.bs-placeholder.btn-light {
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.main-content-inner .availablesurvey.profile .card-body form.row.g-3 .form-select.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn),
 .main-content-inner .availablesurvey.profile .card-body form.row.g-3 .form-select.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
     width: 100%;
     padding: 13px;
+    background: none;
+}
+
+.main-content-inner .availablesurvey.profile .card-body form.row.g-3 .form-select.dropdown.bootstrap-select button.btn.dropdown-toggle.btn-light {
+    padding: 0px;
+    background: none;
+}
+
+.card-body form.row.g-3 .form-select.bootstrap-select .btn-check:active+.btn-light:focus,
+.card-body form.row.g-3 .form-select.bootstrap-select .btn-check:checked+.btn-light:focus,
+.card-body form.row.g-3 .form-select.bootstrap-select .btn-light.active:focus,
+.card-body form.row.g-3 .form-select.bootstrap-select .btn-light:active:focus,
+.card-body form.row.g-3 .form-select.bootstrap-select.show>.btn-light.dropdown-toggle:focus {
+    box-shadow: none;
 }
 
 .main-content-inner .availablesurvey.profile .card-body form.row.g-3 .form-select.bootstrap-select .dropdown-toggle:focus,
