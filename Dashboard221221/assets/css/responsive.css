@@ -509,12 +509,12 @@
         right: 20px;
         top: -3px;
     }
-    .main-content-inner .mainavilablesurvey {
+    /*.main-content-inner .mainavilablesurvey {
         padding-right: 0;
     }
     .main-content-inner .mainavimagcard {
         padding-left: 0;
-    }
+    }*/
     .main-content-inner .card .maincardavailable .card.row .seashell,
     .main-content-inner .card .maincardavailable .card.row .tranquil,
     .main-content-inner .card .maincardavailable .card.row .pigpink,
