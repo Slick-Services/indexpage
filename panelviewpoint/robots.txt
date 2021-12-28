@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /formsubmit/
+Disallow: /junk/
+Disallow: /sitemap.xml/
