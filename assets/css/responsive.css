@@ -1,4 +1,7 @@
 @media (min-width: 320px) {
+    .navbar li a:after {
+        left: 20px;
+    }
     section {
         padding: 30px 0;
     }
@@ -227,6 +230,9 @@
 }
 
 @media (min-width: 992px) {
+    .navbar li a:after {
+        left: 30px;
+    }
     .about .video-box {
         min-height: 400px;
     }

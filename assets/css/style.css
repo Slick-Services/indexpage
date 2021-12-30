@@ -273,8 +273,34 @@ section#hero-inner.nda {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #c4aae9;
-    text-decoration: underline;
+    color: rgb(214 199 247);
+    /* text-decoration: underline; */
+}
+
+.navbar li a:focus-visible {
+    outline: none;
+}
+
+.navbar li a:focus-visible::after,
+.navbar li a:hover:after,
+.navbar li a:active:after,
+.navbar li a.active:after,
+.navbar li a.active:focus:after,
+.navbar li a:focus:after {
+    width: 50%;
+}
+
+.navbar li a:after {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: rgb(214 199 247);
+    bottom: 0px;
+    content: "";
+    display: block;
+    -webkit-transition: width .6s;
+    transition: width .6s;
+    left: 30px;
 }
 
 .navbar .getstarted,
@@ -328,14 +354,20 @@ section#hero-inner.nda {
     line-height: 0;
     transition: 0.5s;
     background: #cdb4f1;
-    padding: .7rem;
-    border-radius: .5rem;
-    box-shadow: 0 3px 0px 3px #6f4f9d;
+    padding: .4rem;
+    border-radius: .3rem;
+    box-shadow: 0 1px 0px 2px #6f4f9d;
+    right: 6px;
+    position: relative;
+    top: -5px;
 }
 
 @media (max-width: 991px) {
+    .navbar-mobile ul {
+        height: 310px;
+    }
     .mobile-nav-toggle {
-        display: block;
+        display: flex;
     }
     .navbar ul {
         display: none;
@@ -354,6 +386,14 @@ section#hero-inner.nda {
     .navbar a:focus {
         font-size: 1.1rem;
         font-weight: 600;
+    }
+    .navbar li a:focus-visible::after,
+    .navbar li a:hover:after,
+    .navbar li a:active:after,
+    .navbar li a.active:after,
+    .navbar li a.active:focus:after,
+    .navbar li a:focus:after {
+        width: 5%;
     }
 }
 
@@ -1467,7 +1507,7 @@ select#countycode option {
 }
 
 #footer .social-links a {
-    font-size: 18px;
+    font-size: 1.5rem;
     display: inline-flex;
     /*background: #fc9446;*/
     background-color: #fff;
