@@ -195,7 +195,7 @@ h6 {
 .mobile-nav-toggle {
     position: fixed;
     right: 30px;
-    top: 22px;
+    top: 20px;
     z-index: 9998;
     border: 0;
     background: none;
@@ -439,28 +439,18 @@ section.progess {
 .progress.pink .progress-bar {
     background: transparent;
     text-align: left;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    display: flex;
     padding: 0;
     margin: 0;
     overflow: inherit;
 }
 
 .progress.pink .mainprogress {
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
 }
 
 .progress.pink .progress-bar p {
     font-size: 30px;
     margin: 0;
-}
-
-.progress.pink .rectkal {
-    margin-left: -8rem;
 }
 
 
@@ -1798,7 +1788,7 @@ body#dashboard {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #1bbd36;
+    background: rgb(0 87 119);
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -1809,10 +1799,12 @@ body#dashboard {
     font-size: 28px;
     color: #fff;
     line-height: 0;
+    top: auto;
+    left: auto;
 }
 
 #dashboard .back-to-top:hover {
-    background: #21df41;
+    background: rgb(247 147 30);
     color: #fff;
 }
 
@@ -1940,6 +1932,17 @@ body#dashboard {
 
 #dashboard .bi-list::before {
     content: "\f479";
+}
+
+#dashboard #header.header-scrolled .nav-menu a {
+    color: #005777;
+}
+
+#dashboard #header.header-scrolled .nav-menu a:hover,
+#dashboard #header.header-scrolled .nav-menu a.active,
+#dashboard #header.header-scrolled .nav-menu a.active:focus,
+#dashboard #header.header-scrolled .nav-menu a li:hover>a {
+    color: #F6821F;
 }
 
 
@@ -2180,7 +2183,7 @@ body#dashboard {
 }
 
 #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints h1 span {
-    font-size: 5rem;
+    font-size: 4 rem;
 }
 
 #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints .mainbankicon {
@@ -2477,6 +2480,7 @@ body#dashboard {
     padding: .9rem .8rem;
     border-radius: .6rem;
     margin-bottom: .39rem;
+    height: 55px;
 }
 
 #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 button.btn.btn-primary {
