@@ -6,7 +6,9 @@
 /* BASIC */
 
 html {
-    background-color: #f4f9fc;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
 }
 
 body {
@@ -324,7 +326,7 @@ input[type=text]:placeholder {
 }
 
 #icon {
-    width: 50%;
+    width: 40%;
     margin: auto auto 1rem auto;
 }
 
@@ -334,6 +336,7 @@ input[type=text]:placeholder {
     background: rgb(209 24 103);
     color: #fff;
     border: none;
+    width: 100%;
 }
 
 #formContent button.btn.validate.btn.focus,
@@ -384,136 +387,6 @@ input[type=text]:placeholder {
     padding: 35px;
     box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 1rem;
-}
-
-.hide {
-    display: none;
-}
-
-.button {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 12.5rem;
-    magrin: 0;
-    padding: 1.5rem 3.125rem;
-    background-color: #3498db;
-    border: none;
-    border-radius: 0.3125rem;
-    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
-    color: white;
-    font-weight: 300;
-    text-transform: uppercase;
-    overflow: hidden;
-}
-
-.button:before {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background-color: #54d98c;
-}
-
-.button span {
-    position: absolute;
-    line-height: 0;
-}
-
-.button span i {
-    transform-origin: center center;
-}
-
-.button span:nth-of-type(1) {
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.button span:nth-of-type(2) {
-    top: 100%;
-    transform: translateY(0%);
-    font-size: 24px;
-}
-
-.button span:nth-of-type(3) {
-    display: none;
-}
-
-.active {
-    background-color: #2ecc71;
-}
-
-.active:before {
-    width: 100%;
-    transition: width 3s linear;
-}
-
-.active span:nth-of-type(1) {
-    top: -100%;
-    transform: translateY(-50%);
-}
-
-.active span:nth-of-type(2) {
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.active span:nth-of-type(2) i {
-    animation: loading 500ms linear infinite;
-}
-
-.active span:nth-of-type(3) {
-    display: none;
-}
-
-.finished {
-    background-color: #54d98c;
-}
-
-.finished .submit {
-    display: none;
-}
-
-.finished .loading {
-    display: none;
-}
-
-.finished .check {
-    display: block !important;
-    font-size: 24px;
-    animation: scale 0.5s linear;
-}
-
-.finished .check i {
-    transform-origin: center center;
-}
-
-@keyframes loading {
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes scale {
-    0% {
-        transform: scale(10);
-    }
-    50% {
-        transform: scale(0.2);
-    }
-    70% {
-        transform: scale(1.2);
-    }
-    90% {
-        transform: scale(0.7);
-    }
-    100% {
-        transform: scale(1);
-    }
 }
 
 
@@ -595,12 +468,13 @@ input[type=text]:placeholder {
     }
     #formContent button.btn.validate {
         border-radius: .65rem;
-        padding: 1.72rem 1.7rem;
+        padding: .72rem 1.7rem;
         font-size: 1.2rem;
     }
     #formContent input[type=text] {
         font-size: 2rem;
         padding: 0.85rem 1rem;
+        width: 80%;
     }
     #otp_verify .maincardposition .card.otp.text-center h5 {
         font-size: 1.5rem;
@@ -608,8 +482,8 @@ input[type=text]:placeholder {
 }
 
 @media (min-width: 1024px) {
-    #formContent input {
-        width: 30%;
+    #formContent input[type=text] {
+        width: 370px;
     }
 }
 

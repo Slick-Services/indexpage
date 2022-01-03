@@ -42,7 +42,7 @@
         display: inline-block;
         justify-content: center;
         align-items: center;
-        margin-left: 2rem;
+        margin-left: 1rem;
         text-align: center;
         margin-top: 1rem;
     }
@@ -54,7 +54,7 @@
         margin-bottom: .7rem;
         font-size: 19px;
     }
-    .featured-services .icon-box {
+    .howitworks .icon-box {
         margin-left: 0;
         margin-right: 0;
     }
@@ -64,12 +64,12 @@
         webkit-background-size: cover;
         moz-background-size: cover;
     }
-    .why-us {
+    .faq {
         padding: 1rem 0 1rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
     }
-    .why-us.privacy {
+    .faq.privacy {
         padding: 1rem 0 1rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
@@ -94,34 +94,43 @@
         flex-direction: column-reverse;
         margin: 1.0rem auto 1.9rem;
     }
+	.progress.pink .mainprogress .rectkal {
+		text-align: center;
+	}
     .progress.pink .progress-bar p {
         font-size: 16px;
-        margin: 0;
+        margin: 10px 0 10px 0;
+        font-weight: 500;
     }
     .progress.pink .progress-bar {
         top: 1.0rem;
         text-align: center;
     }
-    .featured-services {
+    .howitworks {
         padding: 2rem 0;
         margin-bottom: 1rem;
         text-align: center;
     }
-    .featured-services .icon-boxes .mainrewordbox {
+    .howitworks .icon-boxes .mainrewordbox {
         min-width: 100%;
     }
-    .contact .section-title h2 {
+    .howitworks .icon-box {
+        padding: 16px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .signup .section-title h2 {
         font-size: 16px;
         line-height: 1.4;
     }
-    .contact .php-email-form button[type="submit"] {
+    .signup .php-email-form button[type="submit"] {
         padding: 25px 40px 24px 45px;
         border-radius: 3rem 0;
         font-size: 20px;
-        right: -30px;
+        right: -13px;
         top: -1rem;
     }
-    .contact .php-email-form {
+    .signup .php-email-form {
         padding: 1.5rem 0.9rem 4em;
         margin-top: 1.5rem;
     }
@@ -158,7 +167,7 @@
     #dashboard #header .manbtnlogout {
         margin-top: 1rem;
         margin-bottom: .5rem;
-        justify-content: flex-start;
+        justify-content: flex-end;
     }
     #dashboard #header.header-scrolled.sticky {
         position: -webkit-fixed;
@@ -166,6 +175,7 @@
     }
     #dashboard #header .manbtnlogout .welcometxt {
         font-size: .9rem;
+        font-weight: 600;
     }
     #dashboard .navbar li {
         justify-content: flex-start;
@@ -177,8 +187,10 @@
     #dashboard .about-us .cardleftmaincontentpart {
         margin-top: 2rem;
         margin-bottom: 1rem;
-        padding: 1rem ​1.0rem 0;
-        padding: 1rem;
+        padding: .5rem;
+    }
+    #dashboard .about-us .cardleftmaincontentpart .card .card-body {
+        padding: 1rem 0.5rem;
     }
     #dashboard .about-us .icon-box .lorenmaincontent {
         margin-top: 1rem;
@@ -252,15 +264,18 @@
     #dashboard .mobile-nav-toggle {
         position: fixed;
         right: 15px;
-        top: 20px;
+        top: 15px;
     }
     #dashboard .mainclient {
         display: none;
     }
+    #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints .earnpointtxt {
+        align-items: center;
+    }
 }
 
 @media (min-width: 360px) {
-    .contact .php-email-form button[type="submit"] {
+    .signup .php-email-form button[type="submit"] {
         right: -15px;
     }
 }
@@ -271,45 +286,46 @@
         justify-content: space-evenly;
         padding: 2.5rem 0;
     }
+    #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints .earnpointtxt {
+        align-items: flex-start;
+    }
 }
 
-@media (min-width: 480px) {}
+@media (min-width: 480px) {
+    #dashboard .navbar {
+        justify-content: flex-start;
+    }
+}
 
-@media (min-width: 500px) {}
+@media (min-width: 500px) {
+    #dashboard .navbar a,
+    #dashboard .navbar a:focus {
+        padding: 10px 0 10px 10px;
+    }
+}
 
 @media (min-width: 575px) {
     .progress {
         height: auto;
-        background-size: contain;
-        -o-background-size: contain;
-        -moz-background-size: contain;
-        -webkit-background-size: contain;
-    }
-    .progress.pink .mainprogress {
-        justify-content: flex-start;
-        margin-top: -2.3rem;
-    }
-    .progress.pink .progress-bar {
-        top: auto;
-        text-align: left;
-    }
-    .progress.pink .progress-bar p {
-        font-size: 16px;
-        margin: 0;
+        background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
     }
     /*==== Dashboard css=====*/
     #dashboard .navbar {
         padding: 0;
-        justify-content: end;
-        align-items: end;
+        justify-content: flex-start;
+        align-items: center;
         order: 2 !important;
     }
     #dashboard .mobile-nav-toggle {
         position: relative;
         top: auto;
+        display: none;
     }
     #dashboard #header .manbtnlogout .welcometxt {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 }
 
@@ -323,25 +339,40 @@
         padding: 30px 0 90px;
     }
     .mobile-nav {
-        height: 360px;
+        height: 430px;
+    }
+    .progress {
+        height: auto;
+        background-size: contain;
+        -o-background-size: contain;
+        -moz-background-size: contain;
+        -webkit-background-size: contain;
     }
     .progress.pink .mainprogress {
         justify-content: flex-start;
         flex-direction: row;
         margin: -3.8rem 0 0 0;
     }
+    .progress.pink .progress-bar {
+        top: auto;
+        text-align: left;
+    }
     .progress.pink .progress-bar p {
         font-size: 15px;
+        margin: 0;
     }
     .section-title h2 {
         font-size: 28px;
         margin-bottom: 20px;
     }
+    .howitworks .mainrewordbox {
+        padding-right: 0rem;
+    }
     #footer .mainsocial {
         padding-bottom: 0rem;
         padding-top: 0rem;
     }
-    .featured-services {
+    .howitworks {
         padding: 1.5rem 0;
         margin-bottom: 1.5rem;
     }
@@ -349,7 +380,7 @@
         padding-bottom: 1.5rem;
         padding-top: .5rem;
     }
-    .why-us {
+    .faq {
         padding: 1.5rem 0 1.5rem;
         margin-bottom: 1.5rem;
         margin-top: 1.5rem;
@@ -361,6 +392,9 @@
     /*==== Dashboard css=====*/
     #dashboard #header .logo img {
         max-height: 70px;
+    }
+    #dashboard .navbar {
+        justify-content: center;
     }
     #dashboard .about-us .icon-box .btn.btn-dark {
         border-radius: 7px;
@@ -394,9 +428,15 @@
     #dashboard .about-us .iconbox-blue i span {
         font-size: 1.1rem;
     }
+    #dashboard .about-us .cardleftmaincontentpart {
+        padding: 1rem;
+    }
+    #dashboard .about-us .cardleftmaincontentpart .card .card-body {
+        padding: 1rem 1rem;
+    }
     #dashboard .about-us .cardleftmaincontentpart.mainimgpart {
-        padding: 0rem 1.3rem 0;
-        display: flex;
+        padding: 0;
+        display: block;
         justify-content: center;
     }
     #dashboard .about-us .cardleftmaincontentpart {
@@ -404,7 +444,7 @@
     }
     #dashboard .about-us .cardleftmaincontentpart .pointsbg {
         padding: 3rem 1rem;
-        margin: 0rem 2rem 0rem;
+        margin: 0;
     }
     #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints h2 {
         font-size: 1.4rem;
@@ -425,13 +465,13 @@
     }
 }
 
+@media (min-width: 640px) {}
+
 @media (min-width: 641px) {
     .progress.pink .mainprogress {
-        margin-top: -3.7rem;
+        margin-top: -3.5rem;
     }
 }
-
-@media (min-width: 640px) {}
 
 @media (min-width: 767px) {
     .progress.pink .mainprogress {
@@ -449,6 +489,9 @@
         moz-background-size: cover;
         text-align: left;
     }
+    .mobile-nav {
+        height: 350px;
+    }
     #hero .row {
         margin-top: 2rem;
         margin-bottom: 1rem;
@@ -464,14 +507,14 @@
         padding: 0 0 4rem 0;
         margin: 0;
     }
-    .featured-services .icon-box {
+    .howitworks .icon-box {
         margin-left: 2rem;
         margin-right: 2rem;
     }
-    .featured-services {
+    .howitworks {
         text-align: left;
     }
-    .featured-services .icon-boxes .mainrewordbox {
+    .howitworks .icon-boxes .mainrewordbox {
         min-width: inherit;
     }
     .section-title {
@@ -489,24 +532,32 @@
         height: 80px;
     }
     .progress.pink .mainprogress {
-        margin-top: -3.5rem;
+        margin-top: -3.7rem;
         justify-content: space-around;
     }
     .progress.pink .progress-bar p {
         font-size: 22px;
     }
-    .contact .php-email-form {
+    .signup .php-email-form {
         padding: 2.5rem 1.9rem 4em;
     }
-    .contact .php-email-form button[type="submit"] {
+    .signup .php-email-form button[type="submit"] {
         right: -31px;
         padding: 25px 45px 24px;
         top: -1rem;
     }
-    .contact .section-title h2 {
+    .signup .section-title h2 {
         font-size: 20px;
         line-height: 1.4;
         margin-bottom: 2rem;
+    }
+    .howitworks .mainrewordbox {
+        padding-right: 2rem;
+    }
+    .howitworks .icon-box {
+        padding: 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     #footer .social-links a {
         font-size: 1.5rem;
@@ -536,39 +587,24 @@
         padding: 15px 15px;
         border-radius: 10px;
     }
-    #dashboard .mainclient {
-        display: flex;
-    }
-    #dashboard .about-us .cardleftmaincontentpart.mainimgpart {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding: 0 .7rem;
-        border-width: 0.25px;
-        border-color: rgb(196, 195, 195);
-        border-style: solid;
-        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .d-flex.align-items-stretch.aos-init.aos-animate {
-        display: flex !important;
-    }
     #dashboard .about-us .icon-box .btn.btn-dark {
         padding: 14px 18px;
-    }
-    #dashboard .about-us .cardleftmaincontentpart.mainimgpart {
-        padding: 1rem 1.3rem 0;
-    }
-    #dashboard .about-us .cardleftmaincontentpart .pointsbg {
-        margin: 1rem 2rem 2rem;
     }
 }
 
 @media (min-width: 991px) {
     .progress.pink .mainprogress {
-        margin-top: -3.3rem;
+        margin-top: -3.5rem;
         justify-content: flex-start;
+    }
+}
+
+@media (min-width:830px) and (max-width:991px) {
+    .progress.pink .mainprogress {
+        justify-content: flex-start;
+    }
+    .progress.pink .mainprogress .rectkal {
+        margin-left: 2rem;
     }
 }
 
@@ -599,6 +635,7 @@
         font-size: 2.5rem;
     }
     #hero {
+        height: 575px;
         /*height: 60vh;*/
         background-size: cover;
         -o-background-size: cover;
@@ -621,19 +658,27 @@
         padding-bottom: 4rem;
         padding-top: 1rem;
     }
-    .why-us {
-        padding: 1rem 0 5rem;
-        margin-bottom: 1.5rem;
-        margin-top: 2rem;
+    .faq {
+        padding: 2.5rem 0 4rem;
+        margin-bottom: 1.0rem;
+        margin-top: 1rem;
     }
-    .why-us.privacy {
+    .faq.privacy {
         padding: 1.5rem 0 5rem;
         margin-bottom: 1.5rem;
         margin-top: 1.5rem;
     }
     .clients {
-        margin: 2rem 0;
+        margin: 1rem 0 2rem;
         padding: 4rem 0;
+    }
+    .howitworks .mainrewordbox {
+        padding-right: 0rem;
+    }
+    .howitworks .icon-box {
+        padding: 30px;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .progress {
         height: 100px;
@@ -643,20 +688,20 @@
         -webkit-background-size: cover;
     }
     .progress.pink .mainprogress {
-        margin-top: -5.2rem;
+        margin-top: -3rem;
         justify-content: flex-start;
     }
     .progress.pink .progress-bar p {
         font-size: 25px;
     }
-    .featured-services {
+    .howitworks {
         padding: 2rem 0;
         margin-bottom: 2rem;
     }
-    .contact .php-email-form {
+    .signup .php-email-form {
         padding: 2.5rem 1.9rem 4em;
     }
-    .contact .php-email-form button[type="submit"] {
+    .signup .php-email-form button[type="submit"] {
         padding: 24px 40px 24px 43px;
         border-radius: 3.0rem 0;
         font-size: 20px;
@@ -687,12 +732,13 @@
     #dashboard .navbar li {
         justify-content: center;
     }
+    #dashboard .navbar a,
+    #dashboard .navbar a:focus {
+        padding: 10px 0 10px 20px;
+    }
     #dashboard #header .manbtnlogout {
         justify-content: end;
-        margin: auto;
-    }
-    #dashboard #header .manbtnlogout .welcometxt br {
-        display: flex;
+        margin: 0;
     }
     #dashboard .about-us .cardleftmaincontentpart {
         margin-top: 0rem;
@@ -721,12 +767,12 @@
     #dashboard .about-us .icon-box p {
         line-height: 22px;
     }
-    #dashboard .about-us .cardleftmaincontentpart.mainimgpart {
+    /* #dashboard .about-us .cardleftmaincontentpart.mainimgpart {
         padding: .5rem;
-    }
+    } */
     #dashboard .about-us .cardleftmaincontentpart .pointsbg {
         padding: 3rem 1rem;
-        margin: 0rem 0rem 1rem;
+        margin: 0rem 0rem 2rem;
     }
     #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints h2 {
         font-size: 1.3rem;
@@ -735,8 +781,26 @@
     }
     #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints h1 {
         font-size: 2.5rem;
-        margin-bottom: .5rem;
-        margin-top: .3rem;
+        /*margin-bottom: .5rem;
+        margin-top: .3rem;*/
+    }
+    #dashboard .mainclient {
+        display: flex;
+    }
+    #dashboard .about-us .cardleftmaincontentpart.mainimgpart {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0.5rem .7rem 0rem;
+        border-width: 0.25px;
+        border-color: rgb(196, 195, 195);
+        border-style: solid;
+        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .d-flex.align-items-stretch.aos-init.aos-animate {
+        display: flex !important;
     }
 }
 
@@ -744,6 +808,10 @@
     /*#hero  {
 		height: 74vh;		
 	}*/
+    #hero {
+        height: 600px;
+        padding: 90px 0 70px;
+    }
     #hero {
         /*height: auto;*/
         background-size: cover;
@@ -753,7 +821,7 @@
     }
     #hero .row {
         margin-top: 0rem;
-        margin-bottom: 4rem;
+        margin-bottom: 0rem;
     }
     #hero h1 {
         font-size: 35px;
@@ -764,19 +832,23 @@
         line-height: 25px;
     }
     .nav-menu a {
-        padding: 11px 7px;
+        padding: 11px 6px;
     }
     .progress.pink .mainprogress {
-        margin-top: -5.1rem;
+        margin-top: -3.1rem;
     }
     .progress.pink .progress-bar p {
         font-size: 27px;
     }
-    .contact .php-email-form button[type="submit"] {
+    .signup .php-email-form button[type="submit"] {
         right: -31px;
     }
+	.howitworks .icon-box {
+		margin-left: .5rem;
+		margin-right: .5rem;
+	}
     section.progess {
-        margin-top: -2rem;
+        margin-top: -1rem;
     }
     footer#footer:before {
         right: 34.4%;
@@ -788,22 +860,19 @@
         padding: 0.5rem .7rem 0rem;
     }
     #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-6,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-12,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-6,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-12 {
-        margin-top: .43rem;
+    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-12 {
+        margin-top: .5rem;
     }
     #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 button.btn {
         margin-bottom: 0;
         margin-top: 0;
     }
-    #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints h1 {
-        font-size: 2.0rem;
-        margin-top: 1.5rem;
-    }
 }
 
 @media (min-width: 1100px) {
+    .nav-menu a {
+        padding: 11px 8px;
+    }
     section.progess {
         padding: 1rem 0 5rem;
         margin-top: -1rem;
@@ -812,13 +881,14 @@
         height: 110px;
     }
     .progress.pink .mainprogress {
-        margin-top: -4.8rem;
+        margin-top: -2.8rem;
     }
 }
 
 @media (min-width: 1200px) {
     #hero {
         /*height: 47vh;*/
+        height: 720px;
     }
     /* #hero {
         height: 80vh;
@@ -844,14 +914,19 @@
         height: 90px;
     }
     .progress.pink .progress-bar p {
-        font-size: 30px;
+        font-size: 32px;
     }
     .progress.pink .mainprogress {
         margin-top: -4.5rem;
     }
-    .featured-services {
+    .howitworks {
         padding: 8rem 0px 5rem;
         margin-bottom: 3rem;
+    }
+    .faq {
+        padding: 4rem 0 6rem;
+        margin-bottom: 2rem;
+        margin-top: 1.0rem;
     }
     footer#footer:before {
         right: 34.2%;
@@ -903,9 +978,7 @@
         margin-bottom: 1rem;
     }
     #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-6,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-12,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-6,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-12 {
+    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-12 {
         margin-top: var(--bs-gutter-y);
     }
     #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 button.btn {
@@ -919,7 +992,7 @@
         height: 110px;
     }
     .progress.pink .mainprogress {
-        margin-top: -3.9rem;
+        margin-top: -4.0rem;
     }
     footer#footer:before {
         right: 35.1%;
@@ -968,12 +1041,12 @@
         margin-left: 7px;
         padding: 20px 20px;
     }
-    .featured-services {
+    .howitworks {
         padding: 3rem 0px 3rem;
         margin-bottom: 3rem;
     }
     .progress.pink .mainprogress {
-        margin-top: -3.5rem;
+        margin-top: -3.8rem;
     }
     footer#footer:before {
         /*right: 36.1%;
@@ -981,7 +1054,7 @@
         right: 36.1%;
     }
     footer#footer .ftrightline {
-        right: 8.2%;
+        right: 8.3%;
     }
     #dashboard .about-us .cardleftmaincontentpart .pointsbg {
         margin: 1rem 2rem 2rem;
@@ -993,10 +1066,8 @@
         left: 0%;
     }
     #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-6,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-12,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-6,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-12 {
-        margin-top: 1.33rem;
+    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-12 {
+        margin-top: 1.20rem;
     }
     #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints h1 {
         font-size: 2.5rem;
@@ -1007,6 +1078,7 @@
 
 @media (min-width: 1400px) {
     #hero {
+        height: 850px;
         /*height: 100vh;*/
         padding: 100px 0;
     }
@@ -1031,13 +1103,7 @@
         height: 160px;
     }
     .progress.pink .mainprogress {
-        margin-top: -6.3rem;
-    }
-    .about {
-        background-size: cover;
-        o-background-size: cover;
-        webkit-background-size: cover;
-        moz-background-size: cover;
+        margin-top: -4.2rem;
     }
     footer#footer:before {
         right: 36.6%;
@@ -1045,18 +1111,19 @@
     footer#footer .ftrightline {
         right: 9.9%;
     }
-    #dashboard #header .manbtnlogout .welcometxt br {
+    /*#dashboard #header .manbtnlogout .welcometxt br {
         display: none;
-    }
+    }*/
     #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-6,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-12,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-6,
-    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-12 {
+    #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-12 {
         margin-top: 1.43rem;
     }
 }
 
 @media (min-width: 1500px) {
+    #hero {
+        height: 900px;
+    }
     .progress {
         height: 170px;
     }
@@ -1069,13 +1136,20 @@
 }
 
 @media (min-width: 1920px) {
+    .nav-menu a {
+        padding: 11px 20px;
+        font-size: 16px;
+    }
+    #hero {
+        height: 1080px;
+    }
     footer#footer:before {
-        right: 38.5%;
+        right: 38.4%;
         height: 100%;
     }
     footer#footer .ftrightline {
         height: 100%;
-        right: 15.6%;
+        right: 15.3%;
     }
     .progress {
         height: 175px;
@@ -1088,6 +1162,12 @@
     }
     footer#footer .ftrightline {
         right: 26.3%;
+    }
+    .about {
+        background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
     }
 }
 

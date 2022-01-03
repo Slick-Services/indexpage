@@ -43,13 +43,14 @@ h6 {
     color: #fff;
     transition: display 0.5s ease-in-out;
     z-index: 99999;
+    border: solid 2px #005777;
 }
 
 .back-to-top i {
     font-size: 24px;
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 6px;
+    left: 6px;
 }
 
 .back-to-top:hover {
@@ -136,6 +137,7 @@ h6 {
     position: relative;
     white-space: nowrap;
     float: left;
+    top: 2px;
 }
 
 .nav-menu a {
@@ -515,6 +517,26 @@ section.progess {
     }
 }
 
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -858,7 +880,7 @@ section {
 }
 
 .aboutbtn.get-started-btn {
-    margin-top: 1.5rem;
+    margin-top: 1.0rem;
     margin-left: 0px;
     padding: 25px 35px;
     font-size: 16px;
@@ -870,17 +892,25 @@ section {
     background: rgb(246 130 31 / 88%);
 }
 
+.aboutbtn.get-started-btn.btn.loardmore:hover,
+.aboutbtn.get-started-btn.btn.loardmore:active,
+.aboutbtn.get-started-btn.btn.loardmore.active,
+.aboutbtn.get-started-btn.btn.loardmore:focus {
+    background: #005777;
+    color: #fff;
+}
+
 
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
 
-.featured-services {
+.howitworks {
     padding: 3rem 0;
     margin-bottom: 3rem;
 }
 
-.featured-services .icon-box {
+.howitworks .icon-box {
     padding: 30px;
     position: relative;
     overflow: hidden;
@@ -895,7 +925,7 @@ section {
     margin-right: 2rem;
 }
 
-.featured-services .icon-boxes {
+.howitworks .icon-boxes {
     flex-direction: row;
     display: -ms-flexbox;
     display: flex;
@@ -903,7 +933,7 @@ section {
     flex-wrap: wrap;
 }
 
-.featured-services .icon-box::before {
+.howitworks .icon-box::before {
     content: '';
     position: absolute;
     background: #cbe0fb;
@@ -915,39 +945,39 @@ section {
     z-index: -1;
 }
 
-.featured-services .icon-box:hover::before {
+.howitworks .icon-box:hover::before {
     background: /*#005777*/
     #F6821F;
     top: 0;
     border-radius: 0px;
 }
 
-.featured-services .icon {
+.howitworks .icon {
     margin-bottom: 1.3rem;
 }
 
-.featured-services .icon img {
+.howitworks .icon img {
     transition: all 0.3s ease-in-out;
 }
 
-.featured-services .title {
+.howitworks .title {
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 18px;
 }
 
-.featured-services .title a {
+.howitworks .title a {
     color: #F6821F;
 }
 
-.featured-services .description {
+.howitworks .description {
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 0;
 }
 
-.featured-services .icon-box:hover .title a,
-.featured-services .icon-box:hover .description {
+.howitworks .icon-box:hover .title a,
+.howitworks .icon-box:hover .description {
     color: #fff;
 }
 
@@ -956,61 +986,61 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 
-.why-us {
+.faq {
     padding: 3rem 0 5rem;
     margin-bottom: 3rem;
     margin-top: 2rem;
 }
 
-.why-us .content {
+.faq .content {
     padding: 60px 0px;
     text-align: center;
 }
 
-.why-us .content h3 {
+.faq .content h3 {
     font-weight: 400;
     font-size: 34px;
     color: #37517e;
 }
 
-.why-us .content h4 {
+.faq .content h4 {
     font-size: 20px;
     font-weight: 700;
     margin-top: 5px;
 }
 
-.why-us .content p {
+.faq .content p {
     font-size: 15px;
     color: #848484;
 }
 
-.why-us .faqwebimg {
+.faq .faqwebimg {
     background-image: url(../img/vec_faq.png);
 }
 
-.why-us .img {
+.faq .img {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom: 1rem;
 }
 
-.why-us .accordion-list ul {
+.faq .accordion-list ul {
     padding: 0;
     list-style: none;
 }
 
-.why-us .accordion-list li+li {
+.faq .accordion-list li+li {
     margin-top: 15px;
 }
 
-.why-us .accordion-list li {
+.faq .accordion-list li {
     padding: 20px;
     background: #fff;
     border-radius: 4px;
 }
 
-.why-us .accordion-list a {
+.faq .accordion-list a {
     display: block;
     position: relative;
     font-family: "Poppins", sans-serif;
@@ -1021,47 +1051,47 @@ section {
     outline: none;
 }
 
-.why-us .accordion-list span {
+.faq .accordion-list span {
     color: #0c546d;
     font-weight: 600;
     font-size: 18px;
     padding-right: 10px;
 }
 
-.why-us .accordion-list i {
+.faq .accordion-list i {
     font-size: 24px;
     position: absolute;
     right: 0;
     top: 0;
 }
 
-.why-us .accordion-list p {
+.faq .accordion-list p {
     margin-bottom: 0;
     padding: 10px 0 0 0;
 }
 
-.why-us .accordion-list .icon-show {
+.faq .accordion-list .icon-show {
     display: none;
 }
 
-.why-us .accordion-list a.collapsed {
+.faq .accordion-list a.collapsed {
     color: #0c546d;
 }
 
-.why-us .accordion-list a.collapsed:hover {
+.faq .accordion-list a.collapsed:hover {
     color: #0c546d;
 }
 
-.why-us .accordion-list a.collapsed .icon-show {
+.faq .accordion-list a.collapsed .icon-show {
     display: inline-block;
 }
 
-.why-us .accordion-list a.collapsed .icon-close {
+.faq .accordion-list a.collapsed .icon-close {
     display: none;
 }
 
-.why-us .accordion-list a.collapsed .icon-close,
-.why-us .accordion-list a.collapsed .icon-show {
+.faq .accordion-list a.collapsed .icon-close,
+.faq .accordion-list a.collapsed .icon-show {
     font-size: 24px;
     position: absolute;
     right: 0;
@@ -1129,27 +1159,27 @@ section {
 }
 
 @media (max-width: 1024px) {
-    .why-us .content,
-    .why-us .accordion-list {
+    .faq .content,
+    .faq .accordion-list {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
 @media (max-width: 992px) {
-    .why-us .img {
+    .faq .img {
         min-height: 400px;
     }
-    .why-us .content {
+    .faq .content {
         padding-top: 30px;
     }
-    .why-us .accordion-list {
+    .faq .accordion-list {
         padding-bottom: 30px;
     }
 }
 
 @media (max-width: 575px) {
-    .why-us .img {
+    .faq .img {
         min-height: 200px;
     }
 }
@@ -1276,7 +1306,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 
-.contact {
+.signup {
     background: url("../img/reg_bg.jpg") no-repeat;
     height: 100%;
     width: 100%;
@@ -1288,26 +1318,34 @@ section {
     -moz-background-size: cover;
 }
 
-.contact .section-title {
+.signup .section-title {
     margin: 0rem 0 .5rem;
     padding-bottom: .3rem;
     padding-top: 0;
 }
 
-.contact .section-title h2 {
+.signup .section-title h2 {
     text-shadow: 3px -1px 3px #005777;
     color: #fff;
     font-size: 25px;
     line-height: 1.4;
 }
 
-.contact .info-box {
+.signup .createacounttxt h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(0 87 119);
+    line-height: 1;
+    padding-top: 0rem;
+}
+
+.signup .info-box {
     width: 100%;
     position: fixed;
     bottom: 0;
 }
 
-.contact .info-box img {
+.signup .info-box img {
     background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
@@ -1317,7 +1355,7 @@ section {
     margin-top: 1rem;
 }
 
-.contact .php-email-form {
+.signup .php-email-form {
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
     padding: 2.5rem 1.9rem 4em;
     border-radius: 50px 0 50px 0;
@@ -1325,7 +1363,7 @@ section {
     background: #d2eef580;
 }
 
-.contact .php-email-form:before {
+.signup .php-email-form:before {
     content: "";
     width: 96%;
     height: 90%;
@@ -1347,11 +1385,11 @@ section {
     z-index: 0;
 }
 
-.contact .php-email-form .form-group {
-    margin-bottom: 2rem;
+.signup .php-email-form .form-group {
+    margin-bottom: 1.5rem;
 }
 
-.contact .php-email-form .validate {
+.signup .php-email-form .validate {
     display: none;
     color: red;
     margin: 0 0 15px 0;
@@ -1359,7 +1397,7 @@ section {
     font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
+.signup .php-email-form .error-message {
     display: none;
     color: #fff;
     background: #ed3c0d;
@@ -1368,11 +1406,11 @@ section {
     font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.signup .php-email-form .error-message br+br {
     margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.signup .php-email-form .sent-message {
     display: none;
     color: #fff;
     background: #18d26e;
@@ -1381,14 +1419,14 @@ section {
     font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.signup .php-email-form .loading {
     display: none;
     background: #fff;
     text-align: center;
     padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.signup .php-email-form .loading:before {
     content: "";
     display: inline-block;
     border-radius: 50%;
@@ -1401,20 +1439,20 @@ section {
     animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.signup .php-email-form input,
+.signup .php-email-form textarea {
     border-radius: 0;
     box-shadow: none;
     font-size: 14px;
 }
 
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
+.signup .php-email-form input::focus,
+.signup .php-email-form textarea::focus {
     background-color: rgb(246 130 31);
 }
 
-.contact .php-email-form input {
-    padding: 10px 15px 10px 15px;
+.signup .php-email-form input {
+    padding: 15px 15px 10px 20px;
     border-radius: 30px 0 30px;
     border: none;
     line-height: 0;
@@ -1423,11 +1461,11 @@ section {
     height: calc(1.5em + 1.05rem + 15px);
 }
 
-.contact .php-email-form textarea {
+.signup .php-email-form textarea {
     padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.signup .php-email-form button[type="submit"] {
     background: rgb(246 130 31);
     border: 0;
     padding: 20px 24px;
@@ -1443,12 +1481,12 @@ section {
     font-size: 17px;
 }
 
-.contact .php-email-form .mainnuber {
+.signup .php-email-form .mainnuber {
     display: flex;
     position: relative;
 }
 
-.contact .php-email-form #countycode {
+.signup .php-email-form #countycode {
     width: 120px;
     border: none;
     position: relative;
@@ -1464,13 +1502,18 @@ section {
     outline: none;
 }
 
-.contact .php-email-form input#phone {
+.signup .php-email-form input#phone {
     border-radius: 0 0 30px 0px;
     padding-left: 8px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.signup .php-email-form button[type="submit"]:hover {
     background: #ff7e54;
+}
+
+.signup .php-email-form button[type="submit"]:hover {
+    background: #005777;
+    color: #fff;
 }
 
 ::-webkit-input-placeholder {
@@ -1493,7 +1536,7 @@ section {
     color: #000;
 }
 
-.contact .php-email-form input:-internal-autofill-selected {
+.signup .php-email-form input:-internal-autofill-selected {
     appearance: menulist-button;
     background-image: none !important;
     background-color: -internal-light-dark(rgb(255, 255, 255), rgba(255, 255, 255, 1.0)) !important;
@@ -1563,19 +1606,6 @@ footer#footer:before {
     bottom: auto;
     /* box-shadow: 2px 1px 1px rgb(150 217 235 / 40%); */
 }
-
-
-/*footer#footer:after {
-    content: "";
-    position: relative;
-    width: 1px;
-    height: 49.5%;
-    border-right: 1px solid #ffffff;
-    right: 40.0%;
-    left: auto;
-    top: auto;
-    bottom: auto;    
-}*/
 
 footer#footer .ftrightline {
     position: absolute;
@@ -1707,12 +1737,6 @@ section#privacypolicy {
 .allfaqs ol li {
     margin-top: 20px;
 }
-
-
-/* .mainwhusfaqs  {  
-  border: 1px solid #000;
-  border-radius:1rem;
-} */
 
 main#main.innercontent p {
     margin-bottom: .7rem;
@@ -1888,6 +1912,16 @@ body#dashboard {
     padding-right: 1rem;
 }
 
+#dashboard #header .container.headercontiner .maindashordhdrow {
+    justify-content: space-between;
+}
+
+#dashboard #header .container.headercontiner .maindashheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 #dashboard #header .logo {
     font-size: 28px;
     margin: 0;
@@ -2060,12 +2094,37 @@ body#dashboard {
     color: #fff;
 }
 
-@media (max-width: 991px) {
+
+/*@media (max-width: 480px) {
     #dashboard .mobile-nav-toggle {
-        display: block;
+        display: flex;
     }
     #dashboard .navbar ul {
         display: none;
+    }
+}*/
+
+@media (min-width: 1px) and (max-width: 480px) {
+    #dashboard .mobile-nav-toggle {
+        display: flex;
+    }
+    #dashboard .navbar ul {
+        display: none;
+    }
+    #dashboard #header .manbtnlogout {
+        width: 100%;
+    }
+    #dashboard #header .manbtnlogout .welcometxt {
+        font-size: .9rem;
+        font-weight: 600;
+    }
+    #dashboard .navbar li {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    #dashboard .navbar-mobile ul {
+        height: 200px;
+        border-radius: 8px;
     }
 }
 
@@ -2477,24 +2536,161 @@ body#dashboard {
 
 #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .form-control,
 #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .form-select {
-    padding: .9rem .8rem;
+    padding: .6rem .8rem;
     border-radius: .6rem;
     margin-bottom: .39rem;
-    height: 55px;
+    height: 50px;
+    color: #6c757d;
 }
 
-#dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 button.btn.btn-primary {
+
+/* input[type="date"] {
+    position: relative;
+    padding: 10px;
+}
+
+#dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 input[type="date"]::before {
+    color: transparent;
+    background: none;
+    display: block;
+    font-family: 'Line Awesome Free';
+    content: "\f133";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 16px;
+    font-size: 29px;
+    color: #999;
+
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    background: none;
+    z-index: 1;
+}
+input[type="date"]:before {
+    color: transparent;
+    background: none;
+    display: block;
+    font-family: 'Line Awesome Free';
+    content: "\f133";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 16px;
+    font-size: 29px;
+    color: #999;
+}*/
+
+#dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    background: none;
+}
+
+.input-group-btn.calenderlbl {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    right: 0;
+    z-index: 99999;
+}
+
+
+/*------------------------------------------------- date picker --------------------------------------*/
+
+.tek-date-container {
+    position: relative;
+}
+
+.tek-btn-date button {
+    border: none;
+    background: transparent;
+}
+
+.tek-cal-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 100%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.tek-calendar-img {
+    width: 20px;
+}
+
+.tek-btn-date {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    pointer-events: none;
+}
+
+.tek-btn-date button {
+    border: none;
+    background: transparent;
+}
+
+.iconcalender {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/*------------------------------------------- date picker --------------------------------------------*/
+
+
+/* .btn.btn-default.iconcalender {
+    top: -61px;
+    position: relative;
+    right: 5px;
+    font-size: 2.1rem;
+} */
+
+#dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 button.btn.btn-default.iconcalender {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 35px;
+    height: 20px;
+    width: 20px;
+    top: -57px;
+    font-size: 2rem;
+}
+
+#dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-12.mainbtnchange {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/* #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 button.btn.btn-primary {
     background: #000;
     border-color: #000;
-    margin-right: 1rem;
-}
+    margin-right: .5rem;
+} */
 
 #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 button.btn {
     border-radius: .6rem;
-    padding: .6rem 1.7rem;
+    padding: .75rem 1.7rem;
     transition: all .1s;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    background: #005777;
+    border-color: #005777;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .form-control:focus,
@@ -2531,4 +2727,48 @@ body#dashboard {
 
 #dashboard .about-us .content .text-red h3 {
     color: #f6821f;
+}
+
+.maincomodal .modal-title {
+    color: #005777;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.maincomodal .modal-footer button {
+    margin: auto;
+    padding: .6rem 1.5rem;
+    border-radius: .5rem;
+    background-color: rgb(0 87 119);
+    outline: none;
+}
+
+.maincomodal .modal-footer button:focus {
+    box-shadow: none;
+}
+
+
+/* .modal-backdrop {
+    background: url(../img/loginbg.jpg) no-repeat center top;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.modal-backdrop.show {
+    opacity: .8;
+} */
+
+.maincomodal .modal-content {
+    border-radius: .7rem;
+    -webkit-box-shadow: 0px 10px 34px -15px rgb(0 0 0 / 24%);
+    -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 10px 34px -15px rgb(0 0 0 / 62%);
 }

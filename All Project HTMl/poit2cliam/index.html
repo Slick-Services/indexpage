@@ -18,8 +18,7 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous"
-        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,16 +41,17 @@
                 </a>
             </div>
             <div class="minnavbar col-12 col-sm-8">
-                <nav class="nav-menu d-none d-lg-block">
+                <nav id="navbar" class="nav-menu d-none d-lg-block">
 
                     <ul>
-                        <li id='home_active' class="active"><a href="registerapp:login">Home</a></li>
-                        <li id='how_it_works'><a href="/#featuredservices">How it Works</a></li>
-                        <li id='about_us'><a href="/#about">About us</a></li>
-                        <li id='faq'><a href="/#why-us">Faq</a></li>
-                        <a id='sign_up' href="/#contact" class="get-started-btn">Sign Up</a>
+                        <li id="home_active" class="active"><a href="index.html">Home</a></li>
+                        <li id="howitworks"><a href="#howitwork">How it Works</a></li>
+                        <li id="about_us"><a href="#about">About us</a></li>
+                        <li id="faqn"><a href="#faq">Faq</a></li>
+                        <a id="signupn" href="#signup" class="get-started-btn">Sign Up</a>
                         <a href="registerapp:user_login" class="get-started-btn">Sign In</a>
                     </ul>
+                    <!-- <i class="las la-bars mobile-nav-toggle"></i> -->
                 </nav>
                 <!-- .nav-menu -->
 
@@ -88,7 +88,7 @@
                     <div class="progress-bar col-xxl-7 col-xl-6 col-lg-7 col-md-6 col-sm-6 col-12">
                         <p>The Milestones we have achieved</p>
                     </div>
-                    <div class="col-xxl-4 col-xl-3 col-lg-4 col-md-4 col-sm-5 col-12 rectkal">
+                    <div class="col-xxl-4 col-xl-3 col-lg-3 col-md-4 col-sm-5 col-12 rectkal">
                         <img src="assets/img/triangle History.svg" class="img-fluid" />
                     </div>
                 </div>
@@ -98,37 +98,37 @@
     <!-- End Progessbar -->
 
     <main id="main">
-        <!-- ======= Featured-Services Section ======= -->
-        <section id="featuredservices" class="featured-services">
+        <!-- ======= How It Works Section ======= -->
+        <section id="howitwork" class="howitworks">
             <div class="container aos-init aos-animate" data-aos="fade-up">
                 <div class="section-title">
                     <h2 data-aos="fade-up" class="aos-init aos-animate">How it Works ?</h2>
                 </div>
                 <div class="row">
                     <div class="icon-boxes d-flex justify-content-center">
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 mainrewordbox" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon-box mt-2 mt-sm-4 mt-xl-0">
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-3 mb-lg-0 mainrewordbox" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon-box mt-2 mt-sm-2 mt-xl-0">
                                 <div class="icon"><img src="assets/img/icons8-login-rounded-up-100.png" class="img-fluid" /></div>
                                 <h4 class="title"><a>1.Register</a></h4>
                                 <p class="description">Register by filling up a few details of yours and you are ready to go</p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 mainrewordbox" data-aos="fade-up" data-aos-delay="200">
-                            <div class="icon-box mt-2 mt-sm-4 mt-xl-0">
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-3 mb-lg-0 mainrewordbox" data-aos="fade-up" data-aos-delay="200">
+                            <div class="icon-box mt-2 mt-sm-2 mt-xl-0">
                                 <div class="icon"><img src="assets/img/icons8-survey-96.png" class="img-fluid" /></div>
                                 <h4 class="title"><a>2.Take Survey</a></h4>
                                 <p class="description">Take a survey of your choice and share your views</p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 mainrewordbox" data-aos="fade-up" data-aos-delay="300">
-                            <div class="icon-box mt-2 mt-sm-4 mt-xl-0">
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-3 mb-lg-0 mainrewordbox" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon-box mt-2 mt-sm-2 mt-xl-0">
                                 <div class="icon"><img src="assets/img/icons8-money-bag-100.png" class="img-fluid" /></div>
                                 <h4 class="title"><a>3.Earn Rewards</a></h4>
                                 <p class="description">You can earn exciting rewards by taking any number of surveys</p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 mainrewordbox" data-aos="fade-up" data-aos-delay="300">
-                            <div class="icon-box mt-2 mt-sm-4 mt-xl-0">
+                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-3 mb-lg-0 mainrewordbox" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon-box mt-2 mt-sm-2 mt-xl-0">
                                 <div class="icon"><img src="assets/img/icons8-piggy-bank-96.png" class="img-fluid" /></div>
                                 <h4 class="title"><a>4.Get Redemption</a></h4>
                                 <p class="description">Redeem the rewards and enjoy to the fullest!</p>
@@ -138,7 +138,7 @@
                 </div>
             </div>
         </section>
-        <!-- End Featured-services -->
+        <!-- End How It Works -->
 
         <!-- ======= About Section ======= -->
         <section id="about" class="about section-bg text-middal text-md-start">
@@ -164,7 +164,7 @@
         <!-- End About Section -->
 
         <!-- ======= Why Us Section ======= -->
-        <section id="why-us" class="why-us">
+        <section id="faq" class="faq">
             <div class="container aos-init aos-animate" data-aos="fade-up">
                 <div class="section-title">
                     <h2 data-aos="fade-up">Frequently Asked Question ?</h2>
@@ -216,9 +216,9 @@
                     <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img faqwebimg aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">&nbsp;
                     </div>
                 </div>
-                <div class="col-12 text-center mt-4">
-                    <a href="{% url 'registerapp:faq">
-                        <div class="btn aboutbtn get-started-btn">Load More</div>
+                <div class="col-12 text-center mt-0 mt-sm-3 mt-md-5">
+                    <a href="faq.html">
+                        <div class="btn aboutbtn get-started-btn loardmore">Load More</div>
                     </a>
                 </div>
             </div>
@@ -226,7 +226,7 @@
         <!-- End F.A.Q Section -->
 
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
+        <section id="signup" class="contact signup">
 
             <div class="container">
 
@@ -242,12 +242,13 @@
                             <h2 data-aos="fade-up">So, what are you waiting for? <br>Register now and get yourself earning some rewards real quick.</h2>
                         </div>
                         <form action="" method="POST" role="form" class="php-email-form">
+                            <div class="createacounttxt">
+                                <h2 data-aos="fade-up" class="m-o p-o">Create Account</h2>
+                            </div>
+
                             <div class="form-group">
-                                {% csrf_token %} {% for message in messages %}
                                 <div class="alert {{message.tags}} fade show text-left" role="alert">
-                                    {{message}}
                                 </div>
-                                {% endfor %}
                                 <input type="text" name="first_name" class="form-control" id="name" placeholder="First name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
                                 <div class="validate"></div>
                             </div>
@@ -524,7 +525,8 @@
                                 <div class="error-message"></div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
-                            <div class="col-12"><button type="submit">Register</button></div>
+                            <div class="col-12">
+                                <button class="submit" type="submit">Register</button></div>
                         </form>
                     </div>
                 </div>
@@ -575,10 +577,10 @@
                     <div class="col-lg-4 col-md-4 footer-links">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="registerapp:privacypolicy">Privacy Policy</a></li>
-                            <li><a href="registerapp:login#why-us">Faq</a></li>
-                            <li><a href="registerapp:disclosure">Do Not Disclaimer</a></li>
-                            <li><a href="registerapp:termsandcondition">Terms & Condition</a></li>
+                            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                            <li><a href="faq.html">Faq</a></li>
+                            <li><a href="disclaimer.html">Do not Disclouser</a></li>
+                            <li><a href="termsandcondition.html">Terms of service</a></li>
                         </ul>
                     </div>
                     <div class="social-links text-center col-12 col-md-4 d-flex d-md-none">
@@ -616,12 +618,13 @@
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script> -->
     <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
+
+
 
     <!-- Template Main JS File -->
     <script src="assets/js/mainhome.js"></script>
