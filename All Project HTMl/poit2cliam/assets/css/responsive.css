@@ -883,6 +883,9 @@
     .progress.pink .mainprogress {
         margin-top: -2.8rem;
     }
+	#dashboard #header .manbtnlogout .welcometxt {
+    	font-size: 1rem;
+	}
 }
 
 @media (min-width: 1200px) {

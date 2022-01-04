@@ -2003,7 +2003,22 @@ body#dashboard {
 
 #dashboard #header .manbtnlogout .welcometxt button i {
     font-size: 1.7rem;
-    padding-left: .5rem;
+    padding-left: .8rem;
+}
+
+div.dashboardsignoutbtn {
+    display: none;
+    height:0px;
+    width:50px;
+    margin-left:0px;
+}
+
+#dashboard #header .manbtnlogout .welcometxt button a:hover i {
+	padding-left: 0;
+}
+
+#dashboard #header a:hover + div.dashboardsignoutbtn {
+    display: flex;
 }
 
 #dashboard .navbar {
