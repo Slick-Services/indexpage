@@ -94,9 +94,9 @@
         flex-direction: column-reverse;
         margin: 1.0rem auto 1.9rem;
     }
-	.progress.pink .mainprogress .rectkal {
-		text-align: center;
-	}
+    .progress.pink .mainprogress .rectkal {
+        text-align: center;
+    }
     .progress.pink .progress-bar p {
         font-size: 16px;
         margin: 10px 0 10px 0;
@@ -165,8 +165,8 @@
         display: flex;
     }*/
     #dashboard #header .manbtnlogout {
-        margin-top: 1rem;
-        margin-bottom: .5rem;
+        margin-top: .5rem;
+        margin-bottom: 0;
         justify-content: flex-end;
     }
     #dashboard #header.header-scrolled.sticky {
@@ -271,6 +271,13 @@
     }
     #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints .earnpointtxt {
         align-items: center;
+    }
+    #dashboard #header .manbtnlogout button.btn.signinbtn {
+        height: auto;
+        width: 50px;
+    }
+    #dashboard .about-us .icon-box.iconbox-blue.morehieght {
+        height: auto;
     }
 }
 
@@ -454,6 +461,7 @@
     #dashboard .about-us .icon-box {
         flex-direction: row;
         align-items: center;
+        justify-content: space-between;
     }
     #dashboard .about-us .icon-box .minstext {
         position: relative;
@@ -588,7 +596,7 @@
         border-radius: 10px;
     }
     #dashboard .about-us .icon-box .btn.btn-dark {
-        padding: 14px 18px;
+        padding: 13px 18px 15px;
     }
 }
 
@@ -746,7 +754,7 @@
         padding: .8rem;
     }
     #dashboard .about-us .icon-box .btn.btn-dark {
-        padding: 10px 6px;
+        padding: 12px 12px;
         font-size: 1.1rem;
     }
     #dashboard .about-us .icon-box .lorenmaincontent {
@@ -766,6 +774,7 @@
     }
     #dashboard .about-us .icon-box p {
         line-height: 22px;
+        padding: 0;
     }
     /* #dashboard .about-us .cardleftmaincontentpart.mainimgpart {
         padding: .5rem;
@@ -843,10 +852,10 @@
     .signup .php-email-form button[type="submit"] {
         right: -31px;
     }
-	.howitworks .icon-box {
-		margin-left: .5rem;
-		margin-right: .5rem;
-	}
+    .howitworks .icon-box {
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
     section.progess {
         margin-top: -1rem;
     }
@@ -867,6 +876,9 @@
         margin-bottom: 0;
         margin-top: 0;
     }
+    #dashboard .about-us .icon-box.iconbox-blue.morehieght {
+        height: 85vh;
+    }
 }
 
 @media (min-width: 1100px) {
@@ -883,9 +895,6 @@
     .progress.pink .mainprogress {
         margin-top: -2.8rem;
     }
-	#dashboard #header .manbtnlogout .welcometxt {
-    	font-size: 1rem;
-	}
 }
 
 @media (min-width: 1200px) {
@@ -936,6 +945,7 @@
     }
     #footer .social-links a {
         padding: .7rem 2rem;
+        font-size: 2.0rem;
     }
     footer#footer .ftrightline {
         right: 2.5%;
@@ -976,6 +986,9 @@
         margin-bottom: .5rem;
         margin-top: 1.3rem;
     }
+    #dashboard #header .manbtnlogout .welcometxt {
+        font-size: 1rem;
+    }
     #dashboard .about-us .cardleftmaincontentpart .pointsbg.mainpoints h2 {
         font-size: 1.6rem;
         margin-bottom: 1rem;
@@ -1002,6 +1015,9 @@
     }
     footer#footer .ftrightline {
         right: 5.5%;
+    }
+    #dashboard .about-us .icon-box.iconbox-blue.morehieght {
+        height: 94vh;
     }
 }
 
@@ -1068,6 +1084,10 @@
     #dashboard .about-us .icon-box .lorenmaincontent {
         left: 0%;
     }
+    #dashboard .about-us .icon-box .btn.btn-dark {
+        padding: 20px 25px;
+        font-size: 1.3rem;
+    }
     #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-6,
     #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-12 {
         margin-top: 1.20rem;
@@ -1120,6 +1140,12 @@
     #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-6,
     #dashboard .about-us .cardleftmaincontentpart .card-body form.row.g-3 .col-md-12 {
         margin-top: 1.43rem;
+    }
+    #dashboard .about-us .icon-box .btn.btn-dark {
+        padding: 20px 35px;
+    }
+    #dashboard .about-us .icon-box.iconbox-blue.morehieght {
+        height: 85vh;
     }
 }
 

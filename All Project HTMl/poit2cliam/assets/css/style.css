@@ -723,7 +723,7 @@ section {
 --------------------------------------------------------------*/
 
 .faq .faq-list {
-    padding: 0 100px;
+    padding: 0 25px 0 0;
 }
 
 .faq .mainfaqrow {
@@ -748,7 +748,8 @@ section {
     position: relative;
 }
 
-.faq .faq-list a {
+
+/* .faq .faq-list a {
     display: block;
     position: relative;
     font-family: "Poppins", sans-serif;
@@ -757,7 +758,7 @@ section {
     font-weight: 500;
     padding: 0 30px;
     outline: none;
-}
+} */
 
 .faq .faq-list .icon-help {
     font-size: 24px;
@@ -1025,73 +1026,74 @@ section {
     margin-bottom: 1rem;
 }
 
-.faq .accordion-list ul {
+.faq .faq-list ul {
     padding: 0;
     list-style: none;
 }
 
-.faq .accordion-list li+li {
+.faq .faq-list li+li {
     margin-top: 15px;
 }
 
-.faq .accordion-list li {
+.faq .faq-list li {
     padding: 20px;
     background: #fff;
     border-radius: 4px;
 }
 
-.faq .accordion-list a {
+.faq .faq-list a {
     display: block;
     position: relative;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    padding-right: 30px;
+    padding-right: 40px;
     outline: none;
+    cursor: pointer;
 }
 
-.faq .accordion-list span {
+.faq .faq-list span {
     color: #0c546d;
     font-weight: 600;
     font-size: 18px;
     padding-right: 10px;
 }
 
-.faq .accordion-list i {
+.faq .faq-list i {
     font-size: 24px;
     position: absolute;
     right: 0;
     top: 0;
 }
 
-.faq .accordion-list p {
+.faq .faq-list p {
     margin-bottom: 0;
     padding: 10px 0 0 0;
 }
 
-.faq .accordion-list .icon-show {
+.faq .faq-list .icon-show {
     display: none;
 }
 
-.faq .accordion-list a.collapsed {
+.faq .faq-list a.collapsed {
     color: #0c546d;
 }
 
-.faq .accordion-list a.collapsed:hover {
+.faq .faq-list a.collapsed:hover {
     color: #0c546d;
 }
 
-.faq .accordion-list a.collapsed .icon-show {
+.faq .faq-list a.collapsed .icon-show {
     display: inline-block;
 }
 
-.faq .accordion-list a.collapsed .icon-close {
+.faq .faq-list a.collapsed .icon-close {
     display: none;
 }
 
-.faq .accordion-list a.collapsed .icon-close,
-.faq .accordion-list a.collapsed .icon-show {
+.faq .faq-list a.collapsed .icon-close,
+.faq .faq-list a.collapsed .icon-show {
     font-size: 24px;
     position: absolute;
     right: 0;
@@ -1160,7 +1162,7 @@ section {
 
 @media (max-width: 1024px) {
     .faq .content,
-    .faq .accordion-list {
+    .faq .faq-list {
         padding-left: 0;
         padding-right: 0;
     }
@@ -1173,7 +1175,7 @@ section {
     .faq .content {
         padding-top: 30px;
     }
-    .faq .accordion-list {
+    .faq .faq-list {
         padding-bottom: 30px;
     }
 }
@@ -2001,23 +2003,28 @@ body#dashboard {
     display: none;
 }
 
-#dashboard #header .manbtnlogout .welcometxt button i {
-    font-size: 1.7rem;
-    padding-left: .8rem;
+#dashboard #header .manbtnlogout button.btn.signinbtn {
+    height: 60px;
+    width: 50px;
 }
 
-div.dashboardsignoutbtn {
+#dashboard #header .manbtnlogout .welcometxt button i {
+    font-size: 1.7rem;
+    /*padding-left: .8rem;*/
+}
+
+#dashboard #header .manbtnlogout div.dashboardsignoutbtn {
     display: none;
-    height:0px;
-    width:50px;
-    margin-left:0px;
+    height: 0px;
+    width: 81px;
+    margin-left: -13px;
 }
 
 #dashboard #header .manbtnlogout .welcometxt button a:hover i {
-	padding-left: 0;
+    padding-left: 0;
 }
 
-#dashboard #header a:hover + div.dashboardsignoutbtn {
+#dashboard #header a:hover+div.dashboardsignoutbtn {
     display: flex;
 }
 
@@ -2304,7 +2311,7 @@ div.dashboardsignoutbtn {
 #dashboard .about-us .icon-box {
     text-align: center;
     /* padding: 70px 20px 80px 20px; */
-    padding: 1.4rem .3rem;
+    padding: 1.1rem 0rem 1.3rem;
     transition: all ease-in-out 0.3s;
     /* background: #fff; */
     display: flex;
@@ -2314,6 +2321,10 @@ div.dashboardsignoutbtn {
 
 #dashboard .about-us .icon-box:last-child {
     border-bottom: none;
+}
+
+#dashboard .about-us .icon-box.iconbox-blue.morehieght {
+    height: 100vh;
 }
 
 #dashboard .about-us .cardleftmaincontentpart {
@@ -2382,7 +2393,7 @@ div.dashboardsignoutbtn {
 #dashboard .about-us .icon-box span {
     font-weight: 500;
     font-size: 22px;
-    margin: 0px 3px 0 7px;
+    margin: 0px 0px 0 7px;
 }
 
 #dashboard .about-us .icon-box span.sprte {
@@ -2533,6 +2544,17 @@ div.dashboardsignoutbtn {
 
 #dashboard .about-us .content p:last-child {
     margin-bottom: 0;
+}
+
+#dashboard .about-us .content p.commentmsg {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: rgb(246 130 31);
+    font-weight: 600;
+}
+
+#dashboard .about-us .content p {
+    padding: .4rem 0;
 }
 
 #dashboard .about-us .cardleftmaincontentpart .card-header:first-child {
