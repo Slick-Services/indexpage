@@ -69,9 +69,11 @@
                 if (cur_pos <= bottom) {
                     main_nav.find('li').removeClass('active');
                 }
+                // alert($(this).attr('id'))
                 main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
+                main_nav.find('a[href="/#' + $(this).attr('id') + '"]').parent('li').addClass('active');
             }
-            if (cur_pos < 300) {
+            if (cur_pos < 700) {
                 $(".nav-menu ul:first li:first").addClass('active');
             }
         });
