@@ -1,7 +1,7 @@
 !(function($) {
     "use strict";
 
-    
+
 
     // Clients carousel (uses the Owl Carousel library)
     $(".clients-carousel").owlCarousel({
@@ -25,17 +25,17 @@
     });
 
     // Activate smooth scroll on page load with hash links in the url
-//    $(document).ready(function() {
-//        if (window.location.hash) {
-//            var initial_nav = window.location.hash;
-//            if ($(initial_nav).length) {
-//                var scrollto = $(initial_nav).offset().top - scrolltoOffset;
-//                $('html, body').animate({
-//                    scrollTop: scrollto
-//                }, 1500, 'easeInOutExpo');
-//            }
-//        }
-//    });
+    //    $(document).ready(function() {
+    //        if (window.location.hash) {
+    //            var initial_nav = window.location.hash;
+    //            if ($(initial_nav).length) {
+    //                var scrollto = $(initial_nav).offset().top - scrolltoOffset;
+    //                $('html, body').animate({
+    //                    scrollTop: scrollto
+    //                }, 1500, 'easeInOutExpo');
+    //            }
+    //        }
+    //    });
 
     // Back to top button
     $(window).scroll(function() {
@@ -140,6 +140,35 @@
         aos_init();
     });
 
+    /*================================
+    Preloader
+    ==================================*/
+
+    var preloader = $('#preloader');
+    $(window).on('load', function() {
+        setTimeout(function() {
+            preloader.fadeOut('slow', function() { $(this).remove(); });
+        }, 300)
+    });
+
+    /*================================
+    sidebar collapsing
+    ==================================*/
+    if (window.innerWidth <= 1364) {
+        $('.page-container').addClass('sbar_collapsed');
+    }
+    $('.nav-btn').on('click', function() {
+        $('.page-container').toggleClass('sbar_collapsed');
+    });
+
+    /*================================
+    Start Footer resizer
+    ==================================*/
+    var e = function() {
+        var e = (window.innerHeight > 0 ? window.innerHeight : this.screen.height) - 5;
+        (e -= 67) < 1 && (e = 1), e > 67 && $(".main-content").css("min-height", e + "px")
+    };
+    $(window).ready(e), $(window).on("resize", e);
 
 
 })(jQuery);
